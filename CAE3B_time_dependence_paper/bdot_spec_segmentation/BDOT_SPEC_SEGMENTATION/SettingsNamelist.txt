@@ -1,0 +1,34 @@
+{
+ "PHYSICS": {},
+ "SETUP": {
+  "workDir": null,
+  "executable": null
+ },
+ "EXPERIMENT": {
+  "shot": null,
+  "time": null,
+  "device": null,
+  "shots": null,
+  "times": null,
+  "runid": null
+ },
+ "REMOTE_SETUP": {
+  "serverPicker": null,
+  "workDir": null,
+  "server": null,
+  "tunnel": null
+ },
+ "MODULE": {
+  "ID": "IMSEG_FILTER_TOOLS",
+  "edited_by": "ncrocker",
+  "date": "10 Aug 2022  21:04",
+  "contact": [
+   "ncrocker@physics.ucla.edu"
+  ],
+  "defaultGUI": null,
+  "commit": "b955eb647b9b15ee630f286df96c41ce1f5c9775",
+  "python3": "3.7",
+  "comment": ""
+ },
+ "DEPENDENCIES": {}
+}

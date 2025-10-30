@@ -1,0 +1,875 @@
+['ModeTimeDependence'] <-:-:-> OMFITmodule <-:-:->  <-:-:-> {}
+['ModeTimeDependence']['INPUTS'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['ModeTimeDependence']['OUTPUTS'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['ModeTimeDependence']['OUTPUTS'][130335] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['ModeTimeDependence']['OUTPUTS'][130335]['bdot'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['ModeTimeDependence']['OUTPUTS'][130335]['bdot']['HF'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['ModeTimeDependence']['OUTPUTS'][130335]['bdot']['HF']['data'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['ModeTimeDependence']['OUTPUTS'][130335]['bdot']['HF']['data'][0] <-:-:-> OMFITmdsValue <-:-:->  <-:-:-> {'server': 'NSTX', 'shot': 130335, 'treename': 'OPS_PC', 'TDI': '\\OPS_PC::BDOT_L1DMIVVHF1_RAW', 'quiet': False, 'caching': True}
+['ModeTimeDependence']['OUTPUTS'][130335]['bdot']['HF']['data'][1] <-:-:-> OMFITmdsValue <-:-:->  <-:-:-> {'server': 'NSTX', 'shot': 130335, 'treename': 'OPS_PC', 'TDI': '\\OPS_PC::BDOT_L1DMIVVHF2_RAW', 'quiet': False, 'caching': True}
+['ModeTimeDependence']['OUTPUTS'][130335]['bdot']['HF']['data'][2] <-:-:-> OMFITmdsValue <-:-:->  <-:-:-> {'server': 'NSTX', 'shot': 130335, 'treename': 'OPS_PC', 'TDI': '\\OPS_PC::BDOT_L1DMIVVHF4_RAW', 'quiet': False, 'caching': True}
+['ModeTimeDependence']['OUTPUTS'][130335]['bdot']['HF']['data'][3] <-:-:-> OMFITmdsValue <-:-:->  <-:-:-> {'server': 'NSTX', 'shot': 130335, 'treename': 'OPS_PC', 'TDI': '\\OPS_PC::BDOT_L1DMIVVHF5_RAW', 'quiet': False, 'caching': True}
+['ModeTimeDependence']['OUTPUTS'][130335]['bdot']['HF']['data'][4] <-:-:-> OMFITmdsValue <-:-:->  <-:-:-> {'server': 'NSTX', 'shot': 130335, 'treename': 'OPS_PC', 'TDI': '\\OPS_PC::BDOT_L1DMIVVHF9_RAW', 'quiet': False, 'caching': True}
+['ModeTimeDependence']['OUTPUTS'][130335]['bdot']['HF']['data'][5] <-:-:-> OMFITmdsValue <-:-:->  <-:-:-> {'server': 'NSTX', 'shot': 130335, 'treename': 'OPS_PC', 'TDI': '\\OPS_PC::BDOT_L1DMIVVHF11_RAW', 'quiet': False, 'caching': True}
+['ModeTimeDependence']['OUTPUTS'][130335]['bdot']['HF']['data']['bdotnames'] <-:-:-> pickle <-:-:-> ./ModeTimeDependence/OUTPUTS/130335/bdot/HF/data/OMFITpickled_55d6a1c593 <-:-:-> {}
+['ModeTimeDependence']['OUTPUTS'][130335]['bdot']['HF']['data']['bdotshortnames'] <-:-:-> pickle <-:-:-> ./ModeTimeDependence/OUTPUTS/130335/bdot/HF/data/OMFITpickled_450ca63680 <-:-:-> {}
+['ModeTimeDependence']['OUTPUTS'][130335]['bdot']['HF']['stft'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['ModeTimeDependence']['OUTPUTS'][130335]['bdot']['HF']['stft'][(0.43, 0.53)] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['ModeTimeDependence']['OUTPUTS'][130335]['bdot']['HF']['stft'][(0.43, 0.53)]['parameters'] <-:-:-> pickle <-:-:-> ./ModeTimeDependence/OUTPUTS/130335/bdot/HF/stft/(0.43, 0.53)/OMFITpickled_47d864d036 <-:-:-> {}
+['ModeTimeDependence']['OUTPUTS'][130335]['bdot']['HF']['stft'][(0.43, 0.53)]['bdotnames'] <-:-:-> pickle <-:-:-> ./ModeTimeDependence/OUTPUTS/130335/bdot/HF/stft/(0.43, 0.53)/OMFITpickled_55d6a1c593 <-:-:-> {}
+['ModeTimeDependence']['OUTPUTS'][130335]['bdot']['HF']['stft'][(0.43, 0.53)]['bdotshortnames'] <-:-:-> pickle <-:-:-> ./ModeTimeDependence/OUTPUTS/130335/bdot/HF/stft/(0.43, 0.53)/OMFITpickled_450ca63680 <-:-:-> {}
+['ModeTimeDependence']['OUTPUTS'][130335]['bdot']['HF']['stft'][(0.43, 0.53)]['freq'] <-:-:-> importNdarray <-:-:-> ./ModeTimeDependence/OUTPUTS/130335/bdot/HF/stft/(0.43, 0.53)/OMFITndarray_0dd0300397.npy <-:-:-> 
+['ModeTimeDependence']['OUTPUTS'][130335]['bdot']['HF']['stft'][(0.43, 0.53)]['time'] <-:-:-> importNdarray <-:-:-> ./ModeTimeDependence/OUTPUTS/130335/bdot/HF/stft/(0.43, 0.53)/OMFITndarray_2e7f12ba3f.npy <-:-:-> 
+['ModeTimeDependence']['OUTPUTS'][130335]['bdot']['HF']['stft'][(0.43, 0.53)][0] <-:-:-> importNdarray <-:-:-> ./ModeTimeDependence/OUTPUTS/130335/bdot/HF/stft/(0.43, 0.53)/OMFITndarray_b6589fc6ab.npy <-:-:-> 
+['ModeTimeDependence']['OUTPUTS'][130335]['bdot']['HF']['stft'][(0.43, 0.53)][1] <-:-:-> importNdarray <-:-:-> ./ModeTimeDependence/OUTPUTS/130335/bdot/HF/stft/(0.43, 0.53)/OMFITndarray_356a192b79.npy <-:-:-> 
+['ModeTimeDependence']['OUTPUTS'][130335]['bdot']['HF']['stft'][(0.43, 0.53)][2] <-:-:-> importNdarray <-:-:-> ./ModeTimeDependence/OUTPUTS/130335/bdot/HF/stft/(0.43, 0.53)/OMFITndarray_da4b9237ba.npy <-:-:-> 
+['ModeTimeDependence']['OUTPUTS'][130335]['bdot']['HF']['stft'][(0.43, 0.53)][3] <-:-:-> importNdarray <-:-:-> ./ModeTimeDependence/OUTPUTS/130335/bdot/HF/stft/(0.43, 0.53)/OMFITndarray_77de68daec.npy <-:-:-> 
+['ModeTimeDependence']['OUTPUTS'][130335]['bdot']['HF']['stft'][(0.43, 0.53)][4] <-:-:-> importNdarray <-:-:-> ./ModeTimeDependence/OUTPUTS/130335/bdot/HF/stft/(0.43, 0.53)/OMFITndarray_1b64538924.npy <-:-:-> 
+['ModeTimeDependence']['OUTPUTS'][130335]['bdot']['HF']['stft'][(0.43, 0.53)][5] <-:-:-> importNdarray <-:-:-> ./ModeTimeDependence/OUTPUTS/130335/bdot/HF/stft/(0.43, 0.53)/OMFITndarray_ac3478d69a.npy <-:-:-> 
+['ModeTimeDependence']['OUTPUTS'][130335]['bdot']['HN'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['ModeTimeDependence']['OUTPUTS'][130335]['bdot']['HN']['data'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['ModeTimeDependence']['OUTPUTS'][130335]['bdot']['HN']['data']['bdotnames'] <-:-:-> pickle <-:-:-> ./ModeTimeDependence/OUTPUTS/130335/bdot/HN/data/OMFITpickled_55d6a1c593 <-:-:-> {}
+['ModeTimeDependence']['OUTPUTS'][130335]['bdot']['HN']['data']['bdotshortnames'] <-:-:-> pickle <-:-:-> ./ModeTimeDependence/OUTPUTS/130335/bdot/HN/data/OMFITpickled_450ca63680 <-:-:-> {}
+['ModeTimeDependence']['OUTPUTS'][130335]['bdot']['HN']['data'][0] <-:-:-> OMFITmdsValue <-:-:->  <-:-:-> {'server': 'NSTX', 'shot': 130335, 'treename': 'OPS_PC', 'TDI': '\\OPS_PC::BDOT_L1DMIVVHN3_RAW', 'quiet': False, 'caching': True}
+['ModeTimeDependence']['OUTPUTS'][130335]['bdot']['HN']['data'][1] <-:-:-> OMFITmdsValue <-:-:->  <-:-:-> {'server': 'NSTX', 'shot': 130335, 'treename': 'OPS_PC', 'TDI': '\\OPS_PC::BDOT_L1DMIVVHN2_RAW', 'quiet': False, 'caching': True}
+['ModeTimeDependence']['OUTPUTS'][130335]['bdot']['HN']['data'][2] <-:-:-> OMFITmdsValue <-:-:->  <-:-:-> {'server': 'NSTX', 'shot': 130335, 'treename': 'OPS_PC', 'TDI': '\\OPS_PC::BDOT_L1DMIVVHN1_RAW', 'quiet': False, 'caching': True}
+['ModeTimeDependence']['OUTPUTS'][130335]['bdot']['HN']['data'][3] <-:-:-> OMFITmdsValue <-:-:->  <-:-:-> {'server': 'NSTX', 'shot': 130335, 'treename': 'OPS_PC', 'TDI': '\\OPS_PC::BDOT_L1DMIVVHN16_RAW', 'quiet': False, 'caching': True}
+['ModeTimeDependence']['OUTPUTS'][130335]['bdot']['HN']['data'][4] <-:-:-> OMFITmdsValue <-:-:->  <-:-:-> {'server': 'NSTX', 'shot': 130335, 'treename': 'OPS_PC', 'TDI': '\\OPS_PC::BDOT_L1DMIVVHN15_RAW', 'quiet': False, 'caching': True}
+['ModeTimeDependence']['OUTPUTS'][130335]['bdot']['HN']['data'][5] <-:-:-> OMFITmdsValue <-:-:->  <-:-:-> {'server': 'NSTX', 'shot': 130335, 'treename': 'OPS_PC', 'TDI': '\\OPS_PC::BDOT_L1DMIVVHN14_RAW', 'quiet': False, 'caching': True}
+['ModeTimeDependence']['OUTPUTS'][130335]['bdot']['HN']['data'][6] <-:-:-> OMFITmdsValue <-:-:->  <-:-:-> {'server': 'NSTX', 'shot': 130335, 'treename': 'OPS_PC', 'TDI': '\\OPS_PC::BDOT_L1DMIVVHN13_RAW', 'quiet': False, 'caching': True}
+['ModeTimeDependence']['OUTPUTS'][130335]['bdot']['HN']['data'][7] <-:-:-> OMFITmdsValue <-:-:->  <-:-:-> {'server': 'NSTX', 'shot': 130335, 'treename': 'OPS_PC', 'TDI': '\\OPS_PC::BDOT_L1DMIVVHN10_RAW', 'quiet': False, 'caching': True}
+['ModeTimeDependence']['OUTPUTS'][130335]['bdot']['HN']['data'][8] <-:-:-> OMFITmdsValue <-:-:->  <-:-:-> {'server': 'NSTX', 'shot': 130335, 'treename': 'OPS_PC', 'TDI': '\\OPS_PC::BDOT_L1DMIVVHN7_RAW', 'quiet': False, 'caching': True}
+['ModeTimeDependence']['OUTPUTS'][130335]['bdot']['HN']['data'][9] <-:-:-> OMFITmdsValue <-:-:->  <-:-:-> {'server': 'NSTX', 'shot': 130335, 'treename': 'OPS_PC', 'TDI': '\\OPS_PC::BDOT_L1DMIVVHN6_RAW', 'quiet': False, 'caching': True}
+['ModeTimeDependence']['OUTPUTS'][130335]['bdot']['HN']['data'][10] <-:-:-> OMFITmdsValue <-:-:->  <-:-:-> {'server': 'NSTX', 'shot': 130335, 'treename': 'OPS_PC', 'TDI': '\\OPS_PC::BDOT_L1DMIVVHN5_RAW', 'quiet': False, 'caching': True}
+['ModeTimeDependence']['OUTPUTS'][130335]['bdot']['HN']['data'][11] <-:-:-> OMFITmdsValue <-:-:->  <-:-:-> {'server': 'NSTX', 'shot': 130335, 'treename': 'OPS_PC', 'TDI': '\\OPS_PC::BDOT_L1DMIVVHN4_RAW', 'quiet': False, 'caching': True}
+['ModeTimeDependence']['OUTPUTS'][130335]['bdot']['HN']['stft'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['ModeTimeDependence']['OUTPUTS'][130335]['bdot']['HN']['stft'][(0.43, 0.53)] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['ModeTimeDependence']['OUTPUTS'][130335]['bdot']['HN']['stft'][(0.43, 0.53)]['parameters'] <-:-:-> pickle <-:-:-> ./ModeTimeDependence/OUTPUTS/130335/bdot/HN/stft/(0.43, 0.53)/OMFITpickled_47d864d036 <-:-:-> {}
+['ModeTimeDependence']['OUTPUTS'][130335]['bdot']['HN']['stft'][(0.43, 0.53)]['bdotnames'] <-:-:-> pickle <-:-:-> ./ModeTimeDependence/OUTPUTS/130335/bdot/HN/stft/(0.43, 0.53)/OMFITpickled_55d6a1c593 <-:-:-> {}
+['ModeTimeDependence']['OUTPUTS'][130335]['bdot']['HN']['stft'][(0.43, 0.53)]['bdotshortnames'] <-:-:-> pickle <-:-:-> ./ModeTimeDependence/OUTPUTS/130335/bdot/HN/stft/(0.43, 0.53)/OMFITpickled_450ca63680 <-:-:-> {}
+['ModeTimeDependence']['OUTPUTS'][130335]['bdot']['HN']['stft'][(0.43, 0.53)]['freq'] <-:-:-> importNdarray <-:-:-> ./ModeTimeDependence/OUTPUTS/130335/bdot/HN/stft/(0.43, 0.53)/OMFITndarray_0dd0300397.npy <-:-:-> 
+['ModeTimeDependence']['OUTPUTS'][130335]['bdot']['HN']['stft'][(0.43, 0.53)]['time'] <-:-:-> importNdarray <-:-:-> ./ModeTimeDependence/OUTPUTS/130335/bdot/HN/stft/(0.43, 0.53)/OMFITndarray_2e7f12ba3f.npy <-:-:-> 
+['ModeTimeDependence']['OUTPUTS'][130335]['bdot']['HN']['stft'][(0.43, 0.53)][0] <-:-:-> importNdarray <-:-:-> ./ModeTimeDependence/OUTPUTS/130335/bdot/HN/stft/(0.43, 0.53)/OMFITndarray_b6589fc6ab.npy <-:-:-> 
+['ModeTimeDependence']['OUTPUTS'][130335]['bdot']['HN']['stft'][(0.43, 0.53)][1] <-:-:-> importNdarray <-:-:-> ./ModeTimeDependence/OUTPUTS/130335/bdot/HN/stft/(0.43, 0.53)/OMFITndarray_356a192b79.npy <-:-:-> 
+['ModeTimeDependence']['OUTPUTS'][130335]['bdot']['HN']['stft'][(0.43, 0.53)][2] <-:-:-> importNdarray <-:-:-> ./ModeTimeDependence/OUTPUTS/130335/bdot/HN/stft/(0.43, 0.53)/OMFITndarray_da4b9237ba.npy <-:-:-> 
+['ModeTimeDependence']['OUTPUTS'][130335]['bdot']['HN']['stft'][(0.43, 0.53)][3] <-:-:-> importNdarray <-:-:-> ./ModeTimeDependence/OUTPUTS/130335/bdot/HN/stft/(0.43, 0.53)/OMFITndarray_77de68daec.npy <-:-:-> 
+['ModeTimeDependence']['OUTPUTS'][130335]['bdot']['HN']['stft'][(0.43, 0.53)][4] <-:-:-> importNdarray <-:-:-> ./ModeTimeDependence/OUTPUTS/130335/bdot/HN/stft/(0.43, 0.53)/OMFITndarray_1b64538924.npy <-:-:-> 
+['ModeTimeDependence']['OUTPUTS'][130335]['bdot']['HN']['stft'][(0.43, 0.53)][5] <-:-:-> importNdarray <-:-:-> ./ModeTimeDependence/OUTPUTS/130335/bdot/HN/stft/(0.43, 0.53)/OMFITndarray_ac3478d69a.npy <-:-:-> 
+['ModeTimeDependence']['OUTPUTS'][130335]['bdot']['HN']['stft'][(0.43, 0.53)][6] <-:-:-> importNdarray <-:-:-> ./ModeTimeDependence/OUTPUTS/130335/bdot/HN/stft/(0.43, 0.53)/OMFITndarray_c1dfd96eea.npy <-:-:-> 
+['ModeTimeDependence']['OUTPUTS'][130335]['bdot']['HN']['stft'][(0.43, 0.53)][7] <-:-:-> importNdarray <-:-:-> ./ModeTimeDependence/OUTPUTS/130335/bdot/HN/stft/(0.43, 0.53)/OMFITndarray_902ba3cda1.npy <-:-:-> 
+['ModeTimeDependence']['OUTPUTS'][130335]['bdot']['HN']['stft'][(0.43, 0.53)][8] <-:-:-> importNdarray <-:-:-> ./ModeTimeDependence/OUTPUTS/130335/bdot/HN/stft/(0.43, 0.53)/OMFITndarray_fe5dbbcea5.npy <-:-:-> 
+['ModeTimeDependence']['OUTPUTS'][130335]['bdot']['HN']['stft'][(0.43, 0.53)][9] <-:-:-> importNdarray <-:-:-> ./ModeTimeDependence/OUTPUTS/130335/bdot/HN/stft/(0.43, 0.53)/OMFITndarray_0ade7c2cf9.npy <-:-:-> 
+['ModeTimeDependence']['OUTPUTS'][130335]['bdot']['HN']['stft'][(0.43, 0.53)][10] <-:-:-> importNdarray <-:-:-> ./ModeTimeDependence/OUTPUTS/130335/bdot/HN/stft/(0.43, 0.53)/OMFITndarray_b1d5781111.npy <-:-:-> 
+['ModeTimeDependence']['OUTPUTS'][130335]['bdot']['HN']['stft'][(0.43, 0.53)][11] <-:-:-> importNdarray <-:-:-> ./ModeTimeDependence/OUTPUTS/130335/bdot/HN/stft/(0.43, 0.53)/OMFITndarray_17ba079149.npy <-:-:-> 
+['ModeTimeDependence']['OUTPUTS'][141398] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['ModeTimeDependence']['OUTPUTS'][141398]['bdot'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['ModeTimeDependence']['OUTPUTS'][141398]['bdot']['HN'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['ModeTimeDependence']['OUTPUTS'][141398]['bdot']['HN']['data'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['ModeTimeDependence']['OUTPUTS'][141398]['bdot']['HN']['data']['bdotnames'] <-:-:-> pickle <-:-:-> ./ModeTimeDependence/OUTPUTS/141398/bdot/HN/data/OMFITpickled_55d6a1c593 <-:-:-> {}
+['ModeTimeDependence']['OUTPUTS'][141398]['bdot']['HN']['data']['bdotshortnames'] <-:-:-> pickle <-:-:-> ./ModeTimeDependence/OUTPUTS/141398/bdot/HN/data/OMFITpickled_450ca63680 <-:-:-> {}
+['ModeTimeDependence']['OUTPUTS'][141398]['bdot']['HN']['data'][0] <-:-:-> OMFITmdsValue <-:-:->  <-:-:-> {'server': 'NSTX', 'shot': 141398, 'treename': 'OPS_PC', 'TDI': '\\OPS_PC::BDOT_L1DMIVVHN3_RAW', 'quiet': False, 'caching': True}
+['ModeTimeDependence']['OUTPUTS'][141398]['bdot']['HN']['data'][1] <-:-:-> OMFITmdsValue <-:-:->  <-:-:-> {'server': 'NSTX', 'shot': 141398, 'treename': 'OPS_PC', 'TDI': '\\OPS_PC::BDOT_L1DMIVVHN2_RAW', 'quiet': False, 'caching': True}
+['ModeTimeDependence']['OUTPUTS'][141398]['bdot']['HN']['data'][2] <-:-:-> OMFITmdsValue <-:-:->  <-:-:-> {'server': 'NSTX', 'shot': 141398, 'treename': 'OPS_PC', 'TDI': '\\OPS_PC::BDOT_L1DMIVVHN1_RAW', 'quiet': False, 'caching': True}
+['ModeTimeDependence']['OUTPUTS'][141398]['bdot']['HN']['data'][3] <-:-:-> OMFITmdsValue <-:-:->  <-:-:-> {'server': 'NSTX', 'shot': 141398, 'treename': 'OPS_PC', 'TDI': '\\OPS_PC::BDOT_L1DMIVVHN16_RAW', 'quiet': False, 'caching': True}
+['ModeTimeDependence']['OUTPUTS'][141398]['bdot']['HN']['data'][4] <-:-:-> OMFITmdsValue <-:-:->  <-:-:-> {'server': 'NSTX', 'shot': 141398, 'treename': 'OPS_PC', 'TDI': '\\OPS_PC::BDOT_L1DMIVVHN15_RAW', 'quiet': False, 'caching': True}
+['ModeTimeDependence']['OUTPUTS'][141398]['bdot']['HN']['data'][5] <-:-:-> OMFITmdsValue <-:-:->  <-:-:-> {'server': 'NSTX', 'shot': 141398, 'treename': 'OPS_PC', 'TDI': '\\OPS_PC::BDOT_L1DMIVVHN14_RAW', 'quiet': False, 'caching': True}
+['ModeTimeDependence']['OUTPUTS'][141398]['bdot']['HN']['data'][6] <-:-:-> OMFITmdsValue <-:-:->  <-:-:-> {'server': 'NSTX', 'shot': 141398, 'treename': 'OPS_PC', 'TDI': '\\OPS_PC::BDOT_L1DMIVVHN13_RAW', 'quiet': False, 'caching': True}
+['ModeTimeDependence']['OUTPUTS'][141398]['bdot']['HN']['data'][7] <-:-:-> OMFITmdsValue <-:-:->  <-:-:-> {'server': 'NSTX', 'shot': 141398, 'treename': 'OPS_PC', 'TDI': '\\OPS_PC::BDOT_L1DMIVVHN10_RAW', 'quiet': False, 'caching': True}
+['ModeTimeDependence']['OUTPUTS'][141398]['bdot']['HN']['data'][8] <-:-:-> OMFITmdsValue <-:-:->  <-:-:-> {'server': 'NSTX', 'shot': 141398, 'treename': 'OPS_PC', 'TDI': '\\OPS_PC::BDOT_L1DMIVVHN7_RAW', 'quiet': False, 'caching': True}
+['ModeTimeDependence']['OUTPUTS'][141398]['bdot']['HN']['data'][9] <-:-:-> OMFITmdsValue <-:-:->  <-:-:-> {'server': 'NSTX', 'shot': 141398, 'treename': 'OPS_PC', 'TDI': '\\OPS_PC::BDOT_L1DMIVVHN6_RAW', 'quiet': False, 'caching': True}
+['ModeTimeDependence']['OUTPUTS'][141398]['bdot']['HN']['data'][10] <-:-:-> OMFITmdsValue <-:-:->  <-:-:-> {'server': 'NSTX', 'shot': 141398, 'treename': 'OPS_PC', 'TDI': '\\OPS_PC::BDOT_L1DMIVVHN5_RAW', 'quiet': False, 'caching': True}
+['ModeTimeDependence']['OUTPUTS'][141398]['bdot']['HN']['data'][11] <-:-:-> OMFITmdsValue <-:-:->  <-:-:-> {'server': 'NSTX', 'shot': 141398, 'treename': 'OPS_PC', 'TDI': '\\OPS_PC::BDOT_L1DMIVVHN4_RAW', 'quiet': False, 'caching': True}
+['ModeTimeDependence']['OUTPUTS'][141398]['bdot']['HN']['stft'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['ModeTimeDependence']['OUTPUTS'][141398]['bdot']['HN']['stft'][(0.4, 0.7)] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['ModeTimeDependence']['OUTPUTS'][141398]['bdot']['HN']['stft'][(0.4, 0.7)]['parameters'] <-:-:-> pickle <-:-:-> ./ModeTimeDependence/OUTPUTS/141398/bdot/HN/stft/(0.4, 0.7)/OMFITpickled_47d864d036 <-:-:-> {}
+['ModeTimeDependence']['OUTPUTS'][141398]['bdot']['HN']['stft'][(0.4, 0.7)]['bdotnames'] <-:-:-> pickle <-:-:-> ./ModeTimeDependence/OUTPUTS/141398/bdot/HN/stft/(0.4, 0.7)/OMFITpickled_55d6a1c593 <-:-:-> {}
+['ModeTimeDependence']['OUTPUTS'][141398]['bdot']['HN']['stft'][(0.4, 0.7)]['bdotshortnames'] <-:-:-> pickle <-:-:-> ./ModeTimeDependence/OUTPUTS/141398/bdot/HN/stft/(0.4, 0.7)/OMFITpickled_450ca63680 <-:-:-> {}
+['ModeTimeDependence']['OUTPUTS'][141398]['bdot']['HN']['stft'][(0.4, 0.7)]['freq'] <-:-:-> importNdarray <-:-:-> ./ModeTimeDependence/OUTPUTS/141398/bdot/HN/stft/(0.4, 0.7)/OMFITndarray_0dd0300397.npy <-:-:-> 
+['ModeTimeDependence']['OUTPUTS'][141398]['bdot']['HN']['stft'][(0.4, 0.7)]['time'] <-:-:-> importNdarray <-:-:-> ./ModeTimeDependence/OUTPUTS/141398/bdot/HN/stft/(0.4, 0.7)/OMFITndarray_2e7f12ba3f.npy <-:-:-> 
+['ModeTimeDependence']['OUTPUTS'][141398]['bdot']['HN']['stft'][(0.4, 0.7)][0] <-:-:-> importNdarray <-:-:-> ./ModeTimeDependence/OUTPUTS/141398/bdot/HN/stft/(0.4, 0.7)/OMFITndarray_b6589fc6ab.npy <-:-:-> 
+['ModeTimeDependence']['OUTPUTS'][141398]['bdot']['HN']['stft'][(0.4, 0.7)][1] <-:-:-> importNdarray <-:-:-> ./ModeTimeDependence/OUTPUTS/141398/bdot/HN/stft/(0.4, 0.7)/OMFITndarray_356a192b79.npy <-:-:-> 
+['ModeTimeDependence']['OUTPUTS'][141398]['bdot']['HN']['stft'][(0.4, 0.7)][2] <-:-:-> importNdarray <-:-:-> ./ModeTimeDependence/OUTPUTS/141398/bdot/HN/stft/(0.4, 0.7)/OMFITndarray_da4b9237ba.npy <-:-:-> 
+['ModeTimeDependence']['OUTPUTS'][141398]['bdot']['HN']['stft'][(0.4, 0.7)][3] <-:-:-> importNdarray <-:-:-> ./ModeTimeDependence/OUTPUTS/141398/bdot/HN/stft/(0.4, 0.7)/OMFITndarray_77de68daec.npy <-:-:-> 
+['ModeTimeDependence']['OUTPUTS'][141398]['bdot']['HN']['stft'][(0.4, 0.7)][4] <-:-:-> importNdarray <-:-:-> ./ModeTimeDependence/OUTPUTS/141398/bdot/HN/stft/(0.4, 0.7)/OMFITndarray_1b64538924.npy <-:-:-> 
+['ModeTimeDependence']['OUTPUTS'][141398]['bdot']['HN']['stft'][(0.4, 0.7)][5] <-:-:-> importNdarray <-:-:-> ./ModeTimeDependence/OUTPUTS/141398/bdot/HN/stft/(0.4, 0.7)/OMFITndarray_ac3478d69a.npy <-:-:-> 
+['ModeTimeDependence']['OUTPUTS'][141398]['bdot']['HN']['stft'][(0.4, 0.7)][6] <-:-:-> importNdarray <-:-:-> ./ModeTimeDependence/OUTPUTS/141398/bdot/HN/stft/(0.4, 0.7)/OMFITndarray_c1dfd96eea.npy <-:-:-> 
+['ModeTimeDependence']['OUTPUTS'][141398]['bdot']['HN']['stft'][(0.4, 0.7)][7] <-:-:-> importNdarray <-:-:-> ./ModeTimeDependence/OUTPUTS/141398/bdot/HN/stft/(0.4, 0.7)/OMFITndarray_902ba3cda1.npy <-:-:-> 
+['ModeTimeDependence']['OUTPUTS'][141398]['bdot']['HN']['stft'][(0.4, 0.7)][8] <-:-:-> importNdarray <-:-:-> ./ModeTimeDependence/OUTPUTS/141398/bdot/HN/stft/(0.4, 0.7)/OMFITndarray_fe5dbbcea5.npy <-:-:-> 
+['ModeTimeDependence']['OUTPUTS'][141398]['bdot']['HN']['stft'][(0.4, 0.7)][9] <-:-:-> importNdarray <-:-:-> ./ModeTimeDependence/OUTPUTS/141398/bdot/HN/stft/(0.4, 0.7)/OMFITndarray_0ade7c2cf9.npy <-:-:-> 
+['ModeTimeDependence']['OUTPUTS'][141398]['bdot']['HN']['stft'][(0.4, 0.7)][10] <-:-:-> importNdarray <-:-:-> ./ModeTimeDependence/OUTPUTS/141398/bdot/HN/stft/(0.4, 0.7)/OMFITndarray_b1d5781111.npy <-:-:-> 
+['ModeTimeDependence']['OUTPUTS'][141398]['bdot']['HN']['stft'][(0.4, 0.7)][11] <-:-:-> importNdarray <-:-:-> ./ModeTimeDependence/OUTPUTS/141398/bdot/HN/stft/(0.4, 0.7)/OMFITndarray_17ba079149.npy <-:-:-> 
+['ModeTimeDependence']['OUTPUTS'][141398]['bdot']['HN']['stft'][(0.0, 1.0)] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['ModeTimeDependence']['OUTPUTS'][141398]['bdot']['HN']['stft'][(0.0, 1.0)]['parameters'] <-:-:-> pickle <-:-:-> ./ModeTimeDependence/OUTPUTS/141398/bdot/HN/stft/(0.0, 1.0)/OMFITpickled_47d864d036 <-:-:-> {}
+['ModeTimeDependence']['OUTPUTS'][141398]['bdot']['HN']['stft'][(0.0, 1.0)]['bdotnames'] <-:-:-> pickle <-:-:-> ./ModeTimeDependence/OUTPUTS/141398/bdot/HN/stft/(0.0, 1.0)/OMFITpickled_55d6a1c593 <-:-:-> {}
+['ModeTimeDependence']['OUTPUTS'][141398]['bdot']['HN']['stft'][(0.0, 1.0)]['bdotshortnames'] <-:-:-> pickle <-:-:-> ./ModeTimeDependence/OUTPUTS/141398/bdot/HN/stft/(0.0, 1.0)/OMFITpickled_450ca63680 <-:-:-> {}
+['ModeTimeDependence']['OUTPUTS'][141398]['bdot']['HN']['stft'][(0.0, 1.0)]['freq'] <-:-:-> importNdarray <-:-:-> ./ModeTimeDependence/OUTPUTS/141398/bdot/HN/stft/(0.0, 1.0)/OMFITndarray_0dd0300397.npy <-:-:-> 
+['ModeTimeDependence']['OUTPUTS'][141398]['bdot']['HN']['stft'][(0.0, 1.0)]['time'] <-:-:-> importNdarray <-:-:-> ./ModeTimeDependence/OUTPUTS/141398/bdot/HN/stft/(0.0, 1.0)/OMFITndarray_2e7f12ba3f.npy <-:-:-> 
+['ModeTimeDependence']['OUTPUTS'][141398]['bdot']['HN']['stft'][(0.0, 1.0)][0] <-:-:-> importNdarray <-:-:-> ./ModeTimeDependence/OUTPUTS/141398/bdot/HN/stft/(0.0, 1.0)/OMFITndarray_b6589fc6ab.npy <-:-:-> 
+['ModeTimeDependence']['OUTPUTS'][141398]['bdot']['HN']['stft'][(0.0, 1.0)][1] <-:-:-> importNdarray <-:-:-> ./ModeTimeDependence/OUTPUTS/141398/bdot/HN/stft/(0.0, 1.0)/OMFITndarray_356a192b79.npy <-:-:-> 
+['ModeTimeDependence']['OUTPUTS'][141398]['bdot']['HN']['stft'][(0.0, 1.0)][2] <-:-:-> importNdarray <-:-:-> ./ModeTimeDependence/OUTPUTS/141398/bdot/HN/stft/(0.0, 1.0)/OMFITndarray_da4b9237ba.npy <-:-:-> 
+['ModeTimeDependence']['OUTPUTS'][141398]['bdot']['HN']['stft'][(0.0, 1.0)][3] <-:-:-> importNdarray <-:-:-> ./ModeTimeDependence/OUTPUTS/141398/bdot/HN/stft/(0.0, 1.0)/OMFITndarray_77de68daec.npy <-:-:-> 
+['ModeTimeDependence']['OUTPUTS'][141398]['bdot']['HN']['stft'][(0.0, 1.0)][4] <-:-:-> importNdarray <-:-:-> ./ModeTimeDependence/OUTPUTS/141398/bdot/HN/stft/(0.0, 1.0)/OMFITndarray_1b64538924.npy <-:-:-> 
+['ModeTimeDependence']['OUTPUTS'][141398]['bdot']['HN']['stft'][(0.0, 1.0)][5] <-:-:-> importNdarray <-:-:-> ./ModeTimeDependence/OUTPUTS/141398/bdot/HN/stft/(0.0, 1.0)/OMFITndarray_ac3478d69a.npy <-:-:-> 
+['ModeTimeDependence']['OUTPUTS'][141398]['bdot']['HN']['stft'][(0.0, 1.0)][6] <-:-:-> importNdarray <-:-:-> ./ModeTimeDependence/OUTPUTS/141398/bdot/HN/stft/(0.0, 1.0)/OMFITndarray_c1dfd96eea.npy <-:-:-> 
+['ModeTimeDependence']['OUTPUTS'][141398]['bdot']['HN']['stft'][(0.0, 1.0)][7] <-:-:-> importNdarray <-:-:-> ./ModeTimeDependence/OUTPUTS/141398/bdot/HN/stft/(0.0, 1.0)/OMFITndarray_902ba3cda1.npy <-:-:-> 
+['ModeTimeDependence']['OUTPUTS'][141398]['bdot']['HN']['stft'][(0.0, 1.0)][8] <-:-:-> importNdarray <-:-:-> ./ModeTimeDependence/OUTPUTS/141398/bdot/HN/stft/(0.0, 1.0)/OMFITndarray_fe5dbbcea5.npy <-:-:-> 
+['ModeTimeDependence']['OUTPUTS'][141398]['bdot']['HN']['stft'][(0.0, 1.0)][9] <-:-:-> importNdarray <-:-:-> ./ModeTimeDependence/OUTPUTS/141398/bdot/HN/stft/(0.0, 1.0)/OMFITndarray_0ade7c2cf9.npy <-:-:-> 
+['ModeTimeDependence']['OUTPUTS'][141398]['bdot']['HN']['stft'][(0.0, 1.0)][10] <-:-:-> importNdarray <-:-:-> ./ModeTimeDependence/OUTPUTS/141398/bdot/HN/stft/(0.0, 1.0)/OMFITndarray_b1d5781111.npy <-:-:-> 
+['ModeTimeDependence']['OUTPUTS'][141398]['bdot']['HN']['stft'][(0.0, 1.0)][11] <-:-:-> importNdarray <-:-:-> ./ModeTimeDependence/OUTPUTS/141398/bdot/HN/stft/(0.0, 1.0)/OMFITndarray_17ba079149.npy <-:-:-> 
+['ModeTimeDependence']['OUTPUTS']['synth1'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['ModeTimeDependence']['OUTPUTS']['synth1']['parameters'] <-:-:-> pickle <-:-:-> ./ModeTimeDependence/OUTPUTS/synth1/OMFITpickled_47d864d036 <-:-:-> {}
+['ModeTimeDependence']['OUTPUTS']['synth1']['data'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['ModeTimeDependence']['OUTPUTS']['synth1']['data']['time'] <-:-:-> importNdarray <-:-:-> ./ModeTimeDependence/OUTPUTS/synth1/data/OMFITndarray_2e7f12ba3f.npy <-:-:-> 
+['ModeTimeDependence']['OUTPUTS']['synth1']['data']['sigarr'] <-:-:-> importNdarray <-:-:-> ./ModeTimeDependence/OUTPUTS/synth1/data/OMFITndarray_7ea790a4df.npy <-:-:-> 
+['ModeTimeDependence']['OUTPUTS']['synth1']['stft'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['ModeTimeDependence']['OUTPUTS']['synth1']['stft']['stftarr'] <-:-:-> importNdarray <-:-:-> ./ModeTimeDependence/OUTPUTS/synth1/stft/OMFITndarray_afc2db35bc.npy <-:-:-> 
+['ModeTimeDependence']['OUTPUTS']['synth1']['stft']['freq'] <-:-:-> importNdarray <-:-:-> ./ModeTimeDependence/OUTPUTS/synth1/stft/OMFITndarray_0dd0300397.npy <-:-:-> 
+['ModeTimeDependence']['OUTPUTS']['synth1']['stft']['time'] <-:-:-> importNdarray <-:-:-> ./ModeTimeDependence/OUTPUTS/synth1/stft/OMFITndarray_2e7f12ba3f.npy <-:-:-> 
+['ModeTimeDependence']['OUTPUTS']['synth1']['sp'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['ModeTimeDependence']['OUTPUTS']['synth1']['sp']['sp0'] <-:-:-> importNdarray <-:-:-> ./ModeTimeDependence/OUTPUTS/synth1/sp/OMFITndarray_3794940226.npy <-:-:-> 
+['ModeTimeDependence']['OUTPUTS']['synth1']['sp']['freq0'] <-:-:-> importNdarray <-:-:-> ./ModeTimeDependence/OUTPUTS/synth1/sp/OMFITndarray_2eb66f4de0.npy <-:-:-> 
+['ModeTimeDependence']['OUTPUTS']['synth1']['sp']['time0'] <-:-:-> importNdarray <-:-:-> ./ModeTimeDependence/OUTPUTS/synth1/sp/OMFITndarray_05ffade3f1.npy <-:-:-> 
+['ModeTimeDependence']['OUTPUTS']['synth1']['sp']['sp'] <-:-:-> importNdarray <-:-:-> ./ModeTimeDependence/OUTPUTS/synth1/sp/OMFITndarray_6072e725f0.npy <-:-:-> 
+['ModeTimeDependence']['OUTPUTS']['synth1']['sp']['freq'] <-:-:-> importNdarray <-:-:-> ./ModeTimeDependence/OUTPUTS/synth1/sp/OMFITndarray_0dd0300397.npy <-:-:-> 
+['ModeTimeDependence']['OUTPUTS']['synth1']['sp']['time'] <-:-:-> importNdarray <-:-:-> ./ModeTimeDependence/OUTPUTS/synth1/sp/OMFITndarray_2e7f12ba3f.npy <-:-:-> 
+['ModeTimeDependence']['WORKFLOWS'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['ModeTimeDependence']['WORKFLOWS']['spectrogram_example_nstx_130335'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['ModeTimeDependence']['WORKFLOWS']['spectrogram_example_nstx_130335']['parameters'] <-:-:-> pickle <-:-:-> ./ModeTimeDependence/WORKFLOWS/spectrogram_example_nstx_130335/OMFITpickled_47d864d036 <-:-:-> {}
+['ModeTimeDependence']['WORKFLOWS']['spectrogram_example_nstx_130335']['script'] <-:-:-> OMFITpythonTask <-:-:-> ./ModeTimeDependence/WORKFLOWS/spectrogram_example_nstx_130335/spectrogram_example_nstx.py <-:-:-> {}
+['ModeTimeDependence']['WORKFLOWS']['spectrogram_example_nstx_130335']['figure_spcg_HN5_130335_t430_530_f400_1200'] <-:-:-> pickle <-:-:-> ./ModeTimeDependence/WORKFLOWS/spectrogram_example_nstx_130335/OMFITpickled_94d51549a2 <-:-:-> {}
+['ModeTimeDependence']['WORKFLOWS']['spectrogram_example_nstx_130335']['figure_spcg_HN5_130335_t430_530_f400_1200_pdf'] <-:-:-> OMFITpath <-:-:-> ./ModeTimeDependence/WORKFLOWS/spectrogram_example_nstx_130335/figure_spcg_HN5_130335_t430_530_f400_1200.pdf <-:-:-> {}
+['ModeTimeDependence']['WORKFLOWS']['spectrogram_example_nstx_141398'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['ModeTimeDependence']['WORKFLOWS']['spectrogram_example_nstx_141398']['parameters'] <-:-:-> pickle <-:-:-> ./ModeTimeDependence/WORKFLOWS/spectrogram_example_nstx_141398/OMFITpickled_47d864d036 <-:-:-> {}
+['ModeTimeDependence']['WORKFLOWS']['spectrogram_example_nstx_141398']['script'] <-:-:-> OMFITpythonTask <-:-:-> ./ModeTimeDependence/WORKFLOWS/spectrogram_example_nstx_141398/spectrogram_example_nstx.py <-:-:-> {}
+['ModeTimeDependence']['WORKFLOWS']['spectrogram_example_nstx_141398']['figure_spcg_HN7_141398_t400_700_f350_875'] <-:-:-> pickle <-:-:-> ./ModeTimeDependence/WORKFLOWS/spectrogram_example_nstx_141398/OMFITpickled_ba6340acc4 <-:-:-> {}
+['ModeTimeDependence']['WORKFLOWS']['spectrogram_example_nstx_141398']['figure_spcg_HN7_141398_t400_700_f350_875_pdf'] <-:-:-> OMFITpath <-:-:-> ./ModeTimeDependence/WORKFLOWS/spectrogram_example_nstx_141398/figure_spcg_HN7_141398_t400_700_f350_875.pdf <-:-:-> {}
+['ModeTimeDependence']['WORKFLOWS']['spectrogram_levels_mask_example_nstx_141398'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['ModeTimeDependence']['WORKFLOWS']['spectrogram_levels_mask_example_nstx_141398']['parameters'] <-:-:-> pickle <-:-:-> ./ModeTimeDependence/WORKFLOWS/spectrogram_levels_mask_example_nstx_141398/OMFITpickled_47d864d036 <-:-:-> {}
+['ModeTimeDependence']['WORKFLOWS']['spectrogram_levels_mask_example_nstx_141398']['parameters_saved'] <-:-:-> pickle <-:-:-> ./ModeTimeDependence/WORKFLOWS/spectrogram_levels_mask_example_nstx_141398/OMFITpickled_dd0ae3baca <-:-:-> {}
+['ModeTimeDependence']['WORKFLOWS']['spectrogram_levels_mask_example_nstx_141398']['script'] <-:-:-> OMFITpythonTask <-:-:-> ./ModeTimeDependence/WORKFLOWS/spectrogram_levels_mask_example_nstx_141398/spectrogram_levels_mask_example_nstx.py <-:-:-> {}
+['ModeTimeDependence']['WORKFLOWS']['spectrogram_levels_mask_example_nstx_141398']['figure_spcg_levels_mask_HN7_141398_t400_700_f350_875'] <-:-:-> pickle <-:-:-> ./ModeTimeDependence/WORKFLOWS/spectrogram_levels_mask_example_nstx_141398/OMFITpickled_30970df44c <-:-:-> {}
+['ModeTimeDependence']['WORKFLOWS']['spcgsynth_levels_tree'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['ModeTimeDependence']['WORKFLOWS']['spcgsynth_levels_tree']['parameters'] <-:-:-> pickle <-:-:-> ./ModeTimeDependence/WORKFLOWS/spcgsynth_levels_tree/OMFITpickled_47d864d036 <-:-:-> {}
+['ModeTimeDependence']['WORKFLOWS']['spcgsynth_levels_tree']['script'] <-:-:-> OMFITpythonTask <-:-:-> ./ModeTimeDependence/WORKFLOWS/spcgsynth_levels_tree/spcgsynth_levels_tree.py <-:-:-> {}
+['ModeTimeDependence']['WORKFLOWS']['spcgsynth_levels_tree']['figure_spcgsynth_levels_tree'] <-:-:-> pickle <-:-:-> ./ModeTimeDependence/WORKFLOWS/spcgsynth_levels_tree/OMFITpickled_d12b2a84bc <-:-:-> {}
+['ModeTimeDependence']['WORKFLOWS']['spcgsynth_levels_tree']['figure_spcgsynth_levels_tree_saved'] <-:-:-> pickle <-:-:-> ./ModeTimeDependence/WORKFLOWS/spcgsynth_levels_tree/OMFITpickled_f0f1ced350 <-:-:-> {}
+['ModeTimeDependence']['FIGURES'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['ModeTimeDependence']['FIGURES']['figure_spcgsynth_tree_attributes'] <-:-:-> pickle <-:-:-> ./ModeTimeDependence/FIGURES/OMFITpickled_9fd95758c5 <-:-:-> {}
+['ModeTimeDependence']['FIGURES']['figure_spcgsynth_tree_gain'] <-:-:-> pickle <-:-:-> ./ModeTimeDependence/FIGURES/OMFITpickled_4358918691 <-:-:-> {}
+['ModeTimeDependence']['FIGURES']['figure_spcgsynth_levels_tree'] <-:-:-> pickle <-:-:-> ./ModeTimeDependence/FIGURES/OMFITpickled_d12b2a84bc <-:-:-> {}
+['ModeTimeDependence']['SCRIPTS'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['ModeTimeDependence']['SCRIPTS']['load_bdot_data'] <-:-:-> OMFITpythonTask <-:-:-> ./ModeTimeDependence/SCRIPTS/load_bdot_data.py <-:-:-> {}
+['ModeTimeDependence']['SCRIPTS']['calculate_bdot_stft'] <-:-:-> OMFITpythonTask <-:-:-> ./ModeTimeDependence/SCRIPTS/calculate_bdot_stft.py <-:-:-> {}
+['ModeTimeDependence']['SCRIPTS']['nstx_coilinfo_130335'] <-:-:-> OMFITpythonTask <-:-:-> ./ModeTimeDependence/SCRIPTS/nstx_coilinfo_130335.py <-:-:-> {}
+['ModeTimeDependence']['PLOTS'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['ModeTimeDependence']['PLOTS']['plot_spectrogram'] <-:-:-> OMFITpythonTask <-:-:-> ./ModeTimeDependence/PLOTS/plot_spectrogram.py <-:-:-> {}
+['ModeTimeDependence']['GUIS'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['ModeTimeDependence']['LIB'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['ModeTimeDependence']['LIB']['OMFITlib_startup'] <-:-:-> OMFITpythonTask <-:-:-> ./ModeTimeDependence/LIB/OMFITlib_startup.py <-:-:-> {}
+['ModeTimeDependence']['LIB']['OMFITlib_max_tree_utils'] <-:-:-> OMFITpythonTask <-:-:-> ./ModeTimeDependence/LIB/OMFITlib_max_tree_utils.py <-:-:-> {}
+['ModeTimeDependence']['LIB']['OMFITlib_plot_utils'] <-:-:-> OMFITpythonTask <-:-:-> ./ModeTimeDependence/LIB/OMFITlib_plot_utils.py <-:-:-> {}
+['ModeTimeDependence']['LIB']['OMFITlib_utils'] <-:-:-> OMFITpythonTask <-:-:-> ./ModeTimeDependence/LIB/OMFITlib_utils.py <-:-:-> {}
+['ModeTimeDependence']['LIB']['OMFITlib_math_utils'] <-:-:-> OMFITpythonTask <-:-:-> ./ModeTimeDependence/LIB/OMFITlib_math_utils.py <-:-:-> {}
+['ModeTimeDependence']['LIB']['OMFITlib_max_tree_class'] <-:-:-> OMFITpythonTask <-:-:-> ./ModeTimeDependence/LIB/max_tree_class.py <-:-:-> {}
+['ModeTimeDependence']['LIB']['OMFITlib_sigarraycov_utils'] <-:-:-> OMFITpythonTask <-:-:-> ./ModeTimeDependence/LIB/OMFITlib_sigarraycov_utils.py <-:-:-> {}
+['ModeTimeDependence']['LIB']['OMFITlib_SCRIPT_utils'] <-:-:-> OMFITpythonTask <-:-:-> ./ModeTimeDependence/LIB/OMFITlib_SCRIPT_utils.py <-:-:-> {}
+['ModeTimeDependence']['SETTINGS'] <-:-:-> OMFITsettings <-:-:-> ./ModeTimeDependence/SettingsNamelist.txt <-:-:-> {}
+['ModeTimeDependence']['SETTINGS']['SETUP']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"OMFITworkDir(root,'')" <-:-:-> {}
+['ModeTimeDependence']['SETTINGS']['EXPERIMENT']['shot'] <-:-:-> OMFITexpression <-:-:-> _"try:\n    return_variable=OMFITmodules[-2]['SETTINGS']['EXPERIMENT']['shot']\nexcept Exception:\n    return_variable=MainSettings['EXPERIMENT']['shot']\n" <-:-:-> {}
+['ModeTimeDependence']['SETTINGS']['EXPERIMENT']['time'] <-:-:-> OMFITexpression <-:-:-> _"try:\n    return_variable=OMFITmodules[-2]['SETTINGS']['EXPERIMENT']['time']\nexcept Exception:\n    return_variable=MainSettings['EXPERIMENT']['time']\n" <-:-:-> {}
+['ModeTimeDependence']['SETTINGS']['EXPERIMENT']['device'] <-:-:-> OMFITexpression <-:-:-> _"try:\n    return_variable=OMFITmodules[-2]['SETTINGS']['EXPERIMENT']['device']\nexcept Exception:\n    return_variable=MainSettings['EXPERIMENT']['device']\n" <-:-:-> {}
+['ModeTimeDependence']['SETTINGS']['EXPERIMENT']['shots'] <-:-:-> OMFITexpression <-:-:-> _"try:\n    return_variable=OMFITmodules[-2]['SETTINGS']['EXPERIMENT']['shots']\nexcept Exception:\n    return_variable=MainSettings['EXPERIMENT']['shots']\n" <-:-:-> {}
+['ModeTimeDependence']['SETTINGS']['EXPERIMENT']['times'] <-:-:-> OMFITexpression <-:-:-> _"try:\n    return_variable=OMFITmodules[-2]['SETTINGS']['EXPERIMENT']['times']\nexcept Exception:\n    return_variable=MainSettings['EXPERIMENT']['times']\n" <-:-:-> {}
+['ModeTimeDependence']['SETTINGS']['EXPERIMENT']['runid'] <-:-:-> OMFITexpression <-:-:-> _"try:\n    return_variable=OMFITmodules[-2]['SETTINGS']['EXPERIMENT']['runid']\nexcept Exception:\n    return_variable=MainSettings['EXPERIMENT']['runid']\n" <-:-:-> {}
+['ModeTimeDependence']['SETTINGS']['REMOTE_SETUP']['serverPicker'] <-:-:-> OMFITexpression <-:-:-> _"try:\n    return_variable=str(OMFITmodules[-2]['SETTINGS']['REMOTE_SETUP']['serverPicker'])\nexcept Exception:\n    return_variable='default'" <-:-:-> {}
+['ModeTimeDependence']['SETTINGS']['REMOTE_SETUP']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"OMFITworkDir(root,parent['serverPicker'])" <-:-:-> {}
+['ModeTimeDependence']['SETTINGS']['REMOTE_SETUP']['server'] <-:-:-> OMFITexpression <-:-:-> _"SERVER[parent['serverPicker']]['server']" <-:-:-> {}
+['ModeTimeDependence']['SETTINGS']['REMOTE_SETUP']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"SERVER[parent['serverPicker']]['tunnel']" <-:-:-> {}
+['ModeTimeDependence']['help'] <-:-:-> OMFIThelp <-:-:-> ./ModeTimeDependence/help.rst <-:-:-> {}
+['ModeTimeDependence']['PROJECT'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['ModeTimeDependence']['PROJECT']['SCRIPTS'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['ModeTimeDependence']['PROJECT']['SCRIPTS']['maxtree_noise_project - Haowen Sun summer 2024'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['ModeTimeDependence']['PROJECT']['SCRIPTS']['maxtree_noise_project - Haowen Sun summer 2024']['noise_histograms_v2'] <-:-:-> OMFITpythonTask <-:-:-> ./ModeTimeDependence/PROJECT/SCRIPTS/maxtree_noise_project - Haowen Sun summer 2024/noise_histograms_v2.py <-:-:-> {}
+['ModeTimeDependence']['PROJECT']['SCRIPTS']['maxtree_noise_project - Haowen Sun summer 2024']['noise_histograms_v2_fixes'] <-:-:-> OMFITpythonTask <-:-:-> ./ModeTimeDependence/PROJECT/SCRIPTS/maxtree_noise_project - Haowen Sun summer 2024/noise_histograms_v2_fixes.py <-:-:-> {}
+['ModeTimeDependence']['PROJECT']['SCRIPTS']['maxtree_noise_project - Haowen Sun summer 2024']['noise_histograms_v3'] <-:-:-> OMFITpythonTask <-:-:-> ./ModeTimeDependence/PROJECT/SCRIPTS/maxtree_noise_project - Haowen Sun summer 2024/noise_histogram_v3.py <-:-:-> {}
+['ModeTimeDependence']['PROJECT']['SCRIPTS']['noise_histogram'] <-:-:-> OMFITpythonTask <-:-:-> ./ModeTimeDependence/PROJECT/SCRIPTS/noise_histogram.py <-:-:-> {}
+['ModeTimeDependence']['COMMAND BOX ARCHIVE'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['ModeTimeDependence']['COMMAND BOX ARCHIVE']['agglomerative clustering by phase differences'] <-:-:-> OMFITpythonTask <-:-:-> ./ModeTimeDependence/COMMAND BOX ARCHIVE/agglomerative clustering by phase differences.py <-:-:-> {}
+['ModeTimeDependence']['COMMAND BOX ARCHIVE']['calculate and plot stft of bdot data'] <-:-:-> OMFITpythonTask <-:-:-> ./ModeTimeDependence/COMMAND BOX ARCHIVE/calculate and plot stft of bdot data.py <-:-:-> {}
+['ModeTimeDependence']['COMMAND BOX ARCHIVE']['select maxtree nodes by area range'] <-:-:-> OMFITpythonTask <-:-:-> ./ModeTimeDependence/COMMAND BOX ARCHIVE/select maxtree nodes by area range.py <-:-:-> {}
+['ModeTimeDependence']['COMMAND BOX ARCHIVE']['leafattrflatzones_of_maxattrclosing'] <-:-:-> OMFITpythonTask <-:-:-> ./ModeTimeDependence/COMMAND BOX ARCHIVE/leafattrflatzones_of_maxattrclosing.py <-:-:-> {}
+['ModeTimeDependence']['COMMAND BOX ARCHIVE']['tests of gain along path to root'] <-:-:-> OMFITpythonTask <-:-:-> ./ModeTimeDependence/COMMAND BOX ARCHIVE/tests of gain along path to root.py <-:-:-> {}
+['ModeTimeDependence']['COMMAND BOX ARCHIVE']['Tracy Widom distribution'] <-:-:-> OMFITpythonTask <-:-:-> ./ModeTimeDependence/COMMAND BOX ARCHIVE/Tracy Widom distribution.py <-:-:-> {}
+['ModeTimeDependence']['COMMAND BOX ARCHIVE']['test coils'] <-:-:-> OMFITpythonTask <-:-:-> ./ModeTimeDependence/COMMAND BOX ARCHIVE/test coils.py <-:-:-> {}
+['ModeTimeDependence']['COMMAND BOX ARCHIVE']['blackman vs tau'] <-:-:-> OMFITpythonTask <-:-:-> ./ModeTimeDependence/COMMAND BOX ARCHIVE/blackman vs tau.py <-:-:-> {}
+['ModeTimeDependence']['COMMAND BOX ARCHIVE']['noise and mode covariance eigenvalues statistics'] <-:-:-> OMFITpythonTask <-:-:-> ./ModeTimeDependence/COMMAND BOX ARCHIVE/noise and mode covariance eigenvalues statistics.py <-:-:-> {}
+['ModeTimeDependence']['COMMAND BOX ARCHIVE']['gaussian_spectrum_noise_demo'] <-:-:-> OMFITpythonTask <-:-:-> ./ModeTimeDependence/COMMAND BOX ARCHIVE/gaussian_spectrum_noise_demo.py <-:-:-> {}
+['ModeTimeDependence']['COMMAND BOX ARCHIVE']['synthetic spectrogram labeled contours v1'] <-:-:-> OMFITpythonTask <-:-:-> ./ModeTimeDependence/COMMAND BOX ARCHIVE/synthetic spectrogram labeled contours v1.py <-:-:-> {}
+['ModeTimeDependence']['COMMAND BOX ARCHIVE']['distance_transform_axis'] <-:-:-> OMFITpythonTask <-:-:-> ./ModeTimeDependence/COMMAND BOX ARCHIVE/distance_transform_axis.py <-:-:-> {}
+['ModeTimeDependence']['COMMAND BOX ARCHIVE']['accumlate_by_reduceat_speed_test'] <-:-:-> OMFITpythonTask <-:-:-> ./ModeTimeDependence/COMMAND BOX ARCHIVE/accumlate_by_reduceat_speed_test.py <-:-:-> {}
+['ModeTimeDependence']['COMMAND BOX ARCHIVE']['test_of_effective_nuclear_rank_calculation'] <-:-:-> OMFITpythonTask <-:-:-> ./ModeTimeDependence/COMMAND BOX ARCHIVE/test_of_effective_nuclear_rank_calculation.py <-:-:-> {}
+['ModeTimeDependence']['COMMAND BOX ARCHIVE']['max eigenvalues for stftcov clustering speed test'] <-:-:-> OMFITpythonTask <-:-:-> ./ModeTimeDependence/COMMAND BOX ARCHIVE/max eigenvalues for stftcov clustering speed test.py <-:-:-> {}
+['ModeTimeDependence']['COMMAND BOX ARCHIVE']['stftcov minimum eigenvalue test'] <-:-:-> OMFITpythonTask <-:-:-> ./ModeTimeDependence/COMMAND BOX ARCHIVE/stftcov minimum eigenvalue test.py <-:-:-> {}
+['ModeTimeDependence']['COMMAND BOX ARCHIVE']['max eignevalues mean stftcov speedtest'] <-:-:-> OMFITpythonTask <-:-:-> ./ModeTimeDependence/COMMAND BOX ARCHIVE/max eignevalues mean stftcov speedtest.py <-:-:-> {}
+['ModeTimeDependence']['COMMAND BOX ARCHIVE']['assignment expression demo'] <-:-:-> OMFITpythonTask <-:-:-> ./ModeTimeDependence/COMMAND BOX ARCHIVE/assignment expression demo.py <-:-:-> {}
+['ModeTimeDependence']['COMMAND BOX ARCHIVE']['compenent by maxgain testing'] <-:-:-> OMFITpythonTask <-:-:-> ./ModeTimeDependence/COMMAND BOX ARCHIVE/compenent by maxgain testing.py <-:-:-> {}
+['ModeTimeDependence']['COMMAND BOX ARCHIVE']['pick indices from spectrum'] <-:-:-> OMFITpythonTask <-:-:-> ./ModeTimeDependence/COMMAND BOX ARCHIVE/pick indices from spectrum.py <-:-:-> {}
+['ModeTimeDependence']['COMMAND BOX ARCHIVE']['test of max_tree_cl isdecendent method'] <-:-:-> OMFITpythonTask <-:-:-> ./ModeTimeDependence/COMMAND BOX ARCHIVE/test of max_tree_cl isdecendent method.py <-:-:-> {}
+['ModeTimeDependence']['COMMAND BOX ARCHIVE']['plot spectrogram gain vs area along path to tree'] <-:-:-> OMFITpythonTask <-:-:-> ./ModeTimeDependence/COMMAND BOX ARCHIVE/plot spectrogram gain vs area along path to tree.py <-:-:-> {}
+['ModeTimeDependence']['COMMAND BOX ARCHIVE']['component by maxgain with occulusion testing'] <-:-:-> OMFITpythonTask <-:-:-> ./ModeTimeDependence/COMMAND BOX ARCHIVE/component by maxgain with occulusion testing.py <-:-:-> {}
+['ModeTimeDependence']['COMMAND BOX ARCHIVE']['priorty pruning to keep disjoint components with maximum gain'] <-:-:-> OMFITpythonTask <-:-:-> ./ModeTimeDependence/COMMAND BOX ARCHIVE/priorty pruning to keep disjoint components with maximum gain.py <-:-:-> {}
+['ModeTimeDependence']['COMMAND BOX ARCHIVE']['maxattrnodes implementations speed tests'] <-:-:-> OMFITpythonTask <-:-:-> ./ModeTimeDependence/COMMAND BOX ARCHIVE/maxattrnodes implementations speed tests.py <-:-:-> {}
+['ModeTimeDependence']['COMMAND BOX ARCHIVE']['children method implementations speed test'] <-:-:-> OMFITpythonTask <-:-:-> ./ModeTimeDependence/COMMAND BOX ARCHIVE/children method implementations speed test.py <-:-:-> {}
+['ModeTimeDependence']['COMMAND BOX ARCHIVE']['omptimummaxattrnodes implementations speed test'] <-:-:-> OMFITpythonTask <-:-:-> ./ModeTimeDependence/COMMAND BOX ARCHIVE/omptimummaxattrnodes implementations speed test.py <-:-:-> {}
+['ModeTimeDependence']['COMMAND BOX ARCHIVE']['optimum components'] <-:-:-> OMFITpythonTask <-:-:-> ./ModeTimeDependence/COMMAND BOX ARCHIVE/optimum components.py <-:-:-> {}
+['ModeTimeDependence']['COMMAND BOX ARCHIVE']['stftarr dimension'] <-:-:-> OMFITpythonTask <-:-:-> ./ModeTimeDependence/COMMAND BOX ARCHIVE/stftarr dimension.py <-:-:-> {}
+['bdot_spec_segmentation'] <-:-:-> OMFITproject <-:-:->  <-:-:-> {}
+['bdot_spec_segmentation']['BDOT_SPEC_SEGMENTATION'] <-:-:-> OMFITmodule <-:-:->  <-:-:-> {}
+['bdot_spec_segmentation']['BDOT_SPEC_SEGMENTATION']['INPUTS'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['bdot_spec_segmentation']['BDOT_SPEC_SEGMENTATION']['OUTPUTS'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['bdot_spec_segmentation']['BDOT_SPEC_SEGMENTATION']['SCRIPTS'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['bdot_spec_segmentation']['BDOT_SPEC_SEGMENTATION']['PLOTS'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['bdot_spec_segmentation']['BDOT_SPEC_SEGMENTATION']['GUIS'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['bdot_spec_segmentation']['BDOT_SPEC_SEGMENTATION']['LIB'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['bdot_spec_segmentation']['BDOT_SPEC_SEGMENTATION']['LIB']['OMFITlib_startup'] <-:-:-> OMFITpythonTask <-:-:-> ./bdot_spec_segmentation/BDOT_SPEC_SEGMENTATION/LIB/OMFITlib_startup.py <-:-:-> {}
+['bdot_spec_segmentation']['BDOT_SPEC_SEGMENTATION']['LIB']['OMFITlib_max_tree_utils'] <-:-:-> OMFITpythonTask <-:-:-> ./bdot_spec_segmentation/BDOT_SPEC_SEGMENTATION/LIB/OMFITlib_max_tree_utils.py <-:-:-> {}
+['bdot_spec_segmentation']['BDOT_SPEC_SEGMENTATION']['LIB']['OMFITlib_math_utils'] <-:-:-> OMFITpythonTask <-:-:-> ./bdot_spec_segmentation/BDOT_SPEC_SEGMENTATION/LIB/OMFITlib_math_utils.py <-:-:-> {}
+['bdot_spec_segmentation']['BDOT_SPEC_SEGMENTATION']['LIB']['OMFITlib_plot_utils'] <-:-:-> OMFITpythonTask <-:-:-> ./bdot_spec_segmentation/BDOT_SPEC_SEGMENTATION/LIB/OMFITlib_plot_utils.py <-:-:-> {}
+['bdot_spec_segmentation']['BDOT_SPEC_SEGMENTATION']['SETTINGS'] <-:-:-> OMFITsettings <-:-:-> ./bdot_spec_segmentation/BDOT_SPEC_SEGMENTATION/SettingsNamelist.txt <-:-:-> {}
+['bdot_spec_segmentation']['BDOT_SPEC_SEGMENTATION']['SETTINGS']['SETUP']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"OMFITworkDir(root,'')" <-:-:-> {}
+['bdot_spec_segmentation']['BDOT_SPEC_SEGMENTATION']['SETTINGS']['EXPERIMENT']['shot'] <-:-:-> OMFITexpression <-:-:-> _"try:\n    return_variable=OMFITmodules[-2]['SETTINGS']['EXPERIMENT']['shot']\nexcept Exception:\n    return_variable=MainSettings['EXPERIMENT']['shot']\n" <-:-:-> {}
+['bdot_spec_segmentation']['BDOT_SPEC_SEGMENTATION']['SETTINGS']['EXPERIMENT']['time'] <-:-:-> OMFITexpression <-:-:-> _"try:\n    return_variable=OMFITmodules[-2]['SETTINGS']['EXPERIMENT']['time']\nexcept Exception:\n    return_variable=MainSettings['EXPERIMENT']['time']\n" <-:-:-> {}
+['bdot_spec_segmentation']['BDOT_SPEC_SEGMENTATION']['SETTINGS']['EXPERIMENT']['device'] <-:-:-> OMFITexpression <-:-:-> _"try:\n    return_variable=OMFITmodules[-2]['SETTINGS']['EXPERIMENT']['device']\nexcept Exception:\n    return_variable=MainSettings['EXPERIMENT']['device']\n" <-:-:-> {}
+['bdot_spec_segmentation']['BDOT_SPEC_SEGMENTATION']['SETTINGS']['EXPERIMENT']['shots'] <-:-:-> OMFITexpression <-:-:-> _"try:\n    return_variable=OMFITmodules[-2]['SETTINGS']['EXPERIMENT']['shots']\nexcept Exception:\n    return_variable=MainSettings['EXPERIMENT']['shots']\n" <-:-:-> {}
+['bdot_spec_segmentation']['BDOT_SPEC_SEGMENTATION']['SETTINGS']['EXPERIMENT']['times'] <-:-:-> OMFITexpression <-:-:-> _"try:\n    return_variable=OMFITmodules[-2]['SETTINGS']['EXPERIMENT']['times']\nexcept Exception:\n    return_variable=MainSettings['EXPERIMENT']['times']\n" <-:-:-> {}
+['bdot_spec_segmentation']['BDOT_SPEC_SEGMENTATION']['SETTINGS']['EXPERIMENT']['runid'] <-:-:-> OMFITexpression <-:-:-> _"try:\n    return_variable=OMFITmodules[-2]['SETTINGS']['EXPERIMENT']['runid']\nexcept Exception:\n    return_variable=MainSettings['EXPERIMENT']['runid']\n" <-:-:-> {}
+['bdot_spec_segmentation']['BDOT_SPEC_SEGMENTATION']['SETTINGS']['REMOTE_SETUP']['serverPicker'] <-:-:-> OMFITexpression <-:-:-> _"try:\n    return_variable=str(OMFITmodules[-2]['SETTINGS']['REMOTE_SETUP']['serverPicker'])\nexcept Exception:\n    return_variable='default'" <-:-:-> {}
+['bdot_spec_segmentation']['BDOT_SPEC_SEGMENTATION']['SETTINGS']['REMOTE_SETUP']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"OMFITworkDir(root,parent['serverPicker'])" <-:-:-> {}
+['bdot_spec_segmentation']['BDOT_SPEC_SEGMENTATION']['SETTINGS']['REMOTE_SETUP']['server'] <-:-:-> OMFITexpression <-:-:-> _"SERVER[parent['serverPicker']]['server']" <-:-:-> {}
+['bdot_spec_segmentation']['BDOT_SPEC_SEGMENTATION']['SETTINGS']['REMOTE_SETUP']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"SERVER[parent['serverPicker']]['tunnel']" <-:-:-> {}
+['bdot_spec_segmentation']['BDOT_SPEC_SEGMENTATION']['help'] <-:-:-> OMFIThelp <-:-:-> ./bdot_spec_segmentation/BDOT_SPEC_SEGMENTATION/help.rst <-:-:-> {}
+['bdot_spec_segmentation']['magnetics'] <-:-:-> OMFITmodule <-:-:->  <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['INPUTS'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['INPUTS']['SPECTROGRAM'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['INPUTS']['SPECTROGRAM']['NSTX'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['INPUTS']['SPECTROGRAM']['NSTX'][130335] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['INPUTS']['SPECTROGRAM']['NSTX'][130335]['hn'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['INPUTS']['SPECTROGRAM']['NSTX'][130335]['hn']['filename'] <-:-:-> pickle <-:-:-> ./bdot_spec_segmentation/magnetics/INPUTS/SPECTROGRAM/NSTX/130335/hn/OMFITpickled_197979fb83 <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['INPUTS']['SPECTROGRAM']['NSTX'][130335]['hn']['MDShost'] <-:-:-> pickle <-:-:-> ./bdot_spec_segmentation/magnetics/INPUTS/SPECTROGRAM/NSTX/130335/hn/OMFITpickled_1a507e9493 <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['INPUTS']['SPECTROGRAM']['NSTX'][130335]['hn']['tree'] <-:-:-> pickle <-:-:-> ./bdot_spec_segmentation/magnetics/INPUTS/SPECTROGRAM/NSTX/130335/hn/OMFITpickled_84255d5f2e <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['INPUTS']['SPECTROGRAM']['NSTX'][130335]['hn']['na'] <-:-:-> importNdarray <-:-:-> ./bdot_spec_segmentation/magnetics/INPUTS/SPECTROGRAM/NSTX/130335/hn/OMFITndarray_b0755962ec.npy <-:-:-> 
+['bdot_spec_segmentation']['magnetics']['INPUTS']['SPECTROGRAM']['NSTX'][130335]['hn']['nch'] <-:-:-> pickle <-:-:-> ./bdot_spec_segmentation/magnetics/INPUTS/SPECTROGRAM/NSTX/130335/hn/OMFITpickled_5a108c5731 <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['INPUTS']['SPECTROGRAM']['NSTX'][130335]['hn']['chn'] <-:-:-> pickle <-:-:-> ./bdot_spec_segmentation/magnetics/INPUTS/SPECTROGRAM/NSTX/130335/hn/OMFITpickled_f9dcffc908 <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['INPUTS']['SPECTROGRAM']['NSTX'][130335]['hn']['sig'] <-:-:-> pickle <-:-:-> ./bdot_spec_segmentation/magnetics/INPUTS/SPECTROGRAM/NSTX/130335/hn/OMFITpickled_09a6f55803 <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['INPUTS']['SPECTROGRAM']['NSTX'][130335]['hn']['cnam'] <-:-:-> pickle <-:-:-> ./bdot_spec_segmentation/magnetics/INPUTS/SPECTROGRAM/NSTX/130335/hn/OMFITpickled_fbc4ce5196 <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['INPUTS']['SPECTROGRAM']['NSTX'][130335]['hn']['tor'] <-:-:-> pickle <-:-:-> ./bdot_spec_segmentation/magnetics/INPUTS/SPECTROGRAM/NSTX/130335/hn/OMFITpickled_441504c099 <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['INPUTS']['SPECTROGRAM']['NSTX'][130335]['hn']['pol'] <-:-:-> pickle <-:-:-> ./bdot_spec_segmentation/magnetics/INPUTS/SPECTROGRAM/NSTX/130335/hn/OMFITpickled_ceb211f3c0 <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['INPUTS']['SPECTROGRAM']['NSTX'][130335]['hn']['tdl'] <-:-:-> pickle <-:-:-> ./bdot_spec_segmentation/magnetics/INPUTS/SPECTROGRAM/NSTX/130335/hn/OMFITpickled_a273d6560f <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['INPUTS']['SPECTROGRAM']['NSTX'][130335]['hn']['ntor'] <-:-:-> pickle <-:-:-> ./bdot_spec_segmentation/magnetics/INPUTS/SPECTROGRAM/NSTX/130335/hn/OMFITpickled_481e76ece1 <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['INPUTS']['SPECTROGRAM']['NSTX'][130335]['hn']['nfp'] <-:-:-> pickle <-:-:-> ./bdot_spec_segmentation/magnetics/INPUTS/SPECTROGRAM/NSTX/130335/hn/OMFITpickled_ab1353379a <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['INPUTS']['SPECTROGRAM']['NSTX'][130335]['hn']['npol'] <-:-:-> pickle <-:-:-> ./bdot_spec_segmentation/magnetics/INPUTS/SPECTROGRAM/NSTX/130335/hn/OMFITpickled_4faf22813f <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['INPUTS']['SPECTROGRAM']['NSTX'][130335]['hn']['oe1'] <-:-:-> pickle <-:-:-> ./bdot_spec_segmentation/magnetics/INPUTS/SPECTROGRAM/NSTX/130335/hn/OMFITpickled_24573372ae <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['INPUTS']['SPECTROGRAM']['NSTX'][130335]['hn']['oe2'] <-:-:-> pickle <-:-:-> ./bdot_spec_segmentation/magnetics/INPUTS/SPECTROGRAM/NSTX/130335/hn/OMFITpickled_4d5436ea3d <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['INPUTS']['SPECTROGRAM']['NSTX'][130335]['hf'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['INPUTS']['SPECTROGRAM']['NSTX'][130335]['hf']['filename'] <-:-:-> pickle <-:-:-> ./bdot_spec_segmentation/magnetics/INPUTS/SPECTROGRAM/NSTX/130335/hf/OMFITpickled_197979fb83 <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['INPUTS']['SPECTROGRAM']['NSTX'][130335]['hf']['MDShost'] <-:-:-> pickle <-:-:-> ./bdot_spec_segmentation/magnetics/INPUTS/SPECTROGRAM/NSTX/130335/hf/OMFITpickled_1a507e9493 <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['INPUTS']['SPECTROGRAM']['NSTX'][130335]['hf']['tree'] <-:-:-> pickle <-:-:-> ./bdot_spec_segmentation/magnetics/INPUTS/SPECTROGRAM/NSTX/130335/hf/OMFITpickled_84255d5f2e <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['INPUTS']['SPECTROGRAM']['NSTX'][130335]['hf']['na'] <-:-:-> importNdarray <-:-:-> ./bdot_spec_segmentation/magnetics/INPUTS/SPECTROGRAM/NSTX/130335/hf/OMFITndarray_b0755962ec.npy <-:-:-> 
+['bdot_spec_segmentation']['magnetics']['INPUTS']['SPECTROGRAM']['NSTX'][130335]['hf']['nch'] <-:-:-> pickle <-:-:-> ./bdot_spec_segmentation/magnetics/INPUTS/SPECTROGRAM/NSTX/130335/hf/OMFITpickled_5a108c5731 <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['INPUTS']['SPECTROGRAM']['NSTX'][130335]['hf']['chn'] <-:-:-> pickle <-:-:-> ./bdot_spec_segmentation/magnetics/INPUTS/SPECTROGRAM/NSTX/130335/hf/OMFITpickled_f9dcffc908 <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['INPUTS']['SPECTROGRAM']['NSTX'][130335]['hf']['sig'] <-:-:-> pickle <-:-:-> ./bdot_spec_segmentation/magnetics/INPUTS/SPECTROGRAM/NSTX/130335/hf/OMFITpickled_09a6f55803 <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['INPUTS']['SPECTROGRAM']['NSTX'][130335]['hf']['cnam'] <-:-:-> pickle <-:-:-> ./bdot_spec_segmentation/magnetics/INPUTS/SPECTROGRAM/NSTX/130335/hf/OMFITpickled_fbc4ce5196 <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['INPUTS']['SPECTROGRAM']['NSTX'][130335]['hf']['tor'] <-:-:-> pickle <-:-:-> ./bdot_spec_segmentation/magnetics/INPUTS/SPECTROGRAM/NSTX/130335/hf/OMFITpickled_441504c099 <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['INPUTS']['SPECTROGRAM']['NSTX'][130335]['hf']['pol'] <-:-:-> pickle <-:-:-> ./bdot_spec_segmentation/magnetics/INPUTS/SPECTROGRAM/NSTX/130335/hf/OMFITpickled_ceb211f3c0 <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['INPUTS']['SPECTROGRAM']['NSTX'][130335]['hf']['tdl'] <-:-:-> pickle <-:-:-> ./bdot_spec_segmentation/magnetics/INPUTS/SPECTROGRAM/NSTX/130335/hf/OMFITpickled_a273d6560f <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['INPUTS']['SPECTROGRAM']['NSTX'][130335]['hf']['ntor'] <-:-:-> pickle <-:-:-> ./bdot_spec_segmentation/magnetics/INPUTS/SPECTROGRAM/NSTX/130335/hf/OMFITpickled_481e76ece1 <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['INPUTS']['SPECTROGRAM']['NSTX'][130335]['hf']['nfp'] <-:-:-> pickle <-:-:-> ./bdot_spec_segmentation/magnetics/INPUTS/SPECTROGRAM/NSTX/130335/hf/OMFITpickled_ab1353379a <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['INPUTS']['SPECTROGRAM']['NSTX'][130335]['hf']['npol'] <-:-:-> pickle <-:-:-> ./bdot_spec_segmentation/magnetics/INPUTS/SPECTROGRAM/NSTX/130335/hf/OMFITpickled_4faf22813f <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['INPUTS']['SPECTROGRAM']['NSTX'][130335]['hf']['oe1'] <-:-:-> pickle <-:-:-> ./bdot_spec_segmentation/magnetics/INPUTS/SPECTROGRAM/NSTX/130335/hf/OMFITpickled_24573372ae <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['INPUTS']['SPECTROGRAM']['NSTX'][130335]['hf']['oe2'] <-:-:-> pickle <-:-:-> ./bdot_spec_segmentation/magnetics/INPUTS/SPECTROGRAM/NSTX/130335/hf/OMFITpickled_4d5436ea3d <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['INPUTS']['SPECTROGRAM']['NSTX'][130335]['RAW'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['INPUTS']['SPECTROGRAM']['NSTX'][130335]['RAW']['\\bdot_l1dmivvhf3_raw'] <-:-:-> pickle <-:-:-> ./bdot_spec_segmentation/magnetics/INPUTS/SPECTROGRAM/NSTX/130335/RAW/OMFITpickled_1ed7d88852 <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['INPUTS']['SPECTROGRAM']['NSTX'][130335]['RAW']['\\bdot_l1dmivvhf4_raw'] <-:-:-> pickle <-:-:-> ./bdot_spec_segmentation/magnetics/INPUTS/SPECTROGRAM/NSTX/130335/RAW/OMFITpickled_ec4e9f2cec <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['INPUTS']['SPECTROGRAM']['NSTX'][130335]['RAW']['\\bdot_l1dmivvhf1_raw'] <-:-:-> pickle <-:-:-> ./bdot_spec_segmentation/magnetics/INPUTS/SPECTROGRAM/NSTX/130335/RAW/OMFITpickled_f968edd077 <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['INPUTS']['SPECTROGRAM']['NSTX'][130335]['RAW']['\\bdot_l1dmivvhf2_raw'] <-:-:-> pickle <-:-:-> ./bdot_spec_segmentation/magnetics/INPUTS/SPECTROGRAM/NSTX/130335/RAW/OMFITpickled_689b8bcdb9 <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['INPUTS']['SPECTROGRAM']['NSTX'][130335]['RAW']['\\bdot_l1dmivvhf5_raw'] <-:-:-> pickle <-:-:-> ./bdot_spec_segmentation/magnetics/INPUTS/SPECTROGRAM/NSTX/130335/RAW/OMFITpickled_7841638976 <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['INPUTS']['SPECTROGRAM']['NSTX'][130335]['RAW']['\\bdot_l1dmivvhf9_raw'] <-:-:-> pickle <-:-:-> ./bdot_spec_segmentation/magnetics/INPUTS/SPECTROGRAM/NSTX/130335/RAW/OMFITpickled_cc6e5c6e30 <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['INPUTS']['SPECTROGRAM']['NSTX'][130335]['RAW']['\\bdot_l1dmivvhf11_raw'] <-:-:-> pickle <-:-:-> ./bdot_spec_segmentation/magnetics/INPUTS/SPECTROGRAM/NSTX/130335/RAW/OMFITpickled_c81bea0c46 <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['INPUTS']['SPECTROGRAM']['NSTX'][130335]['RAW']['\\bdot_l1dmivvhf10_raw'] <-:-:-> pickle <-:-:-> ./bdot_spec_segmentation/magnetics/INPUTS/SPECTROGRAM/NSTX/130335/RAW/OMFITpickled_f0c3b77959 <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['INPUTS']['SPECTROGRAM']['NSTX'][130335]['RAW']['\\bdot_l1dmivvhf6_raw'] <-:-:-> pickle <-:-:-> ./bdot_spec_segmentation/magnetics/INPUTS/SPECTROGRAM/NSTX/130335/RAW/OMFITpickled_74b41c3bf5 <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['INPUTS']['SPECTROGRAM']['NSTX'][130335]['RAW']['\\bdot_l1dmivvhf7_raw'] <-:-:-> pickle <-:-:-> ./bdot_spec_segmentation/magnetics/INPUTS/SPECTROGRAM/NSTX/130335/RAW/OMFITpickled_da3a8f6bc8 <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['INPUTS']['SPECTROGRAM']['NSTX'][130335]['RAW']['\\bdot_l1dmivvhf8_raw'] <-:-:-> pickle <-:-:-> ./bdot_spec_segmentation/magnetics/INPUTS/SPECTROGRAM/NSTX/130335/RAW/OMFITpickled_fc252ed0f7 <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['INPUTS']['SPECTROGRAM']['NSTX'][130335]['RAW']['\\bdot_l1dmivvhn3_raw'] <-:-:-> pickle <-:-:-> ./bdot_spec_segmentation/magnetics/INPUTS/SPECTROGRAM/NSTX/130335/RAW/OMFITpickled_bb7be27ffe <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['INPUTS']['SPECTROGRAM']['NSTX'][130335]['RAW']['\\bdot_l1dmivvhn2_raw'] <-:-:-> pickle <-:-:-> ./bdot_spec_segmentation/magnetics/INPUTS/SPECTROGRAM/NSTX/130335/RAW/OMFITpickled_a0cfe46114 <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['INPUTS']['SPECTROGRAM']['NSTX'][130335]['RAW']['\\bdot_l1dmivvhn1_raw'] <-:-:-> pickle <-:-:-> ./bdot_spec_segmentation/magnetics/INPUTS/SPECTROGRAM/NSTX/130335/RAW/OMFITpickled_e769e6c2c8 <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['INPUTS']['SPECTROGRAM']['NSTX'][130335]['RAW']['\\bdot_l1dmivvhn16_raw'] <-:-:-> pickle <-:-:-> ./bdot_spec_segmentation/magnetics/INPUTS/SPECTROGRAM/NSTX/130335/RAW/OMFITpickled_fe8b678c57 <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['INPUTS']['SPECTROGRAM']['NSTX'][130335]['RAW']['\\bdot_l1dmivvhn15_raw'] <-:-:-> pickle <-:-:-> ./bdot_spec_segmentation/magnetics/INPUTS/SPECTROGRAM/NSTX/130335/RAW/OMFITpickled_10aa74c703 <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['INPUTS']['SPECTROGRAM']['NSTX'][130335]['RAW']['\\bdot_l1dmivvhn14_raw'] <-:-:-> pickle <-:-:-> ./bdot_spec_segmentation/magnetics/INPUTS/SPECTROGRAM/NSTX/130335/RAW/OMFITpickled_cb603611c6 <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['INPUTS']['SPECTROGRAM']['NSTX'][130335]['RAW']['\\bdot_l1dmivvhn10_raw'] <-:-:-> pickle <-:-:-> ./bdot_spec_segmentation/magnetics/INPUTS/SPECTROGRAM/NSTX/130335/RAW/OMFITpickled_42cc3f4b46 <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['INPUTS']['SPECTROGRAM']['NSTX'][130335]['RAW']['\\bdot_l1dmivvhn7_raw'] <-:-:-> pickle <-:-:-> ./bdot_spec_segmentation/magnetics/INPUTS/SPECTROGRAM/NSTX/130335/RAW/OMFITpickled_044717745e <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['INPUTS']['SPECTROGRAM']['NSTX'][130335]['RAW']['\\bdot_l1dmivvhn6_raw'] <-:-:-> pickle <-:-:-> ./bdot_spec_segmentation/magnetics/INPUTS/SPECTROGRAM/NSTX/130335/RAW/OMFITpickled_e212ac7a3c <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['INPUTS']['SPECTROGRAM']['NSTX'][130335]['RAW']['\\bdot_l1dmivvhn5_raw'] <-:-:-> pickle <-:-:-> ./bdot_spec_segmentation/magnetics/INPUTS/SPECTROGRAM/NSTX/130335/RAW/OMFITpickled_7b3f9048d8 <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['INPUTS']['SPECTROGRAM']['NSTX'][130335]['RAW']['\\bdot_l1dmivvhn4_raw'] <-:-:-> pickle <-:-:-> ./bdot_spec_segmentation/magnetics/INPUTS/SPECTROGRAM/NSTX/130335/RAW/OMFITpickled_fe0e911fa5 <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['OUTPUTS'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['OUTPUTS']['SPECTROGRAM'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['OUTPUTS']['SPECTROGRAM']['NSTX'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['OUTPUTS']['SPECTROGRAM']['NSTX'][130335] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['OUTPUTS']['SPECTROGRAM']['NSTX'][130335]['intial'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['OUTPUTS']['SPECTROGRAM']['NSTX'][130335]['intial']['shot'] <-:-:-> pickle <-:-:-> ./bdot_spec_segmentation/magnetics/OUTPUTS/SPECTROGRAM/NSTX/130335/intial/OMFITpickled_502380c717 <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['OUTPUTS']['SPECTROGRAM']['NSTX'][130335]['intial']['time'] <-:-:-> importNdarray <-:-:-> ./bdot_spec_segmentation/magnetics/OUTPUTS/SPECTROGRAM/NSTX/130335/intial/OMFITndarray_2e7f12ba3f.npy <-:-:-> 
+['bdot_spec_segmentation']['magnetics']['OUTPUTS']['SPECTROGRAM']['NSTX'][130335]['intial']['frequency'] <-:-:-> importNdarray <-:-:-> ./bdot_spec_segmentation/magnetics/OUTPUTS/SPECTROGRAM/NSTX/130335/intial/OMFITndarray_394a0f700a.npy <-:-:-> 
+['bdot_spec_segmentation']['magnetics']['OUTPUTS']['SPECTROGRAM']['NSTX'][130335]['intial']['mode'] <-:-:-> importNdarray <-:-:-> ./bdot_spec_segmentation/magnetics/OUTPUTS/SPECTROGRAM/NSTX/130335/intial/OMFITndarray_3b55c3fc26.npy <-:-:-> 
+['bdot_spec_segmentation']['magnetics']['OUTPUTS']['SPECTROGRAM']['NSTX'][130335]['intial']['power'] <-:-:-> importNdarray <-:-:-> ./bdot_spec_segmentation/magnetics/OUTPUTS/SPECTROGRAM/NSTX/130335/intial/OMFITndarray_22472d899b.npy <-:-:-> 
+['bdot_spec_segmentation']['magnetics']['OUTPUTS']['SPECTROGRAM']['NSTX'][130335]['intial']['n'] <-:-:-> pickle <-:-:-> ./bdot_spec_segmentation/magnetics/OUTPUTS/SPECTROGRAM/NSTX/130335/intial/OMFITpickled_2082cac9e9 <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['OUTPUTS']['SPECTROGRAM']['NSTX'][130335]['intial']['rms'] <-:-:-> importNdarray <-:-:-> ./bdot_spec_segmentation/magnetics/OUTPUTS/SPECTROGRAM/NSTX/130335/intial/OMFITndarray_1fbd1a9965.npy <-:-:-> 
+['bdot_spec_segmentation']['magnetics']['OUTPUTS']['SPECTROGRAM']['NSTX'][130335]['intial']['integ'] <-:-:-> pickle <-:-:-> ./bdot_spec_segmentation/magnetics/OUTPUTS/SPECTROGRAM/NSTX/130335/intial/OMFITpickled_8d06bfeba5 <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['OUTPUTS']['SPECTROGRAM']['NSTX'][130335]['intial']['deltat'] <-:-:-> pickle <-:-:-> ./bdot_spec_segmentation/magnetics/OUTPUTS/SPECTROGRAM/NSTX/130335/intial/OMFITpickled_7c9291e8d2 <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['OUTPUTS']['SPECTROGRAM']['NSTX'][130335]['intial']['tinterval'] <-:-:-> pickle <-:-:-> ./bdot_spec_segmentation/magnetics/OUTPUTS/SPECTROGRAM/NSTX/130335/intial/OMFITpickled_138b02d07e <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['OUTPUTS']['SPECTROGRAM']['NSTX'][130335]['intial']['newsampling'] <-:-:-> pickle <-:-:-> ./bdot_spec_segmentation/magnetics/OUTPUTS/SPECTROGRAM/NSTX/130335/intial/OMFITpickled_a987c3f0be <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['OUTPUTS']['SPECTROGRAM']['NSTX'][130335]['intial']['p1'] <-:-:-> pickle <-:-:-> ./bdot_spec_segmentation/magnetics/OUTPUTS/SPECTROGRAM/NSTX/130335/intial/OMFITpickled_6ece9f637c <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['OUTPUTS']['SPECTROGRAM']['NSTX'][130335]['intial']['p2'] <-:-:-> pickle <-:-:-> ./bdot_spec_segmentation/magnetics/OUTPUTS/SPECTROGRAM/NSTX/130335/intial/OMFITpickled_34a46f226f <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['DATA'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['DATA']['DIII-D'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['DATA']['DIII-D']['sensors'] <-:-:-> OMFITasciitable <-:-:-> ./bdot_spec_segmentation/magnetics/DATA/DIII-D/diiid_sensors.txt <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['DATA']['DIII-D']['bdots'] <-:-:-> OMFITasciitable <-:-:-> ./bdot_spec_segmentation/magnetics/DATA/DIII-D/diiid_bdots.txt <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['DATA']['DIII-D']['machine'] <-:-:-> OMFITnamelist <-:-:-> ./bdot_spec_segmentation/magnetics/DATA/DIII-D/diiid.txt <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['DATA']['DIII-D']['channel_filters'] <-:-:-> OMFITnamelist <-:-:-> ./bdot_spec_segmentation/magnetics/DATA/DIII-D/channel_filters.txt <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['DATA']['DIII-D']['coil_filters'] <-:-:-> OMFITnamelist <-:-:-> ./bdot_spec_segmentation/magnetics/DATA/DIII-D/coil_filters.txt <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['DATA']['DIII-D']['channel_alternates'] <-:-:-> OMFITnamelist <-:-:-> ./bdot_spec_segmentation/magnetics/DATA/DIII-D/channel_alternates.txt <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['DATA']['NSTX'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['DATA']['NSTX']['hn'] <-:-:-> pickle <-:-:-> ./bdot_spec_segmentation/magnetics/DATA/NSTX/OMFITpickled_edeaf7eb7c <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['DATA']['NSTX']['hf'] <-:-:-> pickle <-:-:-> ./bdot_spec_segmentation/magnetics/DATA/NSTX/OMFITpickled_c8e3989e8b <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['SCRIPTS'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['SCRIPTS']['init'] <-:-:-> OMFITpythonTask <-:-:-> ./bdot_spec_segmentation/magnetics/SCRIPTS/init_magnetics.py <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['SCRIPTS']['fetch'] <-:-:-> OMFITpythonTask <-:-:-> ./bdot_spec_segmentation/magnetics/SCRIPTS/fetch_magnetics.py <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['SCRIPTS']['prep'] <-:-:-> OMFITpythonTask <-:-:-> ./bdot_spec_segmentation/magnetics/SCRIPTS/prep_magnetics.py <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['SCRIPTS']['fit'] <-:-:-> OMFITpythonTask <-:-:-> ./bdot_spec_segmentation/magnetics/SCRIPTS/fit_magnetics.py <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['SCRIPTS']['run_steps'] <-:-:-> OMFITpythonTask <-:-:-> ./bdot_spec_segmentation/magnetics/SCRIPTS/run_magnetics.py <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['SCRIPTS']['run_coils'] <-:-:-> OMFITpythonTask <-:-:-> ./bdot_spec_segmentation/magnetics/SCRIPTS/run_coils_3D.py <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['SCRIPTS']['slcontour'] <-:-:-> OMFITpythonTask <-:-:-> ./bdot_spec_segmentation/magnetics/SCRIPTS/slcontour.py <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['SCRIPTS']['restore'] <-:-:-> OMFITpythonTask <-:-:-> ./bdot_spec_segmentation/magnetics/SCRIPTS/restore_magnetics.py <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['SCRIPTS']['stress'] <-:-:-> OMFITpythonTask <-:-:-> ./bdot_spec_segmentation/magnetics/SCRIPTS/stress.py <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['SCRIPTS']['SPECTROGRAM'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['SCRIPTS']['SPECTROGRAM']['spectrogram_init'] <-:-:-> OMFITpythonTask <-:-:-> ./bdot_spec_segmentation/magnetics/SCRIPTS/SPECTROGRAM/spectrogram_init.py <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['SCRIPTS']['SPECTROGRAM']['get_bdot_info'] <-:-:-> OMFITpythonTask <-:-:-> ./bdot_spec_segmentation/magnetics/SCRIPTS/SPECTROGRAM/get_bdot_info_NSTX.py <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['SCRIPTS']['SPECTROGRAM']['fetch_NSTX'] <-:-:-> OMFITpythonTask <-:-:-> ./bdot_spec_segmentation/magnetics/SCRIPTS/SPECTROGRAM/get_bdot_data_NSTX.py <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['SCRIPTS']['SPECTROGRAM']['spectrogram_prep'] <-:-:-> OMFITpythonTask <-:-:-> ./bdot_spec_segmentation/magnetics/SCRIPTS/SPECTROGRAM/spectrogram_prep.py <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['PLOTS'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['PLOTS']['plot_sensors'] <-:-:-> OMFITpythonTask <-:-:-> ./bdot_spec_segmentation/magnetics/PLOTS/plot_magnetics_sensors.py <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['PLOTS']['plot_signal'] <-:-:-> OMFITpythonTask <-:-:-> ./bdot_spec_segmentation/magnetics/PLOTS/plot_magnetics_signal.py <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['PLOTS']['plot_fit'] <-:-:-> OMFITpythonTask <-:-:-> ./bdot_spec_segmentation/magnetics/PLOTS/plot_magnetics_fit.py <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['PLOTS']['plot_fit_modes'] <-:-:-> OMFITpythonTask <-:-:-> ./bdot_spec_segmentation/magnetics/PLOTS/plot_magnetics_fit_modes.py <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['PLOTS']['plot_coil_modes'] <-:-:-> OMFITpythonTask <-:-:-> ./bdot_spec_segmentation/magnetics/PLOTS/plot_magnetics_coil_modes.py <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['PLOTS']['plot_svds'] <-:-:-> OMFITpythonTask <-:-:-> ./bdot_spec_segmentation/magnetics/PLOTS/plot_magnetics_svds.py <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['PLOTS']['plot_slcontour_fit'] <-:-:-> OMFITpythonTask <-:-:-> ./bdot_spec_segmentation/magnetics/PLOTS/plot_slcontour_fit.py <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['PLOTS']['plot_stress'] <-:-:-> OMFITpythonTask <-:-:-> ./bdot_spec_segmentation/magnetics/PLOTS/plot_stress.py <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['PLOTS']['plot_slice'] <-:-:-> OMFITpythonTask <-:-:-> ./bdot_spec_segmentation/magnetics/PLOTS/plot_magnetics_slice.py <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['PLOTS']['SPECTROGRAM'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['PLOTS']['SPECTROGRAM']['plot_spectrogram'] <-:-:-> OMFITpythonTask <-:-:-> ./bdot_spec_segmentation/magnetics/PLOTS/SPECTROGRAM/spectrogram_plot_modespec.py <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['PLOTS']['SPECTROGRAM']['plot_spectrogram_actual_plots'] <-:-:-> OMFITpythonTask <-:-:-> ./bdot_spec_segmentation/magnetics/PLOTS/SPECTROGRAM/spectrogram_plot_modespec_actual_plots.py <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['PLOTS']['SPECTROGRAM']['plot_radial_profiles'] <-:-:-> OMFITpythonTask <-:-:-> ./bdot_spec_segmentation/magnetics/PLOTS/SPECTROGRAM/spectrogram_plot_radial_profiles.py <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['PLOTS']['SPECTROGRAM']['plot_bdots'] <-:-:-> OMFITpythonTask <-:-:-> ./bdot_spec_segmentation/magnetics/PLOTS/SPECTROGRAM/spectrogram_plot_bdots.py <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['PLOTS']['SPECTROGRAM']['plot_phases'] <-:-:-> OMFITpythonTask <-:-:-> ./bdot_spec_segmentation/magnetics/PLOTS/SPECTROGRAM/spectrogram_plot_phases.py <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['PLOTS']['SPECTROGRAM']['plot_fft'] <-:-:-> OMFITpythonTask <-:-:-> ./bdot_spec_segmentation/magnetics/PLOTS/SPECTROGRAM/spectrogram_plot_fft.py <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['PLOTS']['SPECTROGRAM']['plot_velocities_on_spectrogram'] <-:-:-> OMFITpythonTask <-:-:-> ./bdot_spec_segmentation/magnetics/PLOTS/SPECTROGRAM/plot_velocities_on_spectrogram.py <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['PLOTS']['SPECTROGRAM']['plot_auto_spectrogram'] <-:-:-> OMFITpythonTask <-:-:-> ./bdot_spec_segmentation/magnetics/PLOTS/SPECTROGRAM/plot_auto_spectrogram.py <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['GUIS'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['GUIS']['main_gui'] <-:-:-> OMFITpythonGUI <-:-:-> ./bdot_spec_segmentation/magnetics/GUIS/main_gui.py <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['GUIS']['coil_gui'] <-:-:-> OMFITpythonGUI <-:-:-> ./bdot_spec_segmentation/magnetics/GUIS/coil_gui.py <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['GUIS']['slcontour_gui'] <-:-:-> OMFITpythonGUI <-:-:-> ./bdot_spec_segmentation/magnetics/GUIS/slcontour_gui.py <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['GUIS']['stress_gui'] <-:-:-> OMFITpythonGUI <-:-:-> ./bdot_spec_segmentation/magnetics/GUIS/stress_gui.py <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['GUIS']['SPECTROGRAM'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['GUIS']['SPECTROGRAM']['spectrogram_driver'] <-:-:-> OMFITpythonGUI <-:-:-> ./bdot_spec_segmentation/magnetics/GUIS/SPECTROGRAM/spectrogram_driver.py <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['GUIS']['SPECTROGRAM']['spectrogram_n_to_plot'] <-:-:-> OMFITpythonGUI <-:-:-> ./bdot_spec_segmentation/magnetics/GUIS/SPECTROGRAM/spectrogram_select_n_GUI.py <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['GUIS']['3D_mag_gui'] <-:-:-> OMFITpythonGUI <-:-:-> ./bdot_spec_segmentation/magnetics/GUIS/magnetics_gui.py <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['LIB'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['LIB']['OMFITlib_startup'] <-:-:-> OMFITpythonTask <-:-:-> ./bdot_spec_segmentation/magnetics/LIB/OMFITlib_startup.py <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['LIB']['OMFITlib_spectrogram_utilities'] <-:-:-> OMFITpythonTask <-:-:-> ./bdot_spec_segmentation/magnetics/LIB/spectrogram_useful_stuff.py <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['SETTINGS'] <-:-:-> OMFITsettings <-:-:-> ./bdot_spec_segmentation/magnetics/SettingsNamelist.txt <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['SETTINGS']['SETUP']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"OMFITworkDir(root,'')" <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['SETTINGS']['REMOTE_SETUP']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"OMFITworkDir(root,parent['serverPicker'])" <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['SETTINGS']['REMOTE_SETUP']['server'] <-:-:-> OMFITexpression <-:-:-> _"SERVER[parent['serverPicker']]['server']" <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['SETTINGS']['REMOTE_SETUP']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"SERVER[parent['serverPicker']]['tunnel']" <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['__SETTINGS_AT_IMPORT__'] <-:-:-> OMFITjson <-:-:-> ./bdot_spec_segmentation/magnetics/SettingsNamelist.txt_2_dd6fdf5b36/SettingsNamelist.txt <-:-:-> {}
+['bdot_spec_segmentation']['magnetics']['help'] <-:-:-> OMFIThelp <-:-:-> ./bdot_spec_segmentation/magnetics/help.rst <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings'] <-:-:-> OMFITmainSettings <-:-:-> ./bdot_spec_segmentation/MainSettingsNamelist.txt <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SETUP']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"OMFITcwd+os.sep+'runs'+os.sep" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SETUP']['modulesDir'] <-:-:-> OMFITexpression <-:-:-> _"if 'institutionProjectsDir' in MainSettings['SETUP']:\n    return_variable=os.path.abspath(MainSettings['SETUP']['institutionProjectsDir']+os.sep+os.environ['USER']+os.sep+'modules')+os.sep\nelse:\n    return_variable=os.path.abspath(os.environ['HOME']+os.sep+'OMFITdata'+os.sep+'modules')+os.sep" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SETUP']['projectsDir'] <-:-:-> OMFITexpression <-:-:-> _"if 'institutionProjectsDir' in MainSettings['SETUP']:\n    return_variable=os.path.abspath(MainSettings['SETUP']['institutionProjectsDir']+os.sep+os.environ['USER']+os.sep+'projects')+os.sep\nelse:\n    return_variable=os.path.abspath(os.environ['HOME']+os.sep+'OMFITdata'+os.sep+'projects')+os.sep" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['abacus']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/tmp/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['abacus']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'IPPCZ_username\']+"@abacus.tok.ipp.cas.cz:22"' <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['alcdata']['MDS_server'] <-:-:-> OMFITexpression <-:-:-> _"if is_localhost(['cmodws', 'mfews', 'mferws']):\n   return_variable = 'alcdata.psfc.mit.edu:8000'\nelse:\n   return_variable = MainSettings['SERVER']['MIT_username']+'@alcdata.psfc.mit.edu:8000'" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['alcdb2']['RDB_server'] <-:-:-> OMFITexpression <-:-:-> _"return_variable=OMFIT['MainSettings']['SERVER']['MIT_username']+':pfcworld@alcdb2.psfc.mit.edu:1433'" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['alcdb2']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['cmodws']['server']" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['altair']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/tmp/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['altair']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'CEA_username\']+"@altair.partenaires.cea.fr:22"' <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['altair']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER'][MainSettings['SERVER']['default_tunnel']]['server']" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['andromede']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/tmp/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['andromede']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'CEA_username\']+"@andromede1.partenaires.cea.fr:22"' <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['andromede']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER'][MainSettings['SERVER']['default_tunnel']]['server']" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['archimedes']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/tmp/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['archimedes']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'IFS_username\']+"@archimedes.ph.utexas.edu:22"' <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['atlas']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['cybele']['server']" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['atom']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/tmp/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['atom']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'GA_username\']+"@atom.gat.com:22"' <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['atom']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['cybele']['server']" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['aug_mdsplus']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['gate_aug']['server']" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['banach']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/tmp/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['banach']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'GA_username\']+"@banach.gat.com:22"' <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['banach']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['cybele']['server']" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['banach']['storedir'] <-:-:-> OMFITexpression <-:-:-> _"'/home/'+MainSettings['SERVER']['GA_username']+'/OMFITdata/archive'" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['cfetr']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/home/com/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['cfetr']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'ASIPP_username\']+"@211.86.151.150:22"' <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['cfetr']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER'][MainSettings['SERVER']['default_tunnel']]['server']" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['cmodws']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/tmp/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['cmodws']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'MIT_username\']+"@cmodws%02d.psfc.mit.edu:22"%parent[\'workstation_number\']' <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['cmodws']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['mferws']['server']" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['cmodws']['workstation_number'] <-:-:-> OMFITexpression <-:-:-> _"return_variable=80\ntry:\n    if is_institution(OMFIT['MainSettings']['SETUP']['institution'],'MIT'):\n       return_variable=int(re.findall('cmodws[0-9]+',' '.join(utils_base._localhost_names))[0].strip('cmodws'))\nexcept Exception:\n    pass" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['cori']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'NERSC_username\']+"@cori.nersc.gov:22"' <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['cori']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"if is_localhost('cori'):\n    return_variable=os.environ['SCRATCH']+'/OMFIT/runs/'\nelse:\n    return_variable='$SCRATCH/OMFIT/runs/'" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['cybele']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'GA_username\']+"@cybele.gat.com:2039"' <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['deepthought']['workDir'] <-:-:-> OMFITexpression <-:-:-> _'"/work/" + MainSettings[\'SERVER\'][\'GF_username\']+"/OMFIT/runs/"' <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['deepthought']['server'] <-:-:-> OMFITexpression <-:-:-> _'return_variable=MainSettings[\'SERVER\'][\'GF_username\']+"@deepthought"' <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['d3drdb']['RDB_server'] <-:-:-> OMFITexpression <-:-:-> _'user=\'guest\'\npasswd=\'guest_pwd\'\nfor login_file in [\'D3DRDB.sybase_login\',\'d3drdb.sybase_login\']:\n   login_file=os.environ[\'HOME\']+os.sep+login_file\n   try:\n      if os.path.exists(login_file):\n         with open(login_file,\'r\') as f:\n             user,passwd=map(lambda x:x.strip(),f.readlines())\n         break\n   except Exception:\n      pass\nreturn_variable=user+\':\'+\'@\'+"d3drdb.gat.com:8001"' <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['d3drdb']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['cybele']['server']" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['d3dsqlsrvr']['RDB_server'] <-:-:-> OMFITexpression <-:-:-> _'user=\'guest\'\npasswd=\'guest_pwd\'\nfor login_file in [\'D3DRDB.sybase_login\',\'d3drdb.sybase_login\']:\n   login_file=os.environ[\'HOME\']+os.sep+login_file\n   try:\n      if os.path.exists(login_file):\n         with open(login_file,\'r\') as f:\n             user,passwd=map(lambda x:x.strip(),f.readlines())\n         break\n   except Exception:\n      pass\nreturn_variable=user+\':\'+\'@\'+"d3drdb.gat.com:8001"' <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['d3dsqlsrvr']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER'][MainSettings['SERVER']['default_tunnel']]['server']" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['d3sqlsrvr']['RDB_server'] <-:-:-> OMFITexpression <-:-:-> _'user=\'guest\'\npasswd=\'guest_pwd\'\nfor login_file in [\'D3SQLSRVR.sybase_login\',\'d3sqlsrvr.sybase_login\']:\n   login_file=os.environ[\'HOME\']+os.sep+login_file\n   try:\n      if os.path.exists(login_file):\n         with open(login_file,\'r\') as f:\n             user,passwd=map(lambda x:x.strip(),f.readlines())\n         break\n   except Exception:\n      pass\nreturn_variable=user+\':\'+\'@\'+"d3sqlsrvr.gat.com:1433"' <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['d3sqlsrvr']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['cybele']['server']" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['east_compute']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"'/tmp/'+MainSettings['SERVER']['ASIPP_username']+'/OMFIT/runs/'" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['east_compute']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'ASIPP_username\']+"@cs4.ipp.ac.cn:22"' <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['east_compute']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['east_gate']['server']" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['east_database']['RDB_server'] <-:-:-> OMFITexpression <-:-:-> _'user=\'guest\'\npasswd=\'guest_pwd\'\nserver=\'202.127.205.9\'\nfor login_file in [\'east_database.sybase_login\']:\n   login_file=os.environ[\'HOME\']+os.sep+login_file\n   if os.path.exists(login_file):\n      with open(login_file,\'r\') as f:\n          try:\n              dummy,server,database_name,user,passwd=map(lambda x:x.strip(),f.readlines())\n              break\n          except Exception:\n              pass\nreturn_variable=user+\':\'+\'@\'+server+":3306"' <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['east_database']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"OMFIT['MainSettings']['SERVER']['east_gate']['server']" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['east_database']['driver'] <-:-:-> OMFITexpression <-:-:-> _"'MySQL'" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['east_gate']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'ASIPP_username\']+"@gate.ipp.ac.cn:4022"' <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['eastdata']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['cybele']['server']" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['energy']['RDB_server'] <-:-:-> OMFITexpression <-:-:-> _"user='guest'\npasswd='guest_pwd'\nfor login_file in ['ENERGY.sybase_login','energy.sybase_login']:\n   login_file=os.environ['HOME']+os.sep+login_file\n   try:\n      if os.path.exists(login_file):\n         with open(login_file,'r') as f:\n             user,passwd=map(lambda x:x.strip(),f.readlines())\n         break\n   except Exception as _excp:\n      print(_excp)\n      pass\nreturn_variable=f'{user}:{passwd}@energy.gat.com:1433'" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['energy']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['cybele']['server']" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['engaging']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/tmp/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['engaging']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'MIT_username\']+"@eofe%s.mit.edu:22"%parent[\'workstation_number\']' <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['feynman']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'FEYNMAN_username\']+"@feynman.ap.columbia.edu"' <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['feynman']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=MainSettings['SERVER']['FEYNMAN_username']\nreturn_variable='/mnt/tmp/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['feynman']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER'][MainSettings['SERVER']['default_tunnel']]['server']" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['freia']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/tmp/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['freia']['server'] <-:-:-> OMFITexpression <-:-:-> _'if is_localhost(\'freia\'):\n   return_variable=assemble_server(os.environ[\'USER\'],\'\',platform.uname()[1],\'22\')\nelse:\n   servers=list(range(13,33))\n   servers.remove(15)\n   servers.remove(31)\n   index=hash(MainSettings[\'EXPERIMENT\'][\'projectID\'])%len(servers)\n   return_variable=MainSettings[\'SERVER\'][\'CCFE_username\']+"@freia%03d:22"%servers[index]' <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['freia']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER'][MainSettings['SERVER']['default_tunnel']]['server']" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['gadb-harvest']['HARVEST_server'] <-:-:-> OMFITexpression <-:-:-> _"if 'HARVEST_HOST' not in os.environ:\n    return_variable='gadb-harvest.duckdns.org'\nelse:\n    return_variable=os.environ['HARVEST_HOST']\n\nif 'HARVEST_PORT' not in os.environ:\n    return_variable+=':32000'\nelse:\n    return_variable+=':'+os.environ['HARVEST_PORT']" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['gadb-harvest']['aws_credentials_file'] <-:-:-> OMFITexpression <-:-:-> _"aws_filename=os.sep.join([os.environ['HOME'],'.aws','credentials'])\nif os.path.exists(aws_filename):\n    return_variable=aws_filename\nelse:\n    return_variable=''" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['gate_aug']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'IPPMPG_username\']+"@gate2.aug.ipp.mpg.de:22"' <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['heimdall']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/tmp/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['heimdall']['server'] <-:-:-> OMFITexpression <-:-:-> _'if is_localhost(\'heimdall\'):\n   return_variable=assemble_server(os.environ[\'USER\'],\'\',platform.uname()[1],\'22\')\nelse:\n   servers=list(range(49))\n   index=hash(MainSettings[\'EXPERIMENT\'][\'projectID\'])%len(servers)\n   return_variable=MainSettings[\'SERVER\'][\'CCFE_username\']+"@heimdall%03d:22"%servers[index]' <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['heimdall']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER'][MainSettings['SERVER']['default_tunnel']]['server']" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['helios']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/csc/workdir0/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['helios']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'IFERC_username\']+"@helios.iferc-csc.org"' <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['huez']['RDB_server'] <-:-:-> OMFITexpression <-:-:-> _"user='d3dpub'\npasswd='d3dpub'\nfor login_file in ['.pgdb','.pgpass']:\n   login_file=os.environ['HOME']+os.sep+login_file\n   try:\n      if os.path.exists(login_file):\n         with open(login_file,'r') as _f:\n             user,passwd=map(lambda x:x.strip(),_f.read().split(':')[-2:])\n         break\n   except Exception:\n      pass\nreturn_variable=user+'@'+'huez.gat.com:5681'" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['huez']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['iris']['tunnel']" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['ikstar']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/tmp/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['ikstar']['server'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['KFE_username']+'@172.17.250.21:22'" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['ikstar']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER'][MainSettings['SERVER']['default_tunnel']]['server']" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['iris']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/cluster-scratch/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['iris']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'GA_username\']+"@iris.gat.com:22"' <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['iris']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['cybele']['server']" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['iter_login']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/tmp/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['iter_login']['server'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['ITER_username']+'@hpc-login.iter.org:22'" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['iter_sdcc']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/tmp/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['iter_sdcc']['server'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['ITER_username']+'@sdcc-login.iter.org:22'" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['itm_gateway']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/pfs/scratch/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['itm_gateway']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'ITM_username\']+"@login.eufus.eu:22"' <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['jet_mdsplus']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER'][MainSettings['SERVER']['default_tunnel']]['server']" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['kstar_mds']['MDS_server'] <-:-:-> OMFITexpression <-:-:-> _"# KFE servers have different IP addresses facing their internal network vs. facing the internet\n# When on-site at KFE or on a VPN, access via the internet IP is impossible.\n# When off-site without VPN, access via the internal IP is impossible.\n# The IP addresses change sometimes, and sometimes there are other connection issues.\n# The expressions here are set up to try to make it easy to understand how the IPs are determined.\nif parent['on_site_kfe']:\n    s = parent['internal_mds_server']\nelse:\n    s = parent['external_mds_server']\nu = MainSettings['SERVER']['KFE_username']\nif u == '' or parent['on_site_kfe']:\n    return_variable = s\nelse:\n    return_variable = '{}@{}'.format(u, s)" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['kstar_mds']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"if parent['on_site_kfe']: \n    return_variable = '' \nelse: \n    return_variable = MainSettings['SERVER'][MainSettings['SERVER']['default_tunnel']]['server']" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['kstar_mds']['on_site_kfe'] <-:-:-> OMFITexpression <-:-:-> _"'.'.join(get_ip().split('.')[0:2]) == '172.17'" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['lac']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/tmp/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['lac']['server'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['EPFL_username']+'@lac.epfl.ch:22'" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['lac']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['EPFL_username']+'@lac911.epfl.ch:22'" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['localhost']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"OMFITcwd+os.sep+'remote_runs'+os.sep" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['loki']['RDB_server'] <-:-:-> OMFITexpression <-:-:-> _"user='guest'\npasswd='guest_pwd'\nfor login_file in ['loki.sybase_login','LOKI.sybase_login']:\n   login_file=os.environ['HOME']+os.sep+login_file\n   try:\n      if os.path.exists(login_file):\n         with open(login_file,'r') as f:\n             user,passwd=map(lambda x:x.strip(),f.readlines())\n         break\n   except Exception as _excp:\n      print(_excp)\n      pass\nreturn_variable=f'{user}:{passwd}@loki.gat.com:1433'" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['loki']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['cybele']['server']" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['mds_ipp_ac_cn']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER'][MainSettings['SERVER']['default_tunnel']]['server']" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['mdsplus_dev_gat']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER'][MainSettings['SERVER']['default_tunnel']]['server']" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['mferws']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/tmp/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['mferws']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'MIT_username\']+"@mferws%02d.psfc.mit.edu:9224"%parent[\'workstation_number\']' <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['mfews']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/tmp/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['mfews']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'MIT_username\']+"@mfews%02d.psfc.mit.edu:9224"%parent[\'workstation_number\']' <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['mfews']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['mferws']['server']" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['mfews']['workstation_number'] <-:-:-> OMFITexpression <-:-:-> _"return_variable=8\ntry:\n    if is_institution(OMFIT['MainSettings']['SETUP']['institution'],'MIT'):\n       return_variable=int(re.findall('mfews[0-9]+',' '.join(utils_base._localhost_names))[0].strip('mfews'))\nexcept Exception:\n    pass" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['morti']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/tmp/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['morti']['server'] <-:-:-> OMFITexpression <-:-:-> _'"fusionbot@morti.gat.com:22"' <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['morti']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['cybele']['server']" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['mst_mdsplus']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER'][MainSettings['SERVER']['default_tunnel']]['server']" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['nstxrdb']['RDB_server'] <-:-:-> OMFITexpression <-:-:-> _'user = \'guest\'\npasswd=\'pfcworld\'\n\nlogin_file = os.environ[\'HOME\'] + os.sep + \'nstxlogs.sybase_login\'\n\ntry:\n    with open(login_file,\'r\') as f:\n        _,_,_, user,passwd = map(lambda x:x.strip(),f.readlines())\nexcept Exception:\n    pass\n\nreturn_variable=user + \':\'+ passwd +\'@\'+"sql2008.pppl.gov:1433"' <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['nstxrdb']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['cybele']['server']" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['omega']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/cscratch/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['omega']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'GA_username\']+"@omega.gat.com:22"' <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['omega']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['cybele']['server']" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['orion']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['cybele']['server']" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['perlmutter']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'NERSC_username\']+"@perlmutter-p1.nersc.gov:22"' <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['perlmutter']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"if is_localhost('perlmutter'):\n    return_variable=os.environ['SCRATCH']+'/OMFIT/runs/'\nelif MainSettings['SERVER']['NERSC_username']:\n    return_variable='/pscratch/sd/'+MainSettings['SERVER']['NERSC_username'][0]+'/'+MainSettings['SERVER']['NERSC_username']+'/OMFIT/runs/'\nelse:\n return_variable='$SCRATCH/OMFIT/runs/'" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['perlmutter']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['cybele']['server']" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['plare']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'PLARE_username\']+"@147.46.31.186:19000"' <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['plare']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=MainSettings['SERVER']['PLARE_username']\nreturn_variable='/tmp/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['plare']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['cybele']['server']" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['portal-ext']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/p/omfit/tmp/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['portal-ext']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'PPPL_username\']+"@portal-ext.pppl.gov:22"' <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['portal-ext']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER'][MainSettings['SERVER']['default_tunnel']]['server']" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['pppl_gitlab']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/p/omfit/tmp/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['pppl_gitlab']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'PPPL_username\']+"@gitlab-run%02d.pppl.gov:22"%(int(parent[\'workstation_number\']))' <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['pppl_gitlab']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER'][MainSettings['SERVER']['default_tunnel']]['server']" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['pppl_gitlab']['workstation_number'] <-:-:-> OMFITexpression <-:-:-> _"return_variable=80\ntry:\n    if is_institution(OMFIT['MainSettings']['SETUP']['institution'],'PPPL'):\n       return_variable=int(re.findall('gitlab-run[0-9]+',' '.join(utils_base._localhost_names))[0].strip('gitlab-run'))\nexcept Exception:\n    pass" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['pppl_nx']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/p/omfit/tmp/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['pppl_nx']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'PPPL_username\']+"@nx%02d.pppl.gov:22"%(int(parent[\'workstation_number\']))' <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['pppl_nx']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER'][MainSettings['SERVER']['default_tunnel']]['server']" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['pppl_nx']['workstation_number'] <-:-:-> OMFITexpression <-:-:-> _"return_variable=80\ntry:\n    if is_institution(OMFIT['MainSettings']['SETUP']['institution'],'PPPL'):\n       return_variable=int(re.findall('nx[0-9]+',' '.join(utils_base._localhost_names))[0].strip('nx'))\nexcept Exception:\n    pass" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['pppl_postgres']['RDB_server'] <-:-:-> OMFITexpression <-:-:-> _"user='nstxpub'\npasswd='nstxpub'\nfor login_file in ['.pgdb','.pgpass']:\n   login_file=os.environ['HOME']+os.sep+login_file\n   try:\n      if os.path.exists(login_file):\n         with open(login_file,'r') as _f:\n             user,passwd=map(lambda x:x.strip(),_f.read().split(':')[-2:])\n         break\n   except Exception:\n      pass\nreturn_variable=user+'@'+'postgres-srv.pppl.gov:5432'" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['pppl_postgres']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['iris']['tunnel']" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['pppl_sunfire']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/p/omfit/tmp/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['pppl_sunfire']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'PPPL_username\']+"@sunfire08.pppl.gov:22"' <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['pppl_sunfire']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER'][MainSettings['SERVER']['default_tunnel']]['server']" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['rat']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"'/scratch/'+MainSettings['SERVER']['RFX_username']+'/OMFIT/runs/'" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['rat']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'RFX_username\']+"@rat2.rfx.local:22"' <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['rat']['MDS_server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'RFX_username\']+"@rfxssh.igi.cnr.it:8000"' <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['rat']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['rfxssh']['server']" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['rfxssh']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"'/scratch/'+MainSettings['SERVER']['RFX_username']+'/OMFIT/runs/'" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['rfxssh']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'RFX_username\']+"@rfxssh.igi.cnr.it:22"' <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['saga']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/mnt/beegfs/OMFIT/'+username+'/'" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['saga']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'GA_username\']+"@saga.gat.com"' <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['saga']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['cybele']['server']" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['saturn']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/cluster-scratch/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['saturn']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'GA_username\']+"@saturn.gat.com:22"' <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['saturn']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['cybele']['server']" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['shenma']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/scratch/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['shenma']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'ASIPP_username\']+"@shenma.ipp.ac.cn:22"' <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['shenma']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER'][MainSettings['SERVER']['default_tunnel']]['server']" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['skylark']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER'][MainSettings['SERVER']['default_tunnel']]['server']" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['sophie']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/tmp/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['sophie']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'KFE_username\']+"@172.23.103.120:22"' <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['sophie']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER'][MainSettings['SERVER']['default_tunnel']]['server']" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['soroban']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/tmp/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['soroban']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'IPPCZ_username\']+"@soroban.tok.ipp.cas.cz:22"' <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['summit_ga']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/home/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['summit_ga']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'GA_username\']+"@summit1.gat.com:22"' <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['summit_ga']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['cybele']['server']" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['swip_cluster']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/home/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['swip_cluster']['server'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['SWIP_username']+'@cluster02.swip.ac.cn:22'" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['swip_cluster']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER'][MainSettings['SERVER']['default_tunnel']]['server']" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['tcabrcl']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/tmp/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['tcabrcl']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'USPBR_username\']+"@tcabrcl.if.usp.br"' <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['tcv_mdsplus']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['EPFL_username']+'@lac911.epfl.ch:22'" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['tok']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/toks/scratch/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['tok']['server'] <-:-:-> OMFITexpression <-:-:-> _'if is_localhost(\'tok\'):\n   return_variable=assemble_server(os.environ[\'USER\'],\'\',platform.uname()[1],\'22\')\nelse:\n   return_variable=MainSettings[\'SERVER\'][\'IPPMPG_username\']+"@tok01:22"' <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['tok']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['gate_aug']['server']" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['toki']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/tmp/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['toki']['server'] <-:-:-> OMFITexpression <-:-:-> _'if is_localhost(\'toki\'):\n   return_variable=assemble_server(os.environ[\'USER\'],\'\',platform.uname()[1],\'22\')\nelse:\n   return_variable=MainSettings[\'SERVER\'][\'IPPMPG_username\']+"@toki08:22"' <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['toki']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['gate_aug']['server']" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['transp_srv_stag']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/p/omfit/tmp/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['transp_srv_stag']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'PPPL_username\']+"@transp-srv-stag.pppl.gov:22"' <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['transp_srv_stag']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER'][MainSettings['SERVER']['default_tunnel']]['server']" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['transpgrid']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER'][MainSettings['SERVER']['default_tunnel']]['server']" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['tscc']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/tmp/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['tscc']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'UCSD_username\']+"@tscc-login.sdsc.edu:22"' <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['ukstar']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/tmp/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['ukstar']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'KFE_username\']+"@172.17.250.201:22"' <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['ukstar']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER'][MainSettings['SERVER']['default_tunnel']]['server']" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['vidar']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/tmp/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['vidar']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'GA_username\']+"@vidar.gat.com:22"' <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['vidar']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['cybele']['server']" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['idl'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['default']" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['matlab'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['default']" <-:-:-> {}
+['bdot_spec_segmentation']['MainSettings']['SERVER']['portal'] <-:-:-> OMFITexpression <-:-:-> _'\nreturn_variable = "portal-ext"\nfor server in ["pppl_nx", "pppl_sunfire"]:\n   if is_localhost(server):\n      return_variable = server\n      break\n' <-:-:-> {}
+['bdot_spec_segmentation']['GUISAVE__'] <-:-:-> pickle <-:-:-> ./bdot_spec_segmentation/OMFITpickled_db10247c32 <-:-:-> {}
+['bdot_spec_segmentation']['COMMANDBOX__'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['bdot_spec_segmentation']['COMMANDBOX__']['1'] <-:-:-> OMFITpythonTask <-:-:-> ./bdot_spec_segmentation/COMMANDBOX__/1.py <-:-:-> {}
+['bdot_spec_segmentation']['COMMANDBOX__']['2'] <-:-:-> OMFITpythonTask <-:-:-> ./bdot_spec_segmentation/COMMANDBOX__/2.py <-:-:-> {}
+['bdot_spec_segmentation']['COMMANDBOX__']['3'] <-:-:-> OMFITpythonTask <-:-:-> ./bdot_spec_segmentation/COMMANDBOX__/3.py <-:-:-> {}
+['bdot_spec_segmentation']['COMMANDBOX__']['4'] <-:-:-> OMFITpythonTask <-:-:-> ./bdot_spec_segmentation/COMMANDBOX__/4.py <-:-:-> {}
+['bdot_spec_segmentation']['COMMANDBOX__']['5'] <-:-:-> OMFITpythonTask <-:-:-> ./bdot_spec_segmentation/COMMANDBOX__/5.py <-:-:-> {}
+['bdot_spec_segmentation']['COMMANDBOX__']['6'] <-:-:-> OMFITpythonTask <-:-:-> ./bdot_spec_segmentation/COMMANDBOX__/6.py <-:-:-> {}
+['bdot_spec_segmentation']['COMMANDBOX__']['7'] <-:-:-> OMFITpythonTask <-:-:-> ./bdot_spec_segmentation/COMMANDBOX__/7.py <-:-:-> {}
+['bdot_spec_segmentation']['COMMANDBOX__']['8'] <-:-:-> OMFITpythonTask <-:-:-> ./bdot_spec_segmentation/COMMANDBOX__/8.py <-:-:-> {}
+['bdot_spec_segmentation']['COMMANDBOX__']['9'] <-:-:-> OMFITpythonTask <-:-:-> ./bdot_spec_segmentation/COMMANDBOX__/9.py <-:-:-> {}
+['bdot_spec_segmentation']['COMMANDBOX__']['10'] <-:-:-> OMFITpythonTask <-:-:-> ./bdot_spec_segmentation/COMMANDBOX__/10.py <-:-:-> {}
+['bdot_spec_segmentation']['COMMANDBOX__']['11'] <-:-:-> OMFITpythonTask <-:-:-> ./bdot_spec_segmentation/COMMANDBOX__/11.py <-:-:-> {}
+['bdot_spec_segmentation']['COMMANDBOX__']['12'] <-:-:-> OMFITpythonTask <-:-:-> ./bdot_spec_segmentation/COMMANDBOX__/12.py <-:-:-> {}
+['bdot_spec_segmentation']['COMMANDBOX__']['13'] <-:-:-> OMFITpythonTask <-:-:-> ./bdot_spec_segmentation/COMMANDBOX__/13.py <-:-:-> {}
+['bdot_spec_segmentation']['COMMANDBOX__']['14'] <-:-:-> OMFITpythonTask <-:-:-> ./bdot_spec_segmentation/COMMANDBOX__/14.py <-:-:-> {}
+['bdot_spec_segmentation']['COMMANDBOX__']['15'] <-:-:-> OMFITpythonTask <-:-:-> ./bdot_spec_segmentation/COMMANDBOX__/15.py <-:-:-> {}
+['bdot_spec_segmentation']['COMMANDBOX__']['16'] <-:-:-> OMFITpythonTask <-:-:-> ./bdot_spec_segmentation/COMMANDBOX__/16.py <-:-:-> {}
+['bdot_spec_segmentation']['COMMANDBOX__']['17'] <-:-:-> OMFITpythonTask <-:-:-> ./bdot_spec_segmentation/COMMANDBOX__/17.py <-:-:-> {}
+['bdot_spec_segmentation']['COMMANDBOX__']['18'] <-:-:-> OMFITpythonTask <-:-:-> ./bdot_spec_segmentation/COMMANDBOX__/18.py <-:-:-> {}
+['bdot_spec_segmentation']['COMMANDBOX__']['19'] <-:-:-> OMFITpythonTask <-:-:-> ./bdot_spec_segmentation/COMMANDBOX__/19.py <-:-:-> {}
+['bdot_spec_segmentation']['COMMANDBOX__']['20'] <-:-:-> OMFITpythonTask <-:-:-> ./bdot_spec_segmentation/COMMANDBOX__/20.py <-:-:-> {}
+['bdot_spec_segmentation']['COMMANDBOX__']['21'] <-:-:-> OMFITpythonTask <-:-:-> ./bdot_spec_segmentation/COMMANDBOX__/21.py <-:-:-> {}
+['bdot_spec_segmentation']['COMMANDBOX__']['22'] <-:-:-> OMFITpythonTask <-:-:-> ./bdot_spec_segmentation/COMMANDBOX__/22.py <-:-:-> {}
+['bdot_spec_segmentation']['COMMANDBOX__']['23'] <-:-:-> OMFITpythonTask <-:-:-> ./bdot_spec_segmentation/COMMANDBOX__/23.py <-:-:-> {}
+['bdot_spec_segmentation']['COMMANDBOX__']['24'] <-:-:-> OMFITpythonTask <-:-:-> ./bdot_spec_segmentation/COMMANDBOX__/24.py <-:-:-> {}
+['bdot_spec_segmentation']['COMMANDBOX__']['25'] <-:-:-> OMFITpythonTask <-:-:-> ./bdot_spec_segmentation/COMMANDBOX__/25.py <-:-:-> {}
+['bdot_spec_segmentation']['COMMANDBOX__']['26'] <-:-:-> OMFITpythonTask <-:-:-> ./bdot_spec_segmentation/COMMANDBOX__/26.py <-:-:-> {}
+['COMMAND BOX ARCHIVE'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['COMMAND BOX ARCHIVE']['plotly plotting destination tests'] <-:-:-> OMFITpythonTask <-:-:-> ./COMMAND BOX ARCHIVE/plotly plotting destination tests.py <-:-:-> {}
+['COMMAND BOX ARCHIVE']['prep for kaliedo plotting with plotly'] <-:-:-> OMFITpythonTask <-:-:-> ./COMMAND BOX ARCHIVE/prep for kaliedo plotting with plotly.py <-:-:-> {}
+['COMMAND BOX ARCHIVE']['add commandbox scripts of imported OMFITproject'] <-:-:-> OMFITpythonTask <-:-:-> ./COMMAND BOX ARCHIVE/add commandbox scripts of imported OMFITproject.py <-:-:-> {}
+['COMMAND BOX ARCHIVE']['experimental replace dialog for command boxes'] <-:-:-> OMFITpythonTask <-:-:-> ./COMMAND BOX ARCHIVE/experimental replace dialog for command boxes.py <-:-:-> {}
+['COMMAND BOX ARCHIVE']['profiling template'] <-:-:-> OMFITpythonTask <-:-:-> ./COMMAND BOX ARCHIVE/profiling template.py <-:-:-> {}
+['COMMAND BOX ARCHIVE']['GridSpec iterator'] <-:-:-> OMFITpythonTask <-:-:-> ./COMMAND BOX ARCHIVE/GridSpec iterator.py <-:-:-> {}
+['COMMAND BOX ARCHIVE']['GridSpec ravel'] <-:-:-> OMFITpythonTask <-:-:-> ./COMMAND BOX ARCHIVE/GridSpec ravel.py <-:-:-> {}
+['COMMAND BOX ARCHIVE']['FigureNotebook Utils'] <-:-:-> OMFITpythonTask <-:-:-> ./COMMAND BOX ARCHIVE/FigureNotebook Utils.py <-:-:-> {}
+['COMMAND BOX ARCHIVE']['command line widget experiment'] <-:-:-> OMFITpythonTask <-:-:-> ./COMMAND BOX ARCHIVE/command line widget experiment.py <-:-:-> {}
+['COMMAND BOX ARCHIVE']['Subclass ndarray experiment'] <-:-:-> OMFITpythonTask <-:-:-> ./COMMAND BOX ARCHIVE/Subclass ndarray experiment.py <-:-:-> {}
+['Utilities'] <-:-:-> OMFITmodule <-:-:->  <-:-:-> {}
+['Utilities']['INPUTS'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['Utilities']['OUTPUTS'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['Utilities']['SCRIPTS'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['Utilities']['SCRIPTS']['Clear commandBox namespace'] <-:-:-> OMFITpythonTask <-:-:-> ./Utilities/SCRIPTS/clear_commandbox.py <-:-:-> {}
+['Utilities']['SCRIPTS']['Enable local site packages'] <-:-:-> OMFITpythonTask <-:-:-> ./Utilities/SCRIPTS/enable_local_site_packages.py <-:-:-> {}
+['Utilities']['SCRIPTS']['Collect figures in notebook'] <-:-:-> OMFITpythonTask <-:-:-> ./Utilities/SCRIPTS/Collect figures in notebook.py <-:-:-> {}
+['Utilities']['SCRIPTS']['Close all figures'] <-:-:-> OMFITpythonTask <-:-:-> ./Utilities/SCRIPTS/Close all figures.py <-:-:-> {}
+['Utilities']['SCRIPTS']['defaultVarsPartial demo'] <-:-:-> OMFITpythonTask <-:-:-> ./Utilities/SCRIPTS/defaultVarsPartial demo.py <-:-:-> {}
+['Utilities']['PLOTS'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['Utilities']['GUIS'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['Utilities']['GUIS']['Search Command boxes'] <-:-:-> OMFITpythonGUI <-:-:-> ./Utilities/GUIS/search_command_boxes.py <-:-:-> {}
+['Utilities']['GUIS']['Meld files'] <-:-:-> OMFITpythonGUI <-:-:-> ./Utilities/GUIS/Meld files.py <-:-:-> {}
+['Utilities']['LIB'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['Utilities']['LIB']['OMFITlib_startup'] <-:-:-> OMFITpythonTask <-:-:-> ./Utilities/LIB/OMFITlib_startup.py <-:-:-> {}
+['Utilities']['LIB']['OMFITlib_GUI_utils'] <-:-:-> OMFITpythonTask <-:-:-> ./Utilities/LIB/OMFITlib_GUI_utils.py <-:-:-> {}
+['Utilities']['LIB']['OMFITlib_SCRIPT_utils'] <-:-:-> OMFITpythonTask <-:-:-> ./Utilities/LIB/OMFITlib_SCRIPT_utils.py <-:-:-> {}
+['Utilities']['LIB']['OMFITlib_math_utils'] <-:-:-> OMFITpythonTask <-:-:-> ./Utilities/LIB/OMFITlib_math_utils.py <-:-:-> {}
+['Utilities']['LIB']['OMFITlib_plot_utils'] <-:-:-> OMFITpythonTask <-:-:-> ./Utilities/LIB/OMFITlib_plot_utils.py <-:-:-> {}
+['Utilities']['SETTINGS'] <-:-:-> OMFITsettings <-:-:-> ./Utilities/SettingsNamelist.txt <-:-:-> {}
+['Utilities']['SETTINGS']['SETUP']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"OMFITworkDir(root,'')" <-:-:-> {}
+['Utilities']['SETTINGS']['EXPERIMENT']['shot'] <-:-:-> OMFITexpression <-:-:-> _"try:\n    return_variable=OMFITmodules[-2]['SETTINGS']['EXPERIMENT']['shot']\nexcept Exception:\n    return_variable=MainSettings['EXPERIMENT']['shot']\n" <-:-:-> {}
+['Utilities']['SETTINGS']['EXPERIMENT']['time'] <-:-:-> OMFITexpression <-:-:-> _"try:\n    return_variable=OMFITmodules[-2]['SETTINGS']['EXPERIMENT']['time']\nexcept Exception:\n    return_variable=MainSettings['EXPERIMENT']['time']\n" <-:-:-> {}
+['Utilities']['SETTINGS']['EXPERIMENT']['device'] <-:-:-> OMFITexpression <-:-:-> _"try:\n    return_variable=OMFITmodules[-2]['SETTINGS']['EXPERIMENT']['device']\nexcept Exception:\n    return_variable=MainSettings['EXPERIMENT']['device']\n" <-:-:-> {}
+['Utilities']['SETTINGS']['EXPERIMENT']['shots'] <-:-:-> OMFITexpression <-:-:-> _"try:\n    return_variable=OMFITmodules[-2]['SETTINGS']['EXPERIMENT']['shots']\nexcept Exception:\n    return_variable=MainSettings['EXPERIMENT']['shots']\n" <-:-:-> {}
+['Utilities']['SETTINGS']['EXPERIMENT']['times'] <-:-:-> OMFITexpression <-:-:-> _"try:\n    return_variable=OMFITmodules[-2]['SETTINGS']['EXPERIMENT']['times']\nexcept Exception:\n    return_variable=MainSettings['EXPERIMENT']['times']\n" <-:-:-> {}
+['Utilities']['SETTINGS']['EXPERIMENT']['runid'] <-:-:-> OMFITexpression <-:-:-> _"try:\n    return_variable=OMFITmodules[-2]['SETTINGS']['EXPERIMENT']['runid']\nexcept Exception:\n    return_variable=MainSettings['EXPERIMENT']['runid']\n" <-:-:-> {}
+['Utilities']['SETTINGS']['REMOTE_SETUP']['serverPicker'] <-:-:-> OMFITexpression <-:-:-> _"try:\n    return_variable=str(OMFITmodules[-2]['SETTINGS']['REMOTE_SETUP']['serverPicker'])\nexcept Exception:\n    return_variable='default'" <-:-:-> {}
+['Utilities']['SETTINGS']['REMOTE_SETUP']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"OMFITworkDir(root,parent['serverPicker'])" <-:-:-> {}
+['Utilities']['SETTINGS']['REMOTE_SETUP']['server'] <-:-:-> OMFITexpression <-:-:-> _"SERVER[parent['serverPicker']]['server']" <-:-:-> {}
+['Utilities']['SETTINGS']['REMOTE_SETUP']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"SERVER[parent['serverPicker']]['tunnel']" <-:-:-> {}
+['Utilities']['help'] <-:-:-> OMFIThelp <-:-:-> ./Utilities/help.rst <-:-:-> {}
+['Test'] <-:-:-> OMFITmodule <-:-:->  <-:-:-> {}
+['Test']['INPUTS'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['Test']['OUTPUTS'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['Test']['SCRIPTS'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['Test']['PLOTS'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['Test']['GUIS'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['Test']['LIB'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['Test']['LIB']['OMFITlib_startup'] <-:-:-> OMFITpythonTask <-:-:-> ./Test/LIB/OMFITlib_startup.py <-:-:-> {}
+['Test']['SETTINGS'] <-:-:-> OMFITsettings <-:-:-> ./Test/SettingsNamelist.txt <-:-:-> {}
+['Test']['SETTINGS']['SETUP']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"OMFITworkDir(root,'')" <-:-:-> {}
+['Test']['SETTINGS']['EXPERIMENT']['shot'] <-:-:-> OMFITexpression <-:-:-> _"try:\n    return_variable=OMFITmodules[-2]['SETTINGS']['EXPERIMENT']['shot']\nexcept Exception:\n    return_variable=MainSettings['EXPERIMENT']['shot']\n" <-:-:-> {}
+['Test']['SETTINGS']['EXPERIMENT']['time'] <-:-:-> OMFITexpression <-:-:-> _"try:\n    return_variable=OMFITmodules[-2]['SETTINGS']['EXPERIMENT']['time']\nexcept Exception:\n    return_variable=MainSettings['EXPERIMENT']['time']\n" <-:-:-> {}
+['Test']['SETTINGS']['EXPERIMENT']['device'] <-:-:-> OMFITexpression <-:-:-> _"try:\n    return_variable=OMFITmodules[-2]['SETTINGS']['EXPERIMENT']['device']\nexcept Exception:\n    return_variable=MainSettings['EXPERIMENT']['device']\n" <-:-:-> {}
+['Test']['SETTINGS']['EXPERIMENT']['shots'] <-:-:-> OMFITexpression <-:-:-> _"try:\n    return_variable=OMFITmodules[-2]['SETTINGS']['EXPERIMENT']['shots']\nexcept Exception:\n    return_variable=MainSettings['EXPERIMENT']['shots']\n" <-:-:-> {}
+['Test']['SETTINGS']['EXPERIMENT']['times'] <-:-:-> OMFITexpression <-:-:-> _"try:\n    return_variable=OMFITmodules[-2]['SETTINGS']['EXPERIMENT']['times']\nexcept Exception:\n    return_variable=MainSettings['EXPERIMENT']['times']\n" <-:-:-> {}
+['Test']['SETTINGS']['EXPERIMENT']['runid'] <-:-:-> OMFITexpression <-:-:-> _"try:\n    return_variable=OMFITmodules[-2]['SETTINGS']['EXPERIMENT']['runid']\nexcept Exception:\n    return_variable=MainSettings['EXPERIMENT']['runid']\n" <-:-:-> {}
+['Test']['SETTINGS']['REMOTE_SETUP']['serverPicker'] <-:-:-> OMFITexpression <-:-:-> _"try:\n    return_variable=str(OMFITmodules[-2]['SETTINGS']['REMOTE_SETUP']['serverPicker'])\nexcept Exception:\n    return_variable='default'" <-:-:-> {}
+['Test']['SETTINGS']['REMOTE_SETUP']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"OMFITworkDir(root,parent['serverPicker'])" <-:-:-> {}
+['Test']['SETTINGS']['REMOTE_SETUP']['server'] <-:-:-> OMFITexpression <-:-:-> _"SERVER[parent['serverPicker']]['server']" <-:-:-> {}
+['Test']['SETTINGS']['REMOTE_SETUP']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"SERVER[parent['serverPicker']]['tunnel']" <-:-:-> {}
+['Test']['help'] <-:-:-> OMFIThelp <-:-:-> ./Test/help.rst <-:-:-> {}
+['MainSettings'] <-:-:-> OMFITmainSettings <-:-:-> ./MainSettingsNamelist.txt <-:-:-> {}
+['MainSettings']['SETUP']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"OMFITcwd+os.sep+'runs'+os.sep" <-:-:-> {}
+['MainSettings']['SETUP']['modulesDir'] <-:-:-> OMFITexpression <-:-:-> _"if 'institutionProjectsDir' in MainSettings['SETUP']:\n    return_variable=os.path.abspath(MainSettings['SETUP']['institutionProjectsDir']+os.sep+os.environ['USER']+os.sep+'modules')+os.sep\nelse:\n    return_variable=os.path.abspath(os.environ['HOME']+os.sep+'OMFITdata'+os.sep+'modules')+os.sep" <-:-:-> {}
+['MainSettings']['SETUP']['projectsDir'] <-:-:-> OMFITexpression <-:-:-> _"if 'institutionProjectsDir' in MainSettings['SETUP']:\n    return_variable=os.path.abspath(MainSettings['SETUP']['institutionProjectsDir']+os.sep+os.environ['USER']+os.sep+'projects')+os.sep\nelse:\n    return_variable=os.path.abspath(os.environ['HOME']+os.sep+'OMFITdata'+os.sep+'projects')+os.sep" <-:-:-> {}
+['MainSettings']['SERVER']['abacus']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/tmp/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['MainSettings']['SERVER']['abacus']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'IPPCZ_username\']+"@abacus.tok.ipp.cas.cz:22"' <-:-:-> {}
+['MainSettings']['SERVER']['alcdata']['MDS_server'] <-:-:-> OMFITexpression <-:-:-> _"if is_localhost(['cmodws', 'mfews', 'mferws']):\n   return_variable = 'alcdata.psfc.mit.edu:8000'\nelse:\n   return_variable = MainSettings['SERVER']['MIT_username']+'@alcdata.psfc.mit.edu:8000'" <-:-:-> {}
+['MainSettings']['SERVER']['alcdb2']['RDB_server'] <-:-:-> OMFITexpression <-:-:-> _"return_variable=OMFIT['MainSettings']['SERVER']['MIT_username']+':pfcworld@alcdb2.psfc.mit.edu:1433'" <-:-:-> {}
+['MainSettings']['SERVER']['alcdb2']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['cmodws']['server']" <-:-:-> {}
+['MainSettings']['SERVER']['altair']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/tmp/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['MainSettings']['SERVER']['altair']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'CEA_username\']+"@altair.partenaires.cea.fr:22"' <-:-:-> {}
+['MainSettings']['SERVER']['altair']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER'][MainSettings['SERVER']['default_tunnel']]['server']" <-:-:-> {}
+['MainSettings']['SERVER']['andromede']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/tmp/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['MainSettings']['SERVER']['andromede']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'CEA_username\']+"@andromede1.partenaires.cea.fr:22"' <-:-:-> {}
+['MainSettings']['SERVER']['andromede']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER'][MainSettings['SERVER']['default_tunnel']]['server']" <-:-:-> {}
+['MainSettings']['SERVER']['archimedes']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/tmp/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['MainSettings']['SERVER']['archimedes']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'IFS_username\']+"@archimedes.ph.utexas.edu:22"' <-:-:-> {}
+['MainSettings']['SERVER']['atlas']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['cybele']['server']" <-:-:-> {}
+['MainSettings']['SERVER']['atom']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/tmp/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['MainSettings']['SERVER']['atom']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'GA_username\']+"@atom.gat.com:22"' <-:-:-> {}
+['MainSettings']['SERVER']['atom']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['cybele']['server']" <-:-:-> {}
+['MainSettings']['SERVER']['aug_mdsplus']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['gate_aug']['server']" <-:-:-> {}
+['MainSettings']['SERVER']['banach']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/tmp/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['MainSettings']['SERVER']['banach']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'GA_username\']+"@banach.gat.com:22"' <-:-:-> {}
+['MainSettings']['SERVER']['banach']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['cybele']['server']" <-:-:-> {}
+['MainSettings']['SERVER']['banach']['storedir'] <-:-:-> OMFITexpression <-:-:-> _"'/home/'+MainSettings['SERVER']['GA_username']+'/OMFITdata/archive'" <-:-:-> {}
+['MainSettings']['SERVER']['cfetr']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/home/com/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['MainSettings']['SERVER']['cfetr']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'ASIPP_username\']+"@211.86.151.150:22"' <-:-:-> {}
+['MainSettings']['SERVER']['cfetr']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER'][MainSettings['SERVER']['default_tunnel']]['server']" <-:-:-> {}
+['MainSettings']['SERVER']['cmodws']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/tmp/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['MainSettings']['SERVER']['cmodws']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'MIT_username\']+"@cmodws%02d.psfc.mit.edu:22"%parent[\'workstation_number\']' <-:-:-> {}
+['MainSettings']['SERVER']['cmodws']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['mferws']['server']" <-:-:-> {}
+['MainSettings']['SERVER']['cmodws']['workstation_number'] <-:-:-> OMFITexpression <-:-:-> _"return_variable=80\ntry:\n    if is_institution(OMFIT['MainSettings']['SETUP']['institution'],'MIT'):\n       return_variable=int(re.findall('cmodws[0-9]+',' '.join(utils_base._localhost_names))[0].strip('cmodws'))\nexcept Exception:\n    pass" <-:-:-> {}
+['MainSettings']['SERVER']['cori']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'NERSC_username\']+"@cori.nersc.gov:22"' <-:-:-> {}
+['MainSettings']['SERVER']['cori']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"if is_localhost('cori'):\n    return_variable=os.environ['SCRATCH']+'/OMFIT/runs/'\nelse:\n    return_variable='$SCRATCH/OMFIT/runs/'" <-:-:-> {}
+['MainSettings']['SERVER']['cybele']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'GA_username\']+"@cybele.gat.com:2039"' <-:-:-> {}
+['MainSettings']['SERVER']['deepthought']['workDir'] <-:-:-> OMFITexpression <-:-:-> _'"/work/" + MainSettings[\'SERVER\'][\'GF_username\']+"/OMFIT/runs/"' <-:-:-> {}
+['MainSettings']['SERVER']['deepthought']['server'] <-:-:-> OMFITexpression <-:-:-> _'return_variable=MainSettings[\'SERVER\'][\'GF_username\']+"@deepthought"' <-:-:-> {}
+['MainSettings']['SERVER']['d3drdb']['RDB_server'] <-:-:-> OMFITexpression <-:-:-> _'user=\'guest\'\npasswd=\'guest_pwd\'\nfor login_file in [\'D3DRDB.sybase_login\',\'d3drdb.sybase_login\']:\n   login_file=os.environ[\'HOME\']+os.sep+login_file\n   try:\n      if os.path.exists(login_file):\n         with open(login_file,\'r\') as f:\n             user,passwd=map(lambda x:x.strip(),f.readlines())\n         break\n   except Exception:\n      pass\nreturn_variable=user+\':\'+\'@\'+"d3drdb.gat.com:8001"' <-:-:-> {}
+['MainSettings']['SERVER']['d3drdb']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['cybele']['server']" <-:-:-> {}
+['MainSettings']['SERVER']['d3dsqlsrvr']['RDB_server'] <-:-:-> OMFITexpression <-:-:-> _'user=\'guest\'\npasswd=\'guest_pwd\'\nfor login_file in [\'D3DRDB.sybase_login\',\'d3drdb.sybase_login\']:\n   login_file=os.environ[\'HOME\']+os.sep+login_file\n   try:\n      if os.path.exists(login_file):\n         with open(login_file,\'r\') as f:\n             user,passwd=map(lambda x:x.strip(),f.readlines())\n         break\n   except Exception:\n      pass\nreturn_variable=user+\':\'+\'@\'+"d3drdb.gat.com:8001"' <-:-:-> {}
+['MainSettings']['SERVER']['d3dsqlsrvr']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER'][MainSettings['SERVER']['default_tunnel']]['server']" <-:-:-> {}
+['MainSettings']['SERVER']['d3sqlsrvr']['RDB_server'] <-:-:-> OMFITexpression <-:-:-> _'user=\'guest\'\npasswd=\'guest_pwd\'\nfor login_file in [\'D3SQLSRVR.sybase_login\',\'d3sqlsrvr.sybase_login\']:\n   login_file=os.environ[\'HOME\']+os.sep+login_file\n   try:\n      if os.path.exists(login_file):\n         with open(login_file,\'r\') as f:\n             user,passwd=map(lambda x:x.strip(),f.readlines())\n         break\n   except Exception:\n      pass\nreturn_variable=user+\':\'+\'@\'+"d3sqlsrvr.gat.com:1433"' <-:-:-> {}
+['MainSettings']['SERVER']['d3sqlsrvr']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['cybele']['server']" <-:-:-> {}
+['MainSettings']['SERVER']['east_compute']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"'/tmp/'+MainSettings['SERVER']['ASIPP_username']+'/OMFIT/runs/'" <-:-:-> {}
+['MainSettings']['SERVER']['east_compute']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'ASIPP_username\']+"@cs4.ipp.ac.cn:22"' <-:-:-> {}
+['MainSettings']['SERVER']['east_compute']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['east_gate']['server']" <-:-:-> {}
+['MainSettings']['SERVER']['east_database']['RDB_server'] <-:-:-> OMFITexpression <-:-:-> _'user=\'guest\'\npasswd=\'guest_pwd\'\nserver=\'202.127.205.9\'\nfor login_file in [\'east_database.sybase_login\']:\n   login_file=os.environ[\'HOME\']+os.sep+login_file\n   if os.path.exists(login_file):\n      with open(login_file,\'r\') as f:\n          try:\n              dummy,server,database_name,user,passwd=map(lambda x:x.strip(),f.readlines())\n              break\n          except Exception:\n              pass\nreturn_variable=user+\':\'+\'@\'+server+":3306"' <-:-:-> {}
+['MainSettings']['SERVER']['east_database']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"OMFIT['MainSettings']['SERVER']['east_gate']['server']" <-:-:-> {}
+['MainSettings']['SERVER']['east_database']['driver'] <-:-:-> OMFITexpression <-:-:-> _"'MySQL'" <-:-:-> {}
+['MainSettings']['SERVER']['east_gate']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'ASIPP_username\']+"@gate.ipp.ac.cn:4022"' <-:-:-> {}
+['MainSettings']['SERVER']['eastdata']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['cybele']['server']" <-:-:-> {}
+['MainSettings']['SERVER']['energy']['RDB_server'] <-:-:-> OMFITexpression <-:-:-> _"user='guest'\npasswd='guest_pwd'\nfor login_file in ['ENERGY.sybase_login','energy.sybase_login']:\n   login_file=os.environ['HOME']+os.sep+login_file\n   try:\n      if os.path.exists(login_file):\n         with open(login_file,'r') as f:\n             user,passwd=map(lambda x:x.strip(),f.readlines())\n         break\n   except Exception as _excp:\n      print(_excp)\n      pass\nreturn_variable=f'{user}:{passwd}@energy.gat.com:1433'" <-:-:-> {}
+['MainSettings']['SERVER']['energy']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['cybele']['server']" <-:-:-> {}
+['MainSettings']['SERVER']['engaging']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/tmp/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['MainSettings']['SERVER']['engaging']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'MIT_username\']+"@eofe%s.mit.edu:22"%parent[\'workstation_number\']' <-:-:-> {}
+['MainSettings']['SERVER']['feynman']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'FEYNMAN_username\']+"@feynman.ap.columbia.edu"' <-:-:-> {}
+['MainSettings']['SERVER']['feynman']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=MainSettings['SERVER']['FEYNMAN_username']\nreturn_variable='/mnt/tmp/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['MainSettings']['SERVER']['feynman']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER'][MainSettings['SERVER']['default_tunnel']]['server']" <-:-:-> {}
+['MainSettings']['SERVER']['freia']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/tmp/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['MainSettings']['SERVER']['freia']['server'] <-:-:-> OMFITexpression <-:-:-> _'if is_localhost(\'freia\'):\n   return_variable=assemble_server(os.environ[\'USER\'],\'\',platform.uname()[1],\'22\')\nelse:\n   servers=list(range(13,33))\n   servers.remove(15)\n   servers.remove(31)\n   index=hash(MainSettings[\'EXPERIMENT\'][\'projectID\'])%len(servers)\n   return_variable=MainSettings[\'SERVER\'][\'CCFE_username\']+"@freia%03d:22"%servers[index]' <-:-:-> {}
+['MainSettings']['SERVER']['freia']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER'][MainSettings['SERVER']['default_tunnel']]['server']" <-:-:-> {}
+['MainSettings']['SERVER']['gadb-harvest']['HARVEST_server'] <-:-:-> OMFITexpression <-:-:-> _"if 'HARVEST_HOST' not in os.environ:\n    return_variable='gadb-harvest.duckdns.org'\nelse:\n    return_variable=os.environ['HARVEST_HOST']\n\nif 'HARVEST_PORT' not in os.environ:\n    return_variable+=':32000'\nelse:\n    return_variable+=':'+os.environ['HARVEST_PORT']" <-:-:-> {}
+['MainSettings']['SERVER']['gadb-harvest']['aws_credentials_file'] <-:-:-> OMFITexpression <-:-:-> _"aws_filename=os.sep.join([os.environ['HOME'],'.aws','credentials'])\nif os.path.exists(aws_filename):\n    return_variable=aws_filename\nelse:\n    return_variable=''" <-:-:-> {}
+['MainSettings']['SERVER']['gate_aug']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'IPPMPG_username\']+"@gate2.aug.ipp.mpg.de:22"' <-:-:-> {}
+['MainSettings']['SERVER']['heimdall']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/tmp/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['MainSettings']['SERVER']['heimdall']['server'] <-:-:-> OMFITexpression <-:-:-> _'if is_localhost(\'heimdall\'):\n   return_variable=assemble_server(os.environ[\'USER\'],\'\',platform.uname()[1],\'22\')\nelse:\n   servers=list(range(49))\n   index=hash(MainSettings[\'EXPERIMENT\'][\'projectID\'])%len(servers)\n   return_variable=MainSettings[\'SERVER\'][\'CCFE_username\']+"@heimdall%03d:22"%servers[index]' <-:-:-> {}
+['MainSettings']['SERVER']['heimdall']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER'][MainSettings['SERVER']['default_tunnel']]['server']" <-:-:-> {}
+['MainSettings']['SERVER']['helios']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/csc/workdir0/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['MainSettings']['SERVER']['helios']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'IFERC_username\']+"@helios.iferc-csc.org"' <-:-:-> {}
+['MainSettings']['SERVER']['huez']['RDB_server'] <-:-:-> OMFITexpression <-:-:-> _"user='d3dpub'\npasswd='d3dpub'\nfor login_file in ['.pgdb','.pgpass']:\n   login_file=os.environ['HOME']+os.sep+login_file\n   try:\n      if os.path.exists(login_file):\n         with open(login_file,'r') as _f:\n             user,passwd=map(lambda x:x.strip(),_f.read().split(':')[-2:])\n         break\n   except Exception:\n      pass\nreturn_variable=user+'@'+'huez.gat.com:5681'" <-:-:-> {}
+['MainSettings']['SERVER']['huez']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['omega']['tunnel']" <-:-:-> {}
+['MainSettings']['SERVER']['ikstar']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/tmp/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['MainSettings']['SERVER']['ikstar']['server'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['KFE_username']+'@172.17.250.21:22'" <-:-:-> {}
+['MainSettings']['SERVER']['ikstar']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER'][MainSettings['SERVER']['default_tunnel']]['server']" <-:-:-> {}
+['MainSettings']['SERVER']['iris']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/cluster-scratch/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['MainSettings']['SERVER']['iris']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'GA_username\']+"@iris.gat.com:22"' <-:-:-> {}
+['MainSettings']['SERVER']['iris']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['cybele']['server']" <-:-:-> {}
+['MainSettings']['SERVER']['iter_login']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/tmp/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['MainSettings']['SERVER']['iter_login']['server'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['ITER_username']+'@hpc-login.iter.org:22'" <-:-:-> {}
+['MainSettings']['SERVER']['iter_sdcc']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/tmp/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['MainSettings']['SERVER']['iter_sdcc']['server'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['ITER_username']+'@sdcc-login.iter.org:22'" <-:-:-> {}
+['MainSettings']['SERVER']['itm_gateway']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/pfs/scratch/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['MainSettings']['SERVER']['itm_gateway']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'ITM_username\']+"@login.eufus.eu:22"' <-:-:-> {}
+['MainSettings']['SERVER']['jet_mdsplus']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER'][MainSettings['SERVER']['default_tunnel']]['server']" <-:-:-> {}
+['MainSettings']['SERVER']['kstar_mds']['MDS_server'] <-:-:-> OMFITexpression <-:-:-> _"# KFE servers have different IP addresses facing their internal network vs. facing the internet\n# When on-site at KFE or on a VPN, access via the internet IP is impossible.\n# When off-site without VPN, access via the internal IP is impossible.\n# The IP addresses change sometimes, and sometimes there are other connection issues.\n# The expressions here are set up to try to make it easy to understand how the IPs are determined.\nif parent['on_site_kfe']:\n    s = parent['internal_mds_server']\nelse:\n    s = parent['external_mds_server']\nu = MainSettings['SERVER']['KFE_username']\nif u == '' or parent['on_site_kfe']:\n    return_variable = s\nelse:\n    return_variable = '{}@{}'.format(u, s)" <-:-:-> {}
+['MainSettings']['SERVER']['kstar_mds']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"if parent['on_site_kfe']: \n    return_variable = '' \nelse: \n    return_variable = MainSettings['SERVER'][MainSettings['SERVER']['default_tunnel']]['server']" <-:-:-> {}
+['MainSettings']['SERVER']['kstar_mds']['on_site_kfe'] <-:-:-> OMFITexpression <-:-:-> _"'.'.join(get_ip().split('.')[0:2]) == '172.17'" <-:-:-> {}
+['MainSettings']['SERVER']['lac']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/tmp/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['MainSettings']['SERVER']['lac']['server'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['EPFL_username']+'@lac.epfl.ch:22'" <-:-:-> {}
+['MainSettings']['SERVER']['lac']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['EPFL_username']+'@lac911.epfl.ch:22'" <-:-:-> {}
+['MainSettings']['SERVER']['localhost']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"OMFITcwd+os.sep+'remote_runs'+os.sep" <-:-:-> {}
+['MainSettings']['SERVER']['loki']['RDB_server'] <-:-:-> OMFITexpression <-:-:-> _"user='guest'\npasswd='guest_pwd'\nfor login_file in ['loki.sybase_login','LOKI.sybase_login']:\n   login_file=os.environ['HOME']+os.sep+login_file\n   try:\n      if os.path.exists(login_file):\n         with open(login_file,'r') as f:\n             user,passwd=map(lambda x:x.strip(),f.readlines())\n         break\n   except Exception as _excp:\n      print(_excp)\n      pass\nreturn_variable=f'{user}:{passwd}@loki.gat.com:1433'" <-:-:-> {}
+['MainSettings']['SERVER']['loki']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['cybele']['server']" <-:-:-> {}
+['MainSettings']['SERVER']['mds_ipp_ac_cn']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER'][MainSettings['SERVER']['default_tunnel']]['server']" <-:-:-> {}
+['MainSettings']['SERVER']['mdsplus_dev_gat']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER'][MainSettings['SERVER']['default_tunnel']]['server']" <-:-:-> {}
+['MainSettings']['SERVER']['mferws']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/tmp/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['MainSettings']['SERVER']['mferws']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'MIT_username\']+"@mferws%02d.psfc.mit.edu:9224"%parent[\'workstation_number\']' <-:-:-> {}
+['MainSettings']['SERVER']['mfews']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/tmp/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['MainSettings']['SERVER']['mfews']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'MIT_username\']+"@mfews%02d.psfc.mit.edu:9224"%parent[\'workstation_number\']' <-:-:-> {}
+['MainSettings']['SERVER']['mfews']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['mferws']['server']" <-:-:-> {}
+['MainSettings']['SERVER']['mfews']['workstation_number'] <-:-:-> OMFITexpression <-:-:-> _"return_variable=8\ntry:\n    if is_institution(OMFIT['MainSettings']['SETUP']['institution'],'MIT'):\n       return_variable=int(re.findall('mfews[0-9]+',' '.join(utils_base._localhost_names))[0].strip('mfews'))\nexcept Exception:\n    pass" <-:-:-> {}
+['MainSettings']['SERVER']['morti']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/tmp/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['MainSettings']['SERVER']['morti']['server'] <-:-:-> OMFITexpression <-:-:-> _'"fusionbot@morti.gat.com:22"' <-:-:-> {}
+['MainSettings']['SERVER']['morti']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['cybele']['server']" <-:-:-> {}
+['MainSettings']['SERVER']['mst_mdsplus']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER'][MainSettings['SERVER']['default_tunnel']]['server']" <-:-:-> {}
+['MainSettings']['SERVER']['nstxrdb']['RDB_server'] <-:-:-> OMFITexpression <-:-:-> _'user = \'guest\'\npasswd=\'pfcworld\'\n\nlogin_file = os.environ[\'HOME\'] + os.sep + \'nstxlogs.sybase_login\'\n\ntry:\n    with open(login_file,\'r\') as f:\n        _,_,_, user,passwd = map(lambda x:x.strip(),f.readlines())\nexcept Exception:\n    pass\n\nreturn_variable=user + \':\'+ passwd +\'@\'+"sql2008.pppl.gov:1433"' <-:-:-> {}
+['MainSettings']['SERVER']['nstxrdb']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['cybele']['server']" <-:-:-> {}
+['MainSettings']['SERVER']['omega']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable=os.environ.get('OMEGA_SCRATCH','/cscratch/')+username+'/OMFIT/runs/'" <-:-:-> {}
+['MainSettings']['SERVER']['omega']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'GA_username\']+"@omega.gat.com:22"' <-:-:-> {}
+['MainSettings']['SERVER']['omega']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['cybele']['server']" <-:-:-> {}
+['MainSettings']['SERVER']['orion']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['cybele']['server']" <-:-:-> {}
+['MainSettings']['SERVER']['perlmutter']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'NERSC_username\']+"@perlmutter-p1.nersc.gov:22"' <-:-:-> {}
+['MainSettings']['SERVER']['perlmutter']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"if is_localhost('perlmutter'):\n    return_variable=os.environ['SCRATCH']+'/OMFIT/runs/'\nelif MainSettings['SERVER']['NERSC_username']:\n    return_variable='/pscratch/sd/'+MainSettings['SERVER']['NERSC_username'][0]+'/'+MainSettings['SERVER']['NERSC_username']+'/OMFIT/runs/'\nelse:\n return_variable='$SCRATCH/OMFIT/runs/'" <-:-:-> {}
+['MainSettings']['SERVER']['perlmutter']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['cybele']['server']" <-:-:-> {}
+['MainSettings']['SERVER']['plare']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'PLARE_username\']+"@147.46.31.186:19000"' <-:-:-> {}
+['MainSettings']['SERVER']['plare']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=MainSettings['SERVER']['PLARE_username']\nreturn_variable='/tmp/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['MainSettings']['SERVER']['plare']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['cybele']['server']" <-:-:-> {}
+['MainSettings']['SERVER']['polaris']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'ALCF_username\']+"@polaris.alcf.anl.gov:22"' <-:-:-> {}
+['MainSettings']['SERVER']['polaris']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"return_variable='/eagle/IRIBeta/fusion/OMFIT/'+MainSettings['SERVER']['ALCF_username']+'/runs/'" <-:-:-> {}
+['MainSettings']['SERVER']['polaris']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['cybele']['server']" <-:-:-> {}
+['MainSettings']['SERVER']['portal-ext']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/p/omfit/tmp/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['MainSettings']['SERVER']['portal-ext']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'PPPL_username\']+"@portal-ext.pppl.gov:22"' <-:-:-> {}
+['MainSettings']['SERVER']['portal-ext']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER'][MainSettings['SERVER']['default_tunnel']]['server']" <-:-:-> {}
+['MainSettings']['SERVER']['pppl_gitlab']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/p/omfit/tmp/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['MainSettings']['SERVER']['pppl_gitlab']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'PPPL_username\']+"@gitlab-run%02d.pppl.gov:22"%(int(parent[\'workstation_number\']))' <-:-:-> {}
+['MainSettings']['SERVER']['pppl_gitlab']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER'][MainSettings['SERVER']['default_tunnel']]['server']" <-:-:-> {}
+['MainSettings']['SERVER']['pppl_gitlab']['workstation_number'] <-:-:-> OMFITexpression <-:-:-> _"return_variable=80\ntry:\n    if is_institution(OMFIT['MainSettings']['SETUP']['institution'],'PPPL'):\n       return_variable=int(re.findall('gitlab-run[0-9]+',' '.join(utils_base._localhost_names))[0].strip('gitlab-run'))\nexcept Exception:\n    pass" <-:-:-> {}
+['MainSettings']['SERVER']['pppl_nx']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/p/omfit/tmp/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['MainSettings']['SERVER']['pppl_nx']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'PPPL_username\']+"@nx%02d.pppl.gov:22"%(int(parent[\'workstation_number\']))' <-:-:-> {}
+['MainSettings']['SERVER']['pppl_nx']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER'][MainSettings['SERVER']['default_tunnel']]['server']" <-:-:-> {}
+['MainSettings']['SERVER']['pppl_nx']['workstation_number'] <-:-:-> OMFITexpression <-:-:-> _"return_variable=80\ntry:\n    if is_institution(OMFIT['MainSettings']['SETUP']['institution'],'PPPL'):\n       return_variable=int(re.findall('nx[0-9]+',' '.join(utils_base._localhost_names))[0].strip('nx'))\nexcept Exception:\n    pass" <-:-:-> {}
+['MainSettings']['SERVER']['pppl_postgres']['RDB_server'] <-:-:-> OMFITexpression <-:-:-> _"user='nstxpub'\npasswd='nstxpub'\nfor login_file in ['.pgdb','.pgpass']:\n   login_file=os.environ['HOME']+os.sep+login_file\n   try:\n      if os.path.exists(login_file):\n         with open(login_file,'r') as _f:\n             user,passwd=map(lambda x:x.strip(),_f.read().split(':')[-2:])\n         break\n   except Exception:\n      pass\nreturn_variable=user+'@'+'postgres-srv.pppl.gov:5432'" <-:-:-> {}
+['MainSettings']['SERVER']['pppl_postgres']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['omega']['tunnel']" <-:-:-> {}
+['MainSettings']['SERVER']['pppl_sunfire']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/p/omfit/tmp/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['MainSettings']['SERVER']['pppl_sunfire']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'PPPL_username\']+"@sunfire08.pppl.gov:22"' <-:-:-> {}
+['MainSettings']['SERVER']['pppl_sunfire']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER'][MainSettings['SERVER']['default_tunnel']]['server']" <-:-:-> {}
+['MainSettings']['SERVER']['rat']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"'/scratch/'+MainSettings['SERVER']['RFX_username']+'/OMFIT/runs/'" <-:-:-> {}
+['MainSettings']['SERVER']['rat']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'RFX_username\']+"@rat2.rfx.local:22"' <-:-:-> {}
+['MainSettings']['SERVER']['rat']['MDS_server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'RFX_username\']+"@rfxssh.igi.cnr.it:8000"' <-:-:-> {}
+['MainSettings']['SERVER']['rat']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['rfxssh']['server']" <-:-:-> {}
+['MainSettings']['SERVER']['rfxssh']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"'/scratch/'+MainSettings['SERVER']['RFX_username']+'/OMFIT/runs/'" <-:-:-> {}
+['MainSettings']['SERVER']['rfxssh']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'RFX_username\']+"@rfxssh.igi.cnr.it:22"' <-:-:-> {}
+['MainSettings']['SERVER']['saga']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/mnt/beegfs/OMFIT/'+username+'/'" <-:-:-> {}
+['MainSettings']['SERVER']['saga']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'GA_username\']+"@saga.gat.com"' <-:-:-> {}
+['MainSettings']['SERVER']['saga']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['cybele']['server']" <-:-:-> {}
+['MainSettings']['SERVER']['saturn']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/cluster-scratch/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['MainSettings']['SERVER']['saturn']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'GA_username\']+"@saturn.gat.com:22"' <-:-:-> {}
+['MainSettings']['SERVER']['saturn']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['cybele']['server']" <-:-:-> {}
+['MainSettings']['SERVER']['shenma']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/scratch/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['MainSettings']['SERVER']['shenma']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'ASIPP_username\']+"@shenma.ipp.ac.cn:22"' <-:-:-> {}
+['MainSettings']['SERVER']['shenma']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER'][MainSettings['SERVER']['default_tunnel']]['server']" <-:-:-> {}
+['MainSettings']['SERVER']['skylark']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER'][MainSettings['SERVER']['default_tunnel']]['server']" <-:-:-> {}
+['MainSettings']['SERVER']['sophie']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/tmp/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['MainSettings']['SERVER']['sophie']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'KFE_username\']+"@172.23.103.120:22"' <-:-:-> {}
+['MainSettings']['SERVER']['sophie']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER'][MainSettings['SERVER']['default_tunnel']]['server']" <-:-:-> {}
+['MainSettings']['SERVER']['soroban']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/tmp/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['MainSettings']['SERVER']['soroban']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'IPPCZ_username\']+"@soroban.tok.ipp.cas.cz:22"' <-:-:-> {}
+['MainSettings']['SERVER']['summit_ga']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/home/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['MainSettings']['SERVER']['summit_ga']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'GA_username\']+"@summit1.gat.com:22"' <-:-:-> {}
+['MainSettings']['SERVER']['summit_ga']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['cybele']['server']" <-:-:-> {}
+['MainSettings']['SERVER']['swip_cluster']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/home/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['MainSettings']['SERVER']['swip_cluster']['server'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['SWIP_username']+'@cluster02.swip.ac.cn:22'" <-:-:-> {}
+['MainSettings']['SERVER']['swip_cluster']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER'][MainSettings['SERVER']['default_tunnel']]['server']" <-:-:-> {}
+['MainSettings']['SERVER']['tcabrcl']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/tmp/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['MainSettings']['SERVER']['tcabrcl']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'USPBR_username\']+"@tcabrcl.if.usp.br"' <-:-:-> {}
+['MainSettings']['SERVER']['tcv_mdsplus']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['EPFL_username']+'@lac911.epfl.ch:22'" <-:-:-> {}
+['MainSettings']['SERVER']['tok']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/toks/scratch/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['MainSettings']['SERVER']['tok']['server'] <-:-:-> OMFITexpression <-:-:-> _'if is_localhost(\'tok\'):\n   return_variable=assemble_server(os.environ[\'USER\'],\'\',platform.uname()[1],\'22\')\nelse:\n   return_variable=MainSettings[\'SERVER\'][\'IPPMPG_username\']+"@tok01:22"' <-:-:-> {}
+['MainSettings']['SERVER']['tok']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['gate_aug']['server']" <-:-:-> {}
+['MainSettings']['SERVER']['toki']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/tmp/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['MainSettings']['SERVER']['toki']['server'] <-:-:-> OMFITexpression <-:-:-> _'if is_localhost(\'toki\'):\n   return_variable=assemble_server(os.environ[\'USER\'],\'\',platform.uname()[1],\'22\')\nelse:\n   return_variable=MainSettings[\'SERVER\'][\'IPPMPG_username\']+"@toki08:22"' <-:-:-> {}
+['MainSettings']['SERVER']['toki']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['gate_aug']['server']" <-:-:-> {}
+['MainSettings']['SERVER']['transp_srv_stag']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/p/omfit/tmp/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['MainSettings']['SERVER']['transp_srv_stag']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'PPPL_username\']+"@transp-srv-stag.pppl.gov:22"' <-:-:-> {}
+['MainSettings']['SERVER']['transp_srv_stag']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER'][MainSettings['SERVER']['default_tunnel']]['server']" <-:-:-> {}
+['MainSettings']['SERVER']['transpgrid']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER'][MainSettings['SERVER']['default_tunnel']]['server']" <-:-:-> {}
+['MainSettings']['SERVER']['tscc']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/tmp/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['MainSettings']['SERVER']['tscc']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'UCSD_username\']+"@tscc-login.sdsc.edu:22"' <-:-:-> {}
+['MainSettings']['SERVER']['ukstar']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/tmp/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['MainSettings']['SERVER']['ukstar']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'KFE_username\']+"@172.17.250.201:22"' <-:-:-> {}
+['MainSettings']['SERVER']['ukstar']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER'][MainSettings['SERVER']['default_tunnel']]['server']" <-:-:-> {}
+['MainSettings']['SERVER']['vidar']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"username=parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]\nreturn_variable='/tmp/'+username+'/OMFIT/runs/'" <-:-:-> {}
+['MainSettings']['SERVER']['vidar']['server'] <-:-:-> OMFITexpression <-:-:-> _'MainSettings[\'SERVER\'][\'GA_username\']+"@vidar.gat.com:22"' <-:-:-> {}
+['MainSettings']['SERVER']['vidar']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['cybele']['server']" <-:-:-> {}
+['MainSettings']['SERVER']['idl'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['default']" <-:-:-> {}
+['MainSettings']['SERVER']['matlab'] <-:-:-> OMFITexpression <-:-:-> _"MainSettings['SERVER']['default']" <-:-:-> {}
+['MainSettings']['SERVER']['portal'] <-:-:-> OMFITexpression <-:-:-> _'\nreturn_variable = "portal-ext"\nfor server in ["pppl_nx", "pppl_sunfire"]:\n   if is_localhost(server):\n      return_variable = server\n      break\n' <-:-:-> {}
+['__GUISAVE__'] <-:-:-> pickle <-:-:-> ./OMFITpickled_6f0eeecea3 <-:-:-> {}
+['__COMMANDBOX__'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['__COMMANDBOX__']['1.py'] <-:-:-> OMFITascii <-:-:-> ./__COMMANDBOX__/1.py <-:-:-> {}
+['__COMMANDBOX__']['2.py'] <-:-:-> OMFITascii <-:-:-> ./__COMMANDBOX__/2.py <-:-:-> {}
+['__COMMANDBOX__']['3.py'] <-:-:-> OMFITascii <-:-:-> ./__COMMANDBOX__/3.py <-:-:-> {}
+['__COMMANDBOX__']['4.py'] <-:-:-> OMFITascii <-:-:-> ./__COMMANDBOX__/4.py <-:-:-> {}
+['__COMMANDBOX__']['5.py'] <-:-:-> OMFITascii <-:-:-> ./__COMMANDBOX__/5.py <-:-:-> {}
+['__COMMANDBOX__']['6.py'] <-:-:-> OMFITascii <-:-:-> ./__COMMANDBOX__/6.py <-:-:-> {}
+['__COMMANDBOX__']['7.py'] <-:-:-> OMFITascii <-:-:-> ./__COMMANDBOX__/7.py <-:-:-> {}
+['__COMMANDBOX__']['8.py'] <-:-:-> OMFITascii <-:-:-> ./__COMMANDBOX__/8.py <-:-:-> {}
+['__COMMANDBOX__']['9.py'] <-:-:-> OMFITascii <-:-:-> ./__COMMANDBOX__/9.py <-:-:-> {}
+['__COMMANDBOX__']['10.py'] <-:-:-> OMFITascii <-:-:-> ./__COMMANDBOX__/10.py <-:-:-> {}
+['__COMMANDBOX__']['11.py'] <-:-:-> OMFITascii <-:-:-> ./__COMMANDBOX__/11.py <-:-:-> {}
+['__COMMANDBOX__']['12.py'] <-:-:-> OMFITascii <-:-:-> ./__COMMANDBOX__/12.py <-:-:-> {}
+['__COMMANDBOX__']['13.py'] <-:-:-> OMFITascii <-:-:-> ./__COMMANDBOX__/13.py <-:-:-> {}
+['__COMMANDBOX__']['14.py'] <-:-:-> OMFITascii <-:-:-> ./__COMMANDBOX__/14.py <-:-:-> {}

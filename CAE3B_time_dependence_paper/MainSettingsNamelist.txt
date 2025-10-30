@@ -1,0 +1,782 @@
+ &SETUP
+ institution = 'PPPL'
+ email = 'ncrocker@physics.ucla.edu'
+ workDir =
+ modulesDir =
+ projectsDir =
+ stats_file = '/p/omfit/stats/OMFITstats.txt'
+ editor = 'idle3 %s'
+ browser = '/usr/bin/firefox'
+ error_report = .false.
+ report_to = 'meneghini@fusion.gat.com' 'smithsp@fusion.gat.com' 
+ 'avdeevag@fusion.gat.com' 'shaskey@pppl.gov'
+ developer_mode_by_default = .false.
+ format_python_on_load = .false.
+ show_halt_window = .false.
+ GUIs_on_top = .true.
+ autosave_minutes = 60
+ autotouch_days = 10
+ localhost = 'localhost'
+ version = '45e42eb2e2'
+ cache_directory = .false.
+  &python_environment
+  argparse = '1.1'
+  asteval = '0.9.31'
+  astropy = '3.2.3'
+  astropy.extern.configobj.validate = '1.0.1'
+  astropy.extern.ply = '3.9'
+  astropy.extern.ply.lex = '3.10'
+  astropy.extern.ply.yacc = '3.10'
+  bibtexparser = '1.4.1'
+  black = '22.10.0'
+  blinker = '1.6.2'
+  boto3 = '1.28.60'
+  botocore = '1.31.60'
+  botocore.docs.bcdoc = '0.16.0'
+  botocore.vendored.six = '1.16.0'
+  bottleneck = '1.3.5'
+  brotli = '1.0.9'
+  cachetools = '4.2.4'
+  certifi = '2023.07.22'
+  cffi = '1.15.1'
+  cftime = '1.6.2'
+  chardet = '5.0.0'
+  charset_normalizer = '3.3.0'
+  classes.omfit_data = '0.20.2'
+  click = '8.1.3'
+  cloudpickle = '2.2.1'
+  colorama = '0.4.6'
+  configobj = '5.0.8'
+  corner = '2.1.0'
+  cryptography = '38.0.2'
+  csv = '1.0'
+  ctypes = '1.1.0'
+  cycler = '0.10.0'
+  cython = '0.29.32'
+  cytoolz = '0.12.0'
+  dask = '2021.10.0'
+  dateutil = '2.8.2'
+  decimal = '1.70'
+  defusedxml = '0.7.1'
+  dill = '0.3.7'
+  distributed = '2021.10.0'
+  distutils = '3.7.12'
+  emcee = '3.1.4'
+  fortranformat = '2.0.0'
+  fsspec = '2023.1.0'
+  gacode_ext = '1.21.6'
+  google.api_core = '1.27.0'
+  google.api_core.version = '1.27.0'
+  googleapiclient.mimeparse = '0.1.3'
+  googleapiclient.version = '2.39.0'
+  gptools = '0.2.3'
+  h5py = '2.10.0'
+  http.server = '0.6'
+  httplib2 = '0.22.0'
+  httplib2.iri2uri = '1.0.0'
+  idna = '3.4'
+  idna.idnadata = '15.0.0'
+  ipaddress = '1.0'
+  jedi = '0.19.1'
+  jinja2 = '3.1.2'
+  jmespath = '1.0.1'
+  json = '2.0.9'
+  kiwisolver = '1.4.4'
+  lmfit = '1.2.2'
+  logging = '0.5.1.2'
+  markupsafe = '2.1.1'
+  matplotlib = '3.5.3'
+  matplotlib.pylab = '1.21.6'
+  MDSplus = '1.0.0'
+  mpmath = '1.3.0'
+  msgpack = '1.0.4'
+  netCDF4 = '1.5.6'
+  numexpr = '2.8.3'
+  numpy = '1.21.6'
+  numpy.core._multiarray_umath = '3.1'
+  numpy.linalg._umath_linalg = '0.1.5'
+  oauth2client = '4.1.3'
+  oauthlib = '3.2.2'
+  omas = '0.94.2'
+  omfit_classes.omfit_data = '0.20.2'
+  OpenSSL = '23.2.0'
+  packaging = '23.2'
+  pandas = '1.3.5'
+  parso = '0.8.3'
+  pathspec = '0.11.2'
+  pexpect = '4.8.0'
+  pidly = '0.2.6'
+  PIL = '8.4.0'
+  pkg_resources._vendor.more_itertools = '9.1.0'
+  pkg_resources._vendor.packaging = '23.1'
+  pkg_resources._vendor.platformdirs = '2.6.2'
+  pkg_resources._vendor.platformdirs.version = '2.6.2'
+  pkg_resources.extern.more_itertools = '9.1.0'
+  pkg_resources.extern.packaging = '23.1'
+  pkg_resources.extern.platformdirs = '2.6.2'
+  platform = '1.0.8'
+  platformdirs = '3.11.0'
+  psutil = '5.9.3'
+  ptyprocess = '0.7.0'
+  pyasn1 = '0.5.0'
+  pyasn1_modules = '0.3.0'
+  pygacode = '0.71'
+  pygsheets = '2.0.3.1'
+  pyparsing = '3.1.1'
+  pytz = '2023.3.post1'
+  re = '2.2.1'
+  requests = '2.31.0'
+  requests.packages.chardet = '5.0.0'
+  requests.packages.idna = '3.4'
+  requests.packages.idna.idnadata = '15.0.0'
+  requests.packages.idna.package_data = '3.4'
+  requests.packages.urllib3 = '1.26.17'
+  requests.packages.urllib3._version = '1.26.17'
+  requests.packages.urllib3.connection = '1.26.17'
+  requests.packages.urllib3.packages.six = '1.16.0'
+  requests.packages.urllib3.util.ssl_match_hostname = '3.5.0.1'
+  requests_oauthlib = '1.3.1'
+  rsa = '4.9'
+  scipy = '1.7.3'
+  scipy._lib._uarray = '0.5.1+49.g4c3f1d7.scipy'
+  scipy._lib.decorator = '4.0.5'
+  scipy.integrate._dop = "b' '"
+  scipy.integrate._ode = 'Id'
+  scipy.integrate._odepack = '1.9'
+  scipy.integrate._quadpack = '1.13'
+  scipy.integrate.lsoda = "b' '"
+  scipy.integrate.vode = "b' '"
+  scipy.interpolate._fitpack = '1.7'
+  scipy.interpolate.dfitpack = "b' '"
+  scipy.linalg._fblas = "b' '"
+  scipy.linalg._flapack = "b' '"
+  scipy.linalg._flinalg = "b' '"
+  scipy.linalg._interpolative = "b' '"
+  scipy.ndimage = '2.0'
+  scipy.optimize.__nnls = "b' '"
+  scipy.optimize._cobyla = "b' '"
+  scipy.optimize._lbfgsb = "b' '"
+  scipy.optimize._minpack = '1.10'
+  scipy.optimize._slsqp = "b' '"
+  scipy.optimize.minpack2 = "b' '"
+  scipy.signal.spline = '0.2'
+  scipy.sparse.linalg.eigen.arpack._arpack = "b' '"
+  scipy.sparse.linalg.isolve._iterative = "b' '"
+  scipy.special.specfun = "b' '"
+  scipy.stats.mvn = "b' '"
+  scipy.stats.statlib = "b' '"
+  setuptools = '68.2.2'
+  setuptools._distutils = '3.7.12'
+  setuptools._vendor.more_itertools = '8.8.0'
+  setuptools._vendor.ordered_set = '3.1'
+  setuptools._vendor.packaging = '23.1'
+  setuptools.extern.more_itertools = '8.8.0'
+  setuptools.extern.ordered_set = '3.1'
+  setuptools.extern.packaging = '23.1'
+  six = '1.16.0'
+  skimage = '0.19.3'
+  sksparse = '0.4.6'
+  socketserver = '0.4'
+  socks = '1.7.1'
+  sortedcontainers = '2.4.0'
+  tblib = '2.0.0'
+  tkinter.font = '0.9'
+  tkinter.ttk = '0.3.1'
+  tlz = '0.12.0'
+  tomli = '2.0.1'
+  toolz = '0.12.0'
+  tqdm = '4.66.1'
+  triangle = '2.1.0'
+  ttk = '0.3.2'
+  typed_ast = '1.5.4'
+  uncertainties = '3.1.7'
+  uritemplate = '4.1.1'
+  urllib.request = '3.7'
+  urllib3 = '1.26.17'
+  urllib3.packages.six = '1.16.0'
+  urllib3.util.ssl_match_hostname = '3.5.0.1'
+  wsgiref.simple_server = '0.2'
+  xarray = '0.20.2'
+  xmltodict = '0.13.0'
+  yaml = '6.0'
+  zlib = '1.0'
+  zstandard = '0.18.0'
+  /
+  &Extensions
+  ps = 'gv'
+  pdf = 'gv'
+  default = 'xdg-open'
+  directory = 'nautilus'
+  /
+  &GUIappearance
+  theme = 'clam'
+  GUI_font_family = 'Helvetica'
+  GUI_font_size = 11
+  commandBox_font_size = 11
+  commandBox_font_bold = .false.
+  figures_on_top = .true.
+  buttons_width_multiplier = 1.0
+  tree_rowheight_multiplier = 1.2
+  /
+  &PlotAppearance
+  startup_style = 'default'
+  /
+ institutionProjectsDir = '/p/omfit/users/'
+  &KeyBindings
+  COMMAND_BOX:_execute_line_or_selection = '<F9>'
+  COMMAND_BOX:_execute = '<Control-Return>'
+  COMMAND_BOX:_move_history_up = '<Control-u>'
+  COMMAND_BOX:_move_history_down = '<Control-d>'
+  COMMAND_BOX:_tab = '<Tab>'
+  COMMAND_BOX:_un-tab = '<Shift-Tab>'
+  COMMAND_BOX:_un-tab_(alternative) = '<ISO_Left_Tab>'
+  COMMAND_BOX:_API_reference = '<Control-h>'
+  CONSOLE:_next_tab = '<Control-Prior>'
+  CONSOLE:_previous_tab = '<Control-Next>'
+  GLOBAL:_online_help = '<F1>'
+  GLOBAL:_re-run_last_script = '<F5>'
+  GLOBAL:_show_last_error_in_full_format = '<F6>'
+  GLOBAL:_last_execution_diagram = '<F7>'
+  GLOBAL:_new_project = '<Control-n>'
+  GLOBAL:_save_project = '<Control-s>'
+  GLOBAL:_open_project = '<Control-o>'
+  GLOBAL:_import_module = '<Control-I>'
+  GLOBAL:_export_module = '<Control-E>'
+  GLOBAL:_reload_module = '<Control-R>'
+  GLOBAL:_new_module = '<Control-N>'
+  GLOBAL:_quit = '<Control-q>'
+  GLOBAL:_quit_no_questions_asked = '<Control-Q>'
+  GLOBAL:_help_window = '<Control-h>'
+  TREE:_search = '<Control-f>'
+  TREE:_next_entry_found = '<F3>'
+  TREE:_previous_entry_found = '<Shift-F3>'
+  TREE:_next_entry_found_(alternative) = '<Control-g>'
+  TREE:_previous_entry_found_(alternative) = '<Control-G>'
+  FIGURE:_show_next_figure = '<Alt-End>'
+  FIGURE:_show_previous_figure = '<Alt-Home>'
+  FIGURE:_show_all_figures = '<Alt-Prior>'
+  FIGURE:_hide_all_figures = '<Alt-Next>'
+  FIGURE:_close_all_figures = '<Alt-Escape>'
+  FIGURE:_close_all_figures_(alternative) = '<Control-Escape>'
+  GLOBAL:_Center_OMFIT_window_to_screen = '<F8>'
+  TREE:_execute/plot = '<Return>'
+  TREE:_execute/plot_(alternative) = '<Double-1>'
+  TREE:_execute/plot_(alternative_2) = '<KP_Enter>'
+  TREE:_execute/plot_ask_default_variables = '<Control-Return>'
+  TREE:_execute/plot_ask_default_variables_(alternative) = '<Control-Double-1>'
+  TREE:_over_plot = '<Shift-Return>'
+  TREE:_over_plot_(alternative) = '<Shift-Double-1>'
+  TREE:_over_plot_ask_default_variables = '<Shift-Control-Return>'
+  TREE:_over_plot_ask_default_variables_(alternative) = '<Shift-Control-Double-1>'
+  TREE:_set_plot_X = '<X>'
+  TREE:_set_plot_Y = '<Y>'
+  TREE:_set_plot_Z = '<Z>'
+  TREE:_open_file = '<space>'
+  TREE:_open_original_file = '<Shift-space>'
+  TREE:_open_web_link = '<space>'
+  TREE:_navigate_UP = '<KeyRelease-Up>'
+  TREE:_navigate_DOWN = '<KeyRelease-Down>'
+  TREE:_close_item = '<KeyRelease-Left>'
+  TREE:_navigate_LEFT_(close_all_sub-entries) = '<Shift-Left>'
+  TREE:_open_item = '<KeyRelease-Right>'
+  TREE:_copy_location = '<Control-c>'
+  TREE:_copy_location_from_root = '<Control-r>'
+  TREE:_copy_location_tip = '<Control-t>'
+  TREE:_copy_value = '<Control-C>'
+  TREE:_paste_at_location = '<Control-v>'
+  TREE:_paste_inside = '<Control-V>'
+  TREE:_print_entry = '<p>'
+  TREE:_pprint_entry = '<Control-p>'
+  TREE:_repr_entry = '<Control-P>'
+  TREE:_quick_edit_tree_entry = '<Tab>'
+  TREE:_edit_tree_entry = '<Shift-Tab>'
+  TREE:_edit_tree_entry_(alternative) = '<ISO_Left_Tab>'
+  TREE:_contextual_menu = '<Button-2>'
+  TREE:_contextual_menu_(alternative) = '<Button-3>'
+  TREE:_move_entry_UP = '<Control-u>'
+  TREE:_move_entry_DOWN = '<Control-d>'
+  TREE:_delete_entry = '<Control-BackSpace>'
+  TREE:_clear_entry = '<Control-w>'
+  COMPARE/MERGE:_toggle_entry_and_sub-entries = '<space>'
+  COMPARE/MERGE:_toggle_single_entry = '<Shift-space>'
+  FIGURE:_bring_figures_to_the_top = '<Alt-Next>'
+  COMPARE/MERGE:_show_difference_details = '<Double-1>'
+  /
+ /
+ &EXPERIMENT
+ device = 'NSTX'
+ shot =
+ time =
+ shots =
+ times =
+ runid = 'sim1'
+ projectID = 'projectID__45e42eb2e2__2025-10-21_13_32_32_571952'
+ provenanceID = '8e6ed484aade9eca0f91915b6b65db25c31a2e2'
+ /
+ &SERVER
+ ALCF_username = ''
+ ASIPP_username = ''
+ CCFE_username = ''
+ CEA_username = ''
+ EPFL_username = ''
+ FEYNMAN_username = ''
+ GA_username = ''
+ GF_username = ''
+ GITHUB_username = ''
+ IFERC_username = ''
+ IFS_username = ''
+ IPPCZ_username = ''
+ IPPMPG_username = ''
+ ITER_username = ''
+ ITM_username = ''
+ KFE_username = ''
+ MIT_username = ''
+ NERSC_username = ''
+ PLARE_username = ''
+ PPPL_username = 'ncrocker'
+ RFX_username = ''
+ SWIP_username = ''
+ TCV_username = ''
+ TE_username = ''
+ UCSD_username = ''
+ USPBR_username = ''
+  &abacus
+  workDir =
+  server =
+  tunnel = ''
+  /
+  &alcdata
+  MDS_server =
+  /
+  &alcdb2
+  RDB_server =
+  tunnel =
+  driver = 'tdsodbc'
+  /
+  &altair
+  workDir =
+  server =
+  tunnel =
+  /
+  &andromede
+  workDir =
+  server =
+  tunnel =
+  /
+  &archimedes
+  workDir =
+  server =
+  tunnel = ''
+  /
+  &atlas
+  MDS_server = 'atlas.gat.com:8000'
+  tunnel =
+  /
+  &atom
+  workDir =
+  server =
+  tunnel =
+  /
+  &aug_mdsplus
+  MDS_server = 'mdsplus.aug.ipp.mpg.de:8000'
+  tunnel =
+  /
+  &banach
+  workDir =
+  server =
+  tunnel =
+  storedir =
+  /
+  &cfetr
+  workDir =
+  server =
+  tunnel =
+  /
+  &cmodws
+  workDir =
+  server =
+  tunnel =
+  workstation_number =
+  idl = 'idl'
+  matlab = 'matlab'
+  python = '/home/orso/atom/miniconda3/bin/python3'
+  /
+  &cori
+  server =
+  workDir =
+  idl = 'module load idl; idl'
+  store_command = 'hsi -q mkdir -p `dirname {filename}` ; cd {remotedir} \&\& htar -cvf {filename} ./'
+  restore_command = 'cd {remotedir} \&\& htar -xvf {filename}'
+  cores_per_node = 32
+  tunnel = ''
+  ssh_path = '/usr/bin/ssh'
+  /
+  &cybele
+  server =
+  /
+  &deepthought
+  workDir =
+  server =
+  tunnel = ''
+  /
+  &d3drdb
+  RDB_server =
+  tunnel =
+  driver = 'tdsodbc'
+  /
+  &d3dsqlsrvr
+  RDB_server =
+  tunnel =
+  driver = 'tdsodbc'
+  /
+  &d3sqlsrvr
+  RDB_server =
+  tunnel =
+  driver = 'tdsodbc'
+  /
+  &east_compute
+  workDir =
+  server =
+  tunnel =
+  python = 'export PATH=/home/ASIPP/crea/OMFIT/miniconda2/bin:\$PATH; python'
+  /
+  &east_database
+  RDB_server =
+  tunnel =
+  driver =
+  /
+  &east_gate
+  server =
+  /
+  &eastdata
+  MDS_server = 'eastdata.gat.com:8000'
+  tunnel =
+  /
+  &energy
+  RDB_server =
+  tunnel =
+  driver = 'tdsodbc'
+  /
+  &engaging
+  workDir =
+  server =
+  tunnel = ''
+  workstation_number = 7
+  /
+  &feynman
+  server =
+  workDir =
+  tunnel =
+  python = '/usr/bin/python'
+  /
+  &freia
+  workDir =
+  server =
+  tunnel =
+  /
+  &gadb-harvest
+  HARVEST_server =
+  aws_credentials_file =
+  /
+  &gate_aug
+  server =
+  /
+  &heimdall
+  workDir =
+  server =
+  tunnel =
+  /
+  &helios
+  workDir =
+  server =
+  tunnel = ''
+  /
+  &huez
+  RDB_server =
+  tunnel =
+  /
+  &ikstar
+  workDir =
+  username = "parse_server(SERVER[parseLocation(parentName)[-1]]['server'])[0]"
+  return_variable = "'/tmp/'+username+'/OMFIT/runs/'"
+  server =
+  tunnel =
+  python = '/usr/local/anaconda2/bin/python'
+  /
+  &iris
+  workDir =
+  server =
+  tunnel =
+  idl = 'module load idl; idl'
+  matlab = 'module load matlab; matlab'
+  python = 'module load omfit; python3'
+  /
+  &iter_login
+  workDir =
+  server =
+  tunnel = ''
+  /
+  &iter_sdcc
+  workDir =
+  server =
+  tunnel = ''
+  /
+  &itm_gateway
+  workDir =
+  server =
+  tunnel = ''
+  /
+  &jet_mdsplus
+  MDS_server = 'mdsplus.jet.efda.org:8000'
+  tunnel =
+  /
+  &kstar_mds
+  MDS_server =
+  tunnel =
+  external_mds_server = '203.230.126.231:8005'
+  internal_mds_server = '172.17.100.200:8005'
+  on_site_kfe =
+  /
+  &lac
+  workDir =
+  server =
+  tunnel =
+  /
+  &localhost
+  workDir =
+  server = 'localhost'
+  tunnel = ''
+  idl = ''
+  matlab = ''
+  partition = ''
+  /
+  &loki
+  RDB_server =
+  tunnel =
+  driver = 'tdsodbc'
+  /
+  &mds_ipp_ac_cn
+  MDS_server = 'mds.ipp.ac.cn:8000'
+  tunnel =
+  /
+  &mdsplus_dev_gat
+  MDS_server = 'mdsplusdev.gat.com:8000'
+  tunnel =
+  /
+  &mferws
+  workDir =
+  server =
+  tunnel = ''
+  workstation_number = 1
+  /
+  &mfews
+  workDir =
+  server =
+  tunnel =
+  workstation_number =
+  /
+  &morti
+  workDir =
+  server =
+  tunnel =
+  /
+  &mst_mdsplus
+  MDS_server = 'dave.physics.wisc.edu:8000'
+  tunnel =
+  /
+  &nstxrdb
+  RDB_server =
+  driver = 'tdsodbc'
+  tunnel =
+  instance = 'SQL2008'
+  /
+  &omega
+  workDir =
+  server =
+  tunnel =
+  idl = 'module load idl_tools/css; idl'
+  matlab = 'module load matlab; matlab'
+  python = 'module load omfit; python3'
+  /
+  &orion
+  MDS_server = 'orion.gat.com:8000'
+  tunnel =
+  /
+  &perlmutter
+  server =
+  workDir =
+  tunnel =
+  store_command = 'hsi -q mkdir -p `dirname {filename}` ; cd {remotedir} \&\& htar -cvf {filename} ./'
+  restore_command = 'cd {remotedir} \&\& htar -xvf {filename}'
+  cores_per_node = 128
+  ssh_path = '/usr/bin/ssh'
+  downsync_delay = 0
+  /
+  &plare
+  server =
+  workDir =
+  tunnel =
+  python = '/home/jpark/miniconda3/bin/python'
+  /
+  &polaris
+  server =
+  workDir =
+  tunnel =
+  cores_per_node = 32
+  ssh_path = '/usr/bin/ssh'
+  /
+  &portal-ext
+  workDir =
+  server =
+  tunnel =
+  idl = 'module load idl; idl'
+  python = 'module load omfit; python'
+  /
+  &pppl_gitlab
+  workDir =
+  server =
+  tunnel =
+  idl = 'module load idl; idl'
+  python = 'module load omfit; python'
+  workstation_number =
+  /
+  &pppl_nx
+  workDir =
+  server =
+  tunnel =
+  idl = 'module load idl; idl'
+  python = 'module load omfit; python'
+  workstation_number =
+  /
+  &pppl_postgres
+  RDB_server =
+  tunnel =
+  /
+  &pppl_sunfire
+  workDir =
+  server =
+  tunnel =
+  idl = 'module load idl; idl'
+  python = 'module load omfit; python'
+  /
+  &profilesdb
+  MDS_server = 'tokamak-profiledb.ccfe.ac.uk:8000'
+  tunnel = ''
+  /
+  &rat
+  workDir =
+  server =
+  MDS_server =
+  tunnel =
+  /
+  &rfxssh
+  workDir =
+  server =
+  tunnel = ''
+  /
+  &saga
+  workDir =
+  server =
+  tunnel =
+  /
+  &saturn
+  workDir =
+  server =
+  tunnel =
+  idl = 'module load idl; idl'
+  matlab = 'module load matlab; matlab'
+  python = 'module load omfit; omfit_python'
+  /
+  &shenma
+  workDir =
+  server =
+  tunnel =
+  python = 'module load python/2.7.8; python'
+  /
+  &skylark
+  MDS_server = 'skylark.pppl.gov:8501'
+  tunnel =
+  /
+  &smaug
+  MDS_server = 'smaug:8000'
+  tunnel = ''
+  /
+  &sophie
+  workDir =
+  server =
+  tunnel =
+  python = '/work/imas/opt/python/3.6/9/bin/python3'
+  /
+  &soroban
+  workDir =
+  server =
+  tunnel = ''
+  /
+  &summit_ga
+  workDir =
+  server =
+  tunnel =
+  /
+  &swip_cluster
+  workDir =
+  server =
+  tunnel =
+  matlab = 'matlab'
+  /
+  &tcabrcl
+  workDir =
+  server =
+  tunnel = ''
+  /
+  &tcv_mdsplus
+  MDS_server = 'tcvdata.epfl.ch:8000'
+  tunnel =
+  /
+  &tok
+  workDir =
+  server =
+  tunnel =
+  idl = 'module load idl; idl'
+  python = 'module load omfit; python'
+  /
+  &toki
+  workDir =
+  server =
+  tunnel =
+  idl = 'module load idl; idl'
+  python = 'module load omfit; python'
+  /
+  &transp_srv_stag
+  workDir =
+  server =
+  tunnel =
+  idl = 'module load idl; idl'
+  python = 'module load omfit; python'
+  /
+  &transpgrid
+  MDS_server = 'transpgrid.pppl.gov:8000'
+  tunnel =
+  /
+  &tscc
+  workDir =
+  server =
+  tunnel = ''
+  /
+  &ukstar
+  workDir =
+  server =
+  tunnel =
+  python = '/usr/local/anaconda2/bin/python'
+  /
+  &vidar
+  MDS_server = 'vidar.gat.com:8000'
+  workDir =
+  server =
+  tunnel =
+  /
+ default = 'localhost'
+ default_tunnel = 'cybele'
+ idl =
+ matlab =
+ portal =
+ /
